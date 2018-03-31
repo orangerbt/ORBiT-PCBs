@@ -1,0 +1,12 @@
+UART4 - P8 33 uart4_rtsn, 35 uart4_ctsn 							P9 11 uart4_rxd, 13 uart4_txd
+UART5 - P8 31 uart5_ctsn, 32 uart5_rtsn, 37 uart5_txd, 38 uart5_rxd
+SPI0 - P9 17 spi0_cs0, 18 spi0_d1 , 21 spi0_d0 , 22 spi0_sclk		P8 26-29 (chip addressing)
+I2C1 - P9 24 I2C1_SCL ,26 I2C1_SDA
+Add 16GPIO?
+
+
+(chip addressing) P8 26-29:
+26 = gpio61 = A0
+27 = gpio86 = A1
+28 = gpio88 = A2
+

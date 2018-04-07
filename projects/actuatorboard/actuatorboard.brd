@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.6.0">
+<eagle version="7.4.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -139,10 +139,6 @@
 </layers>
 <board>
 <plain>
-<wire x1="0" y1="0" x2="87" y2="0" width="0" layer="20"/>
-<wire x1="87" y1="0" x2="87" y2="55" width="0" layer="20"/>
-<wire x1="87" y1="55" x2="0" y2="55" width="0" layer="20"/>
-<wire x1="0" y1="55" x2="0" y2="0" width="0" layer="20"/>
 </plain>
 <libraries>
 <library name="rcl">
@@ -1457,15 +1453,10 @@ Source: Infineon-BCR22PN-DS-v01_01-en.pdf</description>
 <library name="e14_BeagleBoneBlack_RevB">
 <description>A library of Single Board Computers to help with prototyping and documentation. Created for www.element14.com and provided for reference only.</description>
 <packages>
-<package name="BEAGLEBONE_BLACK_CAPE">
+<package name="BEAGLEBONE_BLACK_CAPE_NO_ETH">
 <description>Package for BeagleBone Black Rev. C board.</description>
 <wire x1="6.35" y1="0" x2="0" y2="6.35" width="0" layer="20" curve="-90"/>
-<wire x1="0" y1="6.35" x2="0" y2="17.907" width="0" layer="20"/>
-<wire x1="0" y1="17.907" x2="2.54" y2="20.447" width="0" layer="20" curve="-90"/>
-<wire x1="2.54" y1="20.447" x2="20.447" y2="20.447" width="0" layer="20"/>
-<wire x1="20.447" y1="39.37" x2="2.54" y2="39.37" width="0" layer="20"/>
-<wire x1="2.54" y1="39.37" x2="0" y2="41.91" width="0" layer="20" curve="-90"/>
-<wire x1="0" y1="41.91" x2="0" y2="48.26" width="0" layer="20"/>
+<wire x1="0" y1="6.35" x2="0" y2="48.26" width="0" layer="20"/>
 <wire x1="0" y1="48.26" x2="6.35" y2="54.61" width="0" layer="20" curve="-90"/>
 <wire x1="6.35" y1="54.61" x2="73.66" y2="54.61" width="0" layer="20"/>
 <wire x1="73.66" y1="54.61" x2="86.36" y2="41.91" width="0" layer="20" curve="-90"/>
@@ -1578,7 +1569,6 @@ Source: Infineon-BCR22PN-DS-v01_01-en.pdf</description>
 <text x="17.145" y="3.81" size="1.27" layer="21">2</text>
 <text x="17.145" y="52.07" size="1.27" layer="21">2</text>
 <text x="17.145" y="49.53" size="1.27" layer="21">1</text>
-<wire x1="20.447" y1="20.447" x2="20.447" y2="39.37" width="0" layer="20"/>
 <pad name="H1" x="14.605" y="3.175" drill="3.175"/>
 <pad name="H2" x="80.645" y="6.35" drill="3.175"/>
 <pad name="H3" x="80.645" y="48.26" drill="3.175"/>
@@ -2153,7 +2143,7 @@ design rules under a new name.</description>
 <element name="R9" library="rcl" package="R0805" value="100K" x="-28.56" y="23.51"/>
 <element name="U$4" library="transistor" package="SOT363-INFINION" value="BC847PN" x="-12.64" y="36.16"/>
 <element name="LOGO" library="components" package="SU_LOGO_DS" value="SU_LOGO-DUMMY" x="-87.33" y="27.6"/>
-<element name="PCB1" library="e14_BeagleBoneBlack_RevB" package="BEAGLEBONE_BLACK_CAPE" value="BEAGLEBONE_BLACK_CAPE" x="0" y="0"/>
+<element name="PCB1" library="e14_BeagleBoneBlack_RevB" package="BEAGLEBONE_BLACK_CAPE_NO_ETH" value="BEAGLEBONE_BLACK_CAPENO_ETH" x="0" y="0"/>
 <element name="R13" library="rcl" package="R0805" value="10K" x="-16.77" y="39.96"/>
 <element name="D2" library="diode" package="SOT23" value="BAT54S" x="-33.5" y="43.34"/>
 <element name="U$7" library="fuse" package="SMD-1206" value="5A" x="-40.5" y="50.28" rot="R180"/>

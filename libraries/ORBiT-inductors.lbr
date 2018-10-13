@@ -87,8 +87,8 @@
 <wire x1="3.65" y1="-2" x2="3.65" y2="-3.3" width="0.25" layer="21"/>
 <wire x1="-3.65" y1="-2" x2="-3.65" y2="-3.3" width="0.25" layer="21"/>
 </package>
-<package name="L_0402" urn="urn:adsk.eagle:footprint:15049/1" locally_modified="yes">
-<description>&lt;b&gt;0402 Surface-Mount Ferrite Inductor&lt;/b&gt;</description>
+<package name="0402" urn="urn:adsk.eagle:footprint:15049/1" locally_modified="yes">
+<description>&lt;b&gt;0402 SMD&lt;/b&gt;</description>
 <wire x1="-0.25" y1="0.224" x2="0.25" y2="0.224" width="0.1524" layer="51"/>
 <wire x1="0.25" y1="-0.224" x2="-0.25" y2="-0.224" width="0.1524" layer="51"/>
 <wire x1="-1.473" y1="0.483" x2="1.473" y2="0.483" width="0.0508" layer="39"/>
@@ -155,7 +155,7 @@ Technical data: &lt;a href="https://www.bourns.com/products/magnetic-products/po
 <gate name="G$1" symbol="L-US" x="0" y="0"/>
 </gates>
 <devices>
-<device name="0402" package="L_0402">
+<device name="0402" package="0402">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>

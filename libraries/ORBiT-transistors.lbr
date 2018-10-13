@@ -74,10 +74,96 @@
 <library>
 <description>&lt;b&gt;ORBiT Transistors Library&lt;/b&gt;</description>
 <packages>
+<package name="PQFN08">
+<description>&lt;b&gt;Power QFN 8-pin&lt;/b&gt;&lt;br&gt;&lt;br&gt;
+JEDEC MO-240</description>
+<smd name="P$1" x="-0.975" y="-1.4" dx="0.42" dy="0.7" layer="1"/>
+<smd name="P$2" x="-0.325" y="-1.4" dx="0.42" dy="0.7" layer="1"/>
+<smd name="P$3" x="0.325" y="-1.4" dx="0.42" dy="0.7" layer="1"/>
+<smd name="P$4" x="0.975" y="-1.4" dx="0.42" dy="0.7" layer="1"/>
+<smd name="P$5" x="0.975" y="1.425" dx="0.42" dy="0.7" layer="1"/>
+<smd name="P$6" x="0.325" y="1.425" dx="0.42" dy="0.7" layer="1"/>
+<smd name="P$7" x="-0.325" y="1.425" dx="0.42" dy="0.7" layer="1"/>
+<smd name="P$8" x="-0.975" y="1.425" dx="0.42" dy="0.7" layer="1"/>
+<text x="0" y="2" size="1.2" layer="25" font="vector" ratio="10" align="bottom-center">&gt;NAME</text>
+<smd name="PAD" x="0" y="0.45" dx="2.37" dy="1.82" layer="1"/>
+<rectangle x1="-1.7" y1="-1.8" x2="1.7" y2="1.8" layer="39"/>
+<text x="0" y="-2" size="1.2" layer="27" font="vector" ratio="10" rot="R180" align="bottom-center">&gt;VALUE</text>
+</package>
 </packages>
 <symbols>
+<symbol name="N-MOSFET">
+<description>&lt;b&gt;N-channel MOSFET&lt;/b&gt;</description>
+<wire x1="0.762" y1="0.762" x2="0.762" y2="0" width="0.254" layer="94"/>
+<wire x1="0.762" y1="0" x2="0.762" y2="-0.762" width="0.254" layer="94"/>
+<wire x1="0.762" y1="3.175" x2="0.762" y2="2.54" width="0.254" layer="94"/>
+<wire x1="0.762" y1="2.54" x2="0.762" y2="1.905" width="0.254" layer="94"/>
+<wire x1="0.762" y1="0" x2="2.54" y2="0" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="0" x2="2.54" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="0.762" y1="-1.905" x2="0.762" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="0.762" y1="-2.54" x2="0.762" y2="-3.175" width="0.254" layer="94"/>
+<wire x1="0" y1="2.54" x2="0" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-2.54" x2="0.762" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="3.81" y1="2.54" x2="3.81" y2="0.508" width="0.1524" layer="94"/>
+<wire x1="3.81" y1="0.508" x2="3.81" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="-2.54" x2="3.81" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="0.762" y1="2.54" x2="3.81" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="4.572" y1="0.762" x2="4.318" y2="0.508" width="0.1524" layer="94"/>
+<wire x1="4.318" y1="0.508" x2="3.81" y2="0.508" width="0.1524" layer="94"/>
+<wire x1="3.81" y1="0.508" x2="3.302" y2="0.508" width="0.1524" layer="94"/>
+<wire x1="3.302" y1="0.508" x2="3.048" y2="0.254" width="0.1524" layer="94"/>
+<circle x="2.54" y="-2.54" radius="0.3592" width="0" layer="94"/>
+<circle x="2.54" y="2.54" radius="0.3592" width="0" layer="94"/>
+<text x="6.35" y="-2.54" size="1.778" layer="96" font="vector">&gt;VALUE</text>
+<text x="6.35" y="0" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<pin name="S" x="2.54" y="-5.08" visible="off" length="short" direction="pas" rot="R90"/>
+<pin name="G" x="-2.54" y="-2.54" visible="off" length="short" direction="pas"/>
+<pin name="D" x="2.54" y="5.08" visible="off" length="short" direction="pas" rot="R270"/>
+<polygon width="0.1524" layer="94">
+<vertex x="3.81" y="0.508"/>
+<vertex x="3.302" y="-0.254"/>
+<vertex x="4.318" y="-0.254"/>
+</polygon>
+<polygon width="0.1524" layer="94">
+<vertex x="1.016" y="0"/>
+<vertex x="2.032" y="0.762"/>
+<vertex x="2.032" y="-0.762"/>
+</polygon>
+</symbol>
 </symbols>
 <devicesets>
+<deviceset name="ONSEMI-FDMC2512SDC" prefix="Q">
+<description>&lt;b&gt;ON Semiconductor FDMC2512SDC N-Channel Dual Cool™ 33 PowerTrench® SyncFET™&lt;/b&gt; 25 V, 40 A, 2.0 mΩ&lt;br&gt;&lt;br&gt;
+This N-Channel MOSFET is produced using Fairchild Semiconductor’s advanced PowerTrench® process. Advancements in both silicon and Dual Cool™ package technologies have been combined to offer the lowest rDS(on) while maintaining excellent switching performance by extremely low Junction-to-Ambient thermal resistance. This device has the added benefit of an efficient monolithic Schottky body diode.&lt;br&gt;&lt;br&gt;
+Features:
+&lt;ul&gt;&lt;li&gt;Dual Cool™ Top Side Cooling PQFN package&lt;/li&gt;
+&lt;li&gt;Max rDS(on) = 2.0 mΩ at VGS = 10 V, ID = 27 A&lt;/li&gt;
+&lt;li&gt;Max rDS(on) = 2.95 mΩ at VGS = 4.5 V, ID = 22 A&lt;/li&gt;
+&lt;li&gt;High performance technology for extremely low r&lt;sub&gt;DS(on)&lt;/sub&gt;&lt;/li&gt;
+&lt;li&gt;SyncFET Schottky Body Diode&lt;/li&gt;
+&lt;li&gt;RoHS Compliant&lt;/li&gt;&lt;/ul&gt;
+Technical data: &lt;a href="http://www.onsemi.com/PowerSolutions/product.do?id=FDMC2512SDC"&gt;FDMC2512SDC: N-Channel Dual Cool™ 33 PowerTrench® SyncFET™ 24V, 40A, 2.0mΩ&lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="N-MOSFET" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="PQFN08">
+<connects>
+<connect gate="G$1" pin="D" pad="P$5 P$6 P$7 P$8 PAD"/>
+<connect gate="G$1" pin="G" pad="P$4"/>
+<connect gate="G$1" pin="S" pad="P$1 P$2 P$3"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MF" value="ON Semiconductor"/>
+<attribute name="MPN" value="FDMC2512SDC"/>
+<attribute name="PN_DIGIKEY" value="FDMC2512SDCCT-ND"/>
+<attribute name="PN_MOUSER" value="512-FDMC2512SDC"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 </drawing>

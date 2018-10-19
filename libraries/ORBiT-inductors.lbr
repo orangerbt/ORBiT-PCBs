@@ -72,7 +72,8 @@
 <layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
 </layers>
 <library>
-<description>&lt;b&gt;ORBiT Inductors Library&lt;/b&gt;</description>
+<description>&lt;b&gt;ORBiT Inductors Library&lt;/b&gt;&lt;br&gt;&lt;br&gt;
+&lt;author&gt;Created by ceeden@syr.edu and gysmolny@syr.edu&lt;/author&gt;</description>
 <packages>
 <package name="L_BOURNS-SRP7028A">
 <description>&lt;b&gt;Bourns SRP7028A Series - Shielded Power Inductors&lt;/b&gt;</description>

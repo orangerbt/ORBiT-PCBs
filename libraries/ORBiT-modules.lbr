@@ -75,7 +75,7 @@
 </layers>
 <library>
 <description>&lt;b&gt;ORBiT Preassembled Modules Library&lt;/b&gt;&lt;br&gt;&lt;br&gt;
-&lt;author&gt;Created by ceeden@syr.edu and gysmolny@syr.edu, BeagleBone Black derived from element14 library&lt;/author&gt;</description>
+&lt;author&gt;Created by ceeden@syr.edu and gysmolny@syr.edu. BeagleBone Black derived from element14 library&lt;/author&gt;</description>
 <packages>
 <package name="BBB_CAPE_CUT">
 <description>&lt;b&gt;BeagleBone Black Rev C - Cape with Ethernet Cutout&lt;/b&gt;</description>

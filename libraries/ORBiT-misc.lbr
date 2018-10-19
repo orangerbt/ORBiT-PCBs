@@ -72,7 +72,8 @@
 <layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
 </layers>
 <library>
-<description>&lt;b&gt;ORBiT Miscellaneous Devices and Symbols Library&lt;/b&gt;</description>
+<description>&lt;b&gt;ORBiT Miscellaneous Devices and Symbols Library&lt;/b&gt;&lt;br&gt;&lt;br&gt;
+&lt;author&gt;Created by ceeden@syr.edu and gysmolny@syr.edu&lt;/author&gt;</description>
 <packages>
 <package name="LOGO_SU-SS">
 <description>&lt;b&gt;SU Logo - Single-sided&lt;/b&gt;</description>

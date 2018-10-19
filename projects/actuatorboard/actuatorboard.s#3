@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.6.0">
+<eagle version="7.4.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -10604,6 +10604,10 @@ Solder type</description>
 <part name="GND38" library="supply1" deviceset="GND" device=""/>
 <part name="JMP1" library="jump-0r-smd" deviceset="0R-JUMP" device="A"/>
 <part name="RN7" library="resistor-dil" deviceset="4R-N" device="EXBV8V" value="10K"/>
+<part name="R10" library="rcl" deviceset="R-EU_" device="R0805" value="1K"/>
+<part name="GND45" library="supply1" deviceset="GND" device=""/>
+<part name="GND46" library="supply1" deviceset="GND" device=""/>
+<part name="GND47" library="supply1" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -10796,18 +10800,18 @@ can be in a single stack.</text>
 <instance part="+3V8" gate="G$1" x="238.76" y="99.06"/>
 <instance part="GND40" gate="1" x="246.38" y="93.98"/>
 <instance part="+3V9" gate="G$1" x="231.14" y="109.22"/>
-<instance part="GND41" gate="1" x="241.3" y="58.42"/>
+<instance part="GND41" gate="1" x="238.76" y="58.42"/>
 <instance part="U$21" gate="G$1" x="264.16" y="30.48"/>
 <instance part="GND42" gate="1" x="264.16" y="7.62"/>
 <instance part="P+18" gate="1" x="264.16" y="53.34"/>
 <instance part="+3V12" gate="G$1" x="238.76" y="48.26"/>
 <instance part="GND43" gate="1" x="246.38" y="43.18"/>
 <instance part="+3V13" gate="G$1" x="231.14" y="58.42"/>
-<instance part="GND44" gate="1" x="241.3" y="7.62"/>
+<instance part="GND44" gate="1" x="238.76" y="7.62"/>
 <instance part="RN5" gate="A" x="231.14" y="99.06" rot="R90"/>
-<instance part="RN5" gate="B" x="241.3" y="68.58" rot="R90"/>
+<instance part="RN5" gate="B" x="238.76" y="68.58" rot="R90"/>
 <instance part="RN5" gate="C" x="231.14" y="48.26" rot="R90"/>
-<instance part="RN5" gate="D" x="241.3" y="17.78" rot="R90"/>
+<instance part="RN5" gate="D" x="238.76" y="17.78" rot="R90"/>
 <instance part="R18" gate="G$1" x="302.26" y="88.9" rot="R90"/>
 <instance part="LED4" gate="G$1" x="307.34" y="76.2"/>
 <instance part="LED5" gate="G$1" x="297.18" y="73.66" rot="R180"/>
@@ -10849,6 +10853,10 @@ can be in a single stack.</text>
 <instance part="RN7" gate="B" x="144.78" y="241.3" rot="R90"/>
 <instance part="RN7" gate="C" x="152.4" y="241.3" rot="R90"/>
 <instance part="RN7" gate="D" x="170.18" y="248.92" rot="R90"/>
+<instance part="R10" gate="G$1" x="127" y="7.62" rot="R90"/>
+<instance part="GND45" gate="1" x="127" y="-2.54"/>
+<instance part="GND46" gate="1" x="243.84" y="66.04"/>
+<instance part="GND47" gate="1" x="243.84" y="15.24"/>
 </instances>
 <busses>
 </busses>
@@ -11123,7 +11131,7 @@ can be in a single stack.</text>
 </segment>
 <segment>
 <pinref part="GND41" gate="1" pin="GND"/>
-<wire x1="241.3" y1="60.96" x2="241.3" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="238.76" y1="60.96" x2="238.76" y2="63.5" width="0.1524" layer="91"/>
 <pinref part="RN5" gate="B" pin="1"/>
 </segment>
 <segment>
@@ -11147,8 +11155,8 @@ can be in a single stack.</text>
 </segment>
 <segment>
 <pinref part="GND44" gate="1" pin="GND"/>
-<wire x1="241.3" y1="10.16" x2="241.3" y2="12.7" width="0.1524" layer="91"/>
 <pinref part="RN5" gate="D" pin="1"/>
+<wire x1="238.76" y1="10.16" x2="238.76" y2="12.7" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="GND27" gate="1" pin="GND"/>
@@ -11165,6 +11173,31 @@ can be in a single stack.</text>
 <pinref part="JMP1" gate="-0R" pin="1"/>
 <pinref part="GND38" gate="1" pin="GND"/>
 <wire x1="152.4" y1="210.82" x2="152.4" y2="213.36" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="R10" gate="G$1" pin="1"/>
+<pinref part="GND45" gate="1" pin="GND"/>
+<wire x1="127" y1="0" x2="127" y2="2.54" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="GND46" gate="1" pin="GND"/>
+<wire x1="243.84" y1="68.58" x2="243.84" y2="71.12" width="0.1524" layer="91"/>
+<pinref part="U$19" gate="G$1" pin="SLEW"/>
+<wire x1="243.84" y1="71.12" x2="243.84" y2="73.66" width="0.1524" layer="91"/>
+<wire x1="243.84" y1="73.66" x2="246.38" y2="73.66" width="0.1524" layer="91"/>
+<pinref part="U$19" gate="G$1" pin="INV"/>
+<wire x1="246.38" y1="71.12" x2="243.84" y2="71.12" width="0.1524" layer="91"/>
+<junction x="243.84" y="71.12"/>
+</segment>
+<segment>
+<pinref part="GND47" gate="1" pin="GND"/>
+<wire x1="243.84" y1="17.78" x2="243.84" y2="20.32" width="0.1524" layer="91"/>
+<pinref part="U$21" gate="G$1" pin="SLEW"/>
+<wire x1="243.84" y1="20.32" x2="243.84" y2="22.86" width="0.1524" layer="91"/>
+<wire x1="243.84" y1="22.86" x2="246.38" y2="22.86" width="0.1524" layer="91"/>
+<pinref part="U$21" gate="G$1" pin="INV"/>
+<wire x1="246.38" y1="20.32" x2="243.84" y2="20.32" width="0.1524" layer="91"/>
+<junction x="243.84" y="20.32"/>
 </segment>
 </net>
 <net name="+5V" class="0">
@@ -11394,8 +11427,12 @@ can be in a single stack.</text>
 <net name="PWR_EN" class="0">
 <segment>
 <pinref part="R13" gate="G$1" pin="2"/>
-<wire x1="114.3" y1="15.24" x2="134.62" y2="15.24" width="0.1524" layer="91"/>
-<label x="124.46" y="15.24" size="1.778" layer="95"/>
+<wire x1="114.3" y1="15.24" x2="127" y2="15.24" width="0.1524" layer="91"/>
+<label x="132.08" y="15.24" size="1.778" layer="95"/>
+<pinref part="R10" gate="G$1" pin="2"/>
+<wire x1="127" y1="15.24" x2="142.24" y2="15.24" width="0.1524" layer="91"/>
+<wire x1="127" y1="12.7" x2="127" y2="15.24" width="0.1524" layer="91"/>
+<junction x="127" y="15.24"/>
 </segment>
 <segment>
 <pinref part="PCB1" gate="G$1" pin="P9.27"/>
@@ -12133,9 +12170,9 @@ can be in a single stack.</text>
 </net>
 <net name="N$67" class="0">
 <segment>
-<wire x1="241.3" y1="73.66" x2="241.3" y2="78.74" width="0.1524" layer="91"/>
+<wire x1="238.76" y1="73.66" x2="238.76" y2="78.74" width="0.1524" layer="91"/>
 <pinref part="U$19" gate="G$1" pin="FB"/>
-<wire x1="241.3" y1="78.74" x2="246.38" y2="78.74" width="0.1524" layer="91"/>
+<wire x1="238.76" y1="78.74" x2="246.38" y2="78.74" width="0.1524" layer="91"/>
 <pinref part="RN5" gate="B" pin="2"/>
 </segment>
 </net>
@@ -12176,9 +12213,9 @@ can be in a single stack.</text>
 </net>
 <net name="N$75" class="0">
 <segment>
-<wire x1="241.3" y1="22.86" x2="241.3" y2="27.94" width="0.1524" layer="91"/>
+<wire x1="238.76" y1="22.86" x2="238.76" y2="27.94" width="0.1524" layer="91"/>
 <pinref part="U$21" gate="G$1" pin="FB"/>
-<wire x1="241.3" y1="27.94" x2="246.38" y2="27.94" width="0.1524" layer="91"/>
+<wire x1="238.76" y1="27.94" x2="246.38" y2="27.94" width="0.1524" layer="91"/>
 <pinref part="RN5" gate="D" pin="2"/>
 </segment>
 </net>

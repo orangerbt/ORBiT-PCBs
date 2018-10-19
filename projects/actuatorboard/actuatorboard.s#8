@@ -10333,6 +10333,124 @@ Pluggable Terminal Blocks 12 Pos 3.5mm Dbl Row Through Hole Header</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="jump-0r-smd">
+<description>Soldering jumper and bridges</description>
+<packages>
+<package name="A0R-JMP">
+<description>&lt;b&gt;0R Jumper Variant A&lt;/b&gt;&lt;p&gt;
+chip 0805</description>
+<wire x1="0.635" y1="1.26" x2="0.635" y2="0.44" width="0.1524" layer="51"/>
+<wire x1="-0.635" y1="1.26" x2="-0.635" y2="0.44" width="0.1524" layer="51"/>
+<smd name="1" x="0" y="1.7" dx="1.3" dy="1.5" layer="1" rot="R270"/>
+<smd name="2" x="0" y="0" dx="1.3" dy="1.5" layer="1" rot="R270"/>
+<smd name="3" x="0" y="-1.7" dx="1.3" dy="1.5" layer="1" rot="R270"/>
+<text x="-0.762" y="2.716" size="1.27" layer="25">&gt;NAME</text>
+<text x="-0.762" y="-3.986" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="-0.3235" y1="-0.5814" x2="0.3265" y2="0.8186" layer="51" rot="R270"/>
+<rectangle x1="-0.3235" y1="0.8918" x2="0.3265" y2="2.2918" layer="51" rot="R270"/>
+<rectangle x1="-0.1999" y1="-0.5001" x2="0.1999" y2="0.5001" layer="35"/>
+</package>
+<package name="B0R-JMP">
+<description>&lt;b&gt;0R Jumper Variant B&lt;/b&gt;&lt;p&gt;
+chip 0805</description>
+<wire x1="-0.635" y1="-0.44" x2="-0.635" y2="-1.26" width="0.1524" layer="51"/>
+<wire x1="0.635" y1="-1.26" x2="0.635" y2="-0.44" width="0.1524" layer="51"/>
+<smd name="1" x="0" y="1.7" dx="1.3" dy="1.5" layer="1" rot="R270"/>
+<smd name="2" x="0" y="0" dx="1.3" dy="1.5" layer="1" rot="R270"/>
+<smd name="3" x="0" y="-1.7" dx="1.3" dy="1.5" layer="1" rot="R270"/>
+<text x="-0.762" y="2.716" size="1.27" layer="25">&gt;NAME</text>
+<text x="-0.762" y="-3.986" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="-0.3235" y1="-2.2814" x2="0.3265" y2="-0.8814" layer="51" rot="R270"/>
+<rectangle x1="-0.3235" y1="-0.8082" x2="0.3265" y2="0.5918" layer="51" rot="R270"/>
+</package>
+<package name="C0R-JMP">
+<description>&lt;b&gt;0R Jumper Variant C&lt;/b&gt;&lt;p&gt;
+Solder type</description>
+<wire x1="0.61" y1="0.66" x2="0.61" y2="0.34" width="0.1524" layer="51"/>
+<wire x1="-0.61" y1="0.66" x2="-0.61" y2="0.34" width="0.1524" layer="51"/>
+<smd name="1" x="0" y="0.938" dx="0.8" dy="1" layer="1" roundness="100"/>
+<smd name="2" x="0" y="0" dx="1" dy="0.8" layer="1" roundness="50"/>
+<smd name="3" x="0" y="-0.938" dx="0.8" dy="1" layer="1" roundness="100"/>
+<text x="-0.762" y="2.716" size="1.27" layer="25">&gt;NAME</text>
+<text x="-0.762" y="-3.986" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="-0.3235" y1="-0.6814" x2="0.3265" y2="0.7186" layer="51" rot="R270"/>
+<rectangle x1="-0.3235" y1="0.2338" x2="0.3265" y2="1.6338" layer="51" rot="R270"/>
+</package>
+</packages>
+<symbols>
+<symbol name="0RJM">
+<wire x1="0" y1="2.54" x2="0" y2="1.778" width="0.1524" layer="94"/>
+<wire x1="0" y1="0.508" x2="0" y2="-0.508" width="0.1524" layer="94"/>
+<wire x1="0" y1="-2.54" x2="0" y2="-1.778" width="0.1524" layer="94"/>
+<wire x1="-0.254" y1="1.524" x2="0.254" y2="1.524" width="0.508" layer="94" curve="-180" cap="flat"/>
+<wire x1="-0.254" y1="-1.016" x2="0.254" y2="-1.016" width="0.508" layer="94" curve="-180" cap="flat"/>
+<wire x1="0.254" y1="1.016" x2="-0.254" y2="1.016" width="0.508" layer="94" curve="-180" cap="flat"/>
+<wire x1="0.254" y1="-1.524" x2="-0.254" y2="-1.524" width="0.508" layer="94" curve="-180" cap="flat"/>
+<text x="2.54" y="1.27" size="1.778" layer="95">&gt;NAME</text>
+<pin name="2" x="2.54" y="0" visible="off" length="short" direction="pas" rot="R180"/>
+<pin name="1" x="0" y="2.54" visible="off" length="point" direction="pas" rot="R270"/>
+<pin name="3" x="0" y="-2.54" visible="off" length="point" direction="pas" rot="R90"/>
+</symbol>
+<symbol name="JMP">
+<wire x1="0.762" y1="-0.254" x2="0.508" y2="-0.254" width="0.1524" layer="94" style="shortdash"/>
+<wire x1="0.254" y1="-0.254" x2="-0.254" y2="-0.254" width="0.1524" layer="94" style="shortdash"/>
+<wire x1="-0.508" y1="-0.254" x2="-0.762" y2="-0.254" width="0.1524" layer="94" style="shortdash"/>
+<wire x1="0.762" y1="-2.286" x2="0.508" y2="-2.286" width="0.1524" layer="94" style="shortdash"/>
+<wire x1="0.254" y1="-2.286" x2="-0.254" y2="-2.286" width="0.1524" layer="94" style="shortdash"/>
+<wire x1="-0.508" y1="-2.286" x2="-0.762" y2="-2.286" width="0.1524" layer="94" style="shortdash"/>
+<wire x1="0.762" y1="-0.254" x2="0.762" y2="-0.508" width="0.1524" layer="94" style="shortdash"/>
+<wire x1="0.762" y1="-0.762" x2="0.762" y2="-1.016" width="0.1524" layer="94" style="shortdash"/>
+<wire x1="0.762" y1="-1.524" x2="0.762" y2="-1.778" width="0.1524" layer="94" style="shortdash"/>
+<wire x1="0.762" y1="-2.032" x2="0.762" y2="-2.286" width="0.1524" layer="94" style="shortdash"/>
+<wire x1="-0.762" y1="-2.286" x2="-0.762" y2="-2.032" width="0.1524" layer="94" style="shortdash"/>
+<wire x1="-0.762" y1="-1.778" x2="-0.762" y2="-1.524" width="0.1524" layer="94" style="shortdash"/>
+<wire x1="-0.762" y1="-1.016" x2="-0.762" y2="-0.762" width="0.1524" layer="94" style="shortdash"/>
+<wire x1="-0.762" y1="-0.508" x2="-0.762" y2="-0.254" width="0.1524" layer="94" style="shortdash"/>
+<rectangle x1="-0.508" y1="-2.032" x2="0.508" y2="-0.508" layer="94" rot="R180"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="0R-JUMP" prefix="JMP">
+<description>&lt;b&gt;SMD 0R 0805 Jumper&lt;/b&gt;&lt;p&gt;</description>
+<gates>
+<gate name="-0R" symbol="0RJM" x="0" y="0" addlevel="always"/>
+<gate name="G$2" symbol="JMP" x="-2.54" y="2.54" addlevel="always"/>
+</gates>
+<devices>
+<device name="A" package="A0R-JMP">
+<connects>
+<connect gate="-0R" pin="1" pad="1"/>
+<connect gate="-0R" pin="2" pad="2"/>
+<connect gate="-0R" pin="3" pad="3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="B" package="B0R-JMP">
+<connects>
+<connect gate="-0R" pin="1" pad="1"/>
+<connect gate="-0R" pin="2" pad="2"/>
+<connect gate="-0R" pin="3" pad="3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="C" package="C0R-JMP">
+<connects>
+<connect gate="-0R" pin="1" pad="1"/>
+<connect gate="-0R" pin="2" pad="2"/>
+<connect gate="-0R" pin="3" pad="3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -10458,7 +10576,6 @@ Pluggable Terminal Blocks 12 Pos 3.5mm Dbl Row Through Hole Header</description>
 <part name="+3V10" library="supply1" deviceset="+3V3" device=""/>
 <part name="+3V11" library="supply1" deviceset="+3V3" device=""/>
 <part name="GND37" library="supply1" deviceset="GND" device=""/>
-<part name="GND38" library="supply1" deviceset="GND" device=""/>
 <part name="TP1" library="testpad" deviceset="PTR1" device="B1,27"/>
 <part name="TP2" library="testpad" deviceset="PTR1" device="B1,27"/>
 <part name="TP3" library="testpad" deviceset="PTR1" device="B1,27"/>
@@ -10487,6 +10604,9 @@ Pluggable Terminal Blocks 12 Pos 3.5mm Dbl Row Through Hole Header</description>
 <part name="C3" library="rcl" deviceset="C-EU" device="C0805" value="0.1u"/>
 <part name="U$23" library="con-phoenix-350" deviceset="1787111" device=""/>
 <part name="P+19" library="supply1" deviceset="+12V" device=""/>
+<part name="+3V14" library="supply1" deviceset="+3V3" device=""/>
+<part name="GND38" library="supply1" deviceset="GND" device=""/>
+<part name="JMP1" library="jump-0r-smd" deviceset="0R-JUMP" device="A"/>
 </parts>
 <sheets>
 <sheet>
@@ -10498,7 +10618,7 @@ Pluggable Terminal Blocks 12 Pos 3.5mm Dbl Row Through Hole Header</description>
 <wire x1="121.92" y1="0" x2="0" y2="0" width="0.1524" layer="97" style="longdash"/>
 <text x="2.54" y="81.28" size="1.778" layer="97">Power-Rail Sequencer</text>
 <text x="124.46" y="43.18" size="1.778" layer="97">12V Out</text>
-<text x="129.54" y="254" size="1.778" layer="97">Only one set of pull-ups 
+<text x="132.08" y="254" size="1.778" layer="97">Only one set of pull-ups 
 required per I2C Bus</text>
 <wire x1="0" y1="88.9" x2="50.8" y2="88.9" width="0.1524" layer="97" style="longdash"/>
 <wire x1="50.8" y1="88.9" x2="50.8" y2="134.62" width="0.1524" layer="97" style="longdash"/>
@@ -10520,6 +10640,9 @@ required per I2C Bus</text>
 <wire x1="353.06" y1="111.76" x2="353.06" y2="0" width="0.1524" layer="97" style="longdash"/>
 <wire x1="353.06" y1="0" x2="175.26" y2="0" width="0.1524" layer="97" style="longdash"/>
 <wire x1="175.26" y1="0" x2="175.26" y2="111.76" width="0.1524" layer="97" style="longdash"/>
+<text x="119.38" y="213.36" size="1.778" layer="97">Address selection jumper.
+Only 2 copies of this board
+can be in a single stack.</text>
 </plain>
 <instances>
 <instance part="R1" gate="G$1" x="17.78" y="48.26" rot="R90"/>
@@ -10671,7 +10794,6 @@ required per I2C Bus</text>
 <instance part="+3V10" gate="G$1" x="177.8" y="96.52"/>
 <instance part="+3V11" gate="G$1" x="195.58" y="101.6"/>
 <instance part="GND37" gate="1" x="195.58" y="60.96"/>
-<instance part="GND38" gate="1" x="177.8" y="71.12"/>
 <instance part="TP1" gate="G$1" x="73.66" y="22.86"/>
 <instance part="TP2" gate="G$1" x="91.44" y="50.8" rot="R270"/>
 <instance part="TP3" gate="G$1" x="40.64" y="45.72" rot="R180"/>
@@ -10726,6 +10848,10 @@ required per I2C Bus</text>
 <instance part="U$23" gate="-23" x="444.5" y="279.4" rot="R90"/>
 <instance part="U$23" gate="-24" x="449.58" y="279.4" rot="R90"/>
 <instance part="P+19" gate="1" x="449.58" y="269.24"/>
+<instance part="+3V14" gate="G$1" x="152.4" y="226.06"/>
+<instance part="GND38" gate="1" x="152.4" y="210.82"/>
+<instance part="JMP1" gate="-0R" x="152.4" y="218.44" rot="MR180"/>
+<instance part="JMP1" gate="G$2" x="152.4" y="218.44"/>
 </instances>
 <busses>
 </busses>
@@ -10915,17 +11041,13 @@ required per I2C Bus</text>
 </segment>
 <segment>
 <pinref part="GND28" gate="1" pin="GND"/>
-<wire x1="177.8" y1="218.44" x2="177.8" y2="223.52" width="0.1524" layer="91"/>
+<wire x1="177.8" y1="218.44" x2="177.8" y2="226.06" width="0.1524" layer="91"/>
 <pinref part="U$13" gate="G$1" pin="A0"/>
-<wire x1="177.8" y1="223.52" x2="177.8" y2="226.06" width="0.1524" layer="91"/>
 <wire x1="177.8" y1="226.06" x2="177.8" y2="228.6" width="0.1524" layer="91"/>
 <wire x1="177.8" y1="228.6" x2="180.34" y2="228.6" width="0.1524" layer="91"/>
 <pinref part="U$13" gate="G$1" pin="A1"/>
 <wire x1="180.34" y1="226.06" x2="177.8" y2="226.06" width="0.1524" layer="91"/>
 <junction x="177.8" y="226.06"/>
-<pinref part="U$13" gate="G$1" pin="A2"/>
-<wire x1="180.34" y1="223.52" x2="177.8" y2="223.52" width="0.1524" layer="91"/>
-<junction x="177.8" y="223.52"/>
 </segment>
 <segment>
 <pinref part="U$9" gate="G$1" pin="VSS"/>
@@ -10933,12 +11055,8 @@ required per I2C Bus</text>
 <wire x1="195.58" y1="160.02" x2="195.58" y2="162.56" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="U$9" gate="G$1" pin="A2"/>
-<wire x1="180.34" y1="175.26" x2="177.8" y2="175.26" width="0.1524" layer="91"/>
 <pinref part="GND23" gate="1" pin="GND"/>
-<wire x1="177.8" y1="175.26" x2="177.8" y2="167.64" width="0.1524" layer="91"/>
-<wire x1="177.8" y1="175.26" x2="177.8" y2="177.8" width="0.1524" layer="91"/>
-<junction x="177.8" y="175.26"/>
+<wire x1="177.8" y1="177.8" x2="177.8" y2="167.64" width="0.1524" layer="91"/>
 <pinref part="U$9" gate="G$1" pin="A1"/>
 <wire x1="177.8" y1="177.8" x2="180.34" y2="177.8" width="0.1524" layer="91"/>
 </segment>
@@ -10986,12 +11104,6 @@ required per I2C Bus</text>
 <pinref part="U$17" gate="G$1" pin="VSS"/>
 <pinref part="GND37" gate="1" pin="GND"/>
 <wire x1="195.58" y1="63.5" x2="195.58" y2="68.58" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="U$17" gate="G$1" pin="A2"/>
-<pinref part="GND38" gate="1" pin="GND"/>
-<wire x1="180.34" y1="81.28" x2="177.8" y2="81.28" width="0.1524" layer="91"/>
-<wire x1="177.8" y1="81.28" x2="177.8" y2="73.66" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="U$19" gate="G$1" pin="AGND"/>
@@ -11051,6 +11163,11 @@ required per I2C Bus</text>
 <wire x1="449.58" y1="274.32" x2="449.58" y2="276.86" width="0.1524" layer="91"/>
 <pinref part="U$23" gate="-24" pin="K"/>
 <pinref part="U$23" gate="-23" pin="K"/>
+</segment>
+<segment>
+<pinref part="JMP1" gate="-0R" pin="1"/>
+<pinref part="GND38" gate="1" pin="GND"/>
+<wire x1="152.4" y1="213.36" x2="152.4" y2="215.9" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="+5V" class="0">
@@ -11660,6 +11777,11 @@ required per I2C Bus</text>
 <wire x1="231.14" y1="53.34" x2="231.14" y2="55.88" width="0.1524" layer="91"/>
 <pinref part="RN5" gate="C" pin="2"/>
 </segment>
+<segment>
+<pinref part="JMP1" gate="-0R" pin="3"/>
+<pinref part="+3V14" gate="G$1" pin="+3V3"/>
+<wire x1="152.4" y1="223.52" x2="152.4" y2="220.98" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="N$36" class="0">
 <segment>
@@ -12219,6 +12341,23 @@ required per I2C Bus</text>
 <pinref part="RN6" gate="A" pin="1"/>
 <pinref part="U$23" gate="-16" pin="K"/>
 <wire x1="342.9" y1="144.78" x2="342.9" y2="147.32" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$92" class="0">
+<segment>
+<pinref part="U$13" gate="G$1" pin="A2"/>
+<wire x1="180.34" y1="223.52" x2="172.72" y2="223.52" width="0.1524" layer="91"/>
+<wire x1="172.72" y1="223.52" x2="172.72" y2="218.44" width="0.1524" layer="91"/>
+<pinref part="U$17" gate="G$1" pin="A2"/>
+<wire x1="172.72" y1="218.44" x2="172.72" y2="175.26" width="0.1524" layer="91"/>
+<wire x1="172.72" y1="175.26" x2="172.72" y2="81.28" width="0.1524" layer="91"/>
+<wire x1="172.72" y1="81.28" x2="180.34" y2="81.28" width="0.1524" layer="91"/>
+<pinref part="U$9" gate="G$1" pin="A2"/>
+<wire x1="180.34" y1="175.26" x2="172.72" y2="175.26" width="0.1524" layer="91"/>
+<junction x="172.72" y="175.26"/>
+<pinref part="JMP1" gate="-0R" pin="2"/>
+<wire x1="172.72" y1="218.44" x2="154.94" y2="218.44" width="0.1524" layer="91"/>
+<junction x="172.72" y="218.44"/>
 </segment>
 </net>
 </nets>

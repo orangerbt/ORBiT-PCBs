@@ -10618,7 +10618,7 @@ Solder type</description>
 <wire x1="121.92" y1="0" x2="0" y2="0" width="0.1524" layer="97" style="longdash"/>
 <text x="2.54" y="81.28" size="1.778" layer="97">Power-Rail Sequencer</text>
 <text x="124.46" y="43.18" size="1.778" layer="97">12V Out</text>
-<text x="129.54" y="254" size="1.778" layer="97">Only one set of pull-ups 
+<text x="132.08" y="254" size="1.778" layer="97">Only one set of pull-ups 
 required per I2C Bus</text>
 <wire x1="0" y1="88.9" x2="50.8" y2="88.9" width="0.1524" layer="97" style="longdash"/>
 <wire x1="50.8" y1="88.9" x2="50.8" y2="134.62" width="0.1524" layer="97" style="longdash"/>
@@ -10640,6 +10640,9 @@ required per I2C Bus</text>
 <wire x1="353.06" y1="111.76" x2="353.06" y2="0" width="0.1524" layer="97" style="longdash"/>
 <wire x1="353.06" y1="0" x2="175.26" y2="0" width="0.1524" layer="97" style="longdash"/>
 <wire x1="175.26" y1="0" x2="175.26" y2="111.76" width="0.1524" layer="97" style="longdash"/>
+<text x="119.38" y="213.36" size="1.778" layer="97">Address selection jumper.
+Only 2 copies of this board
+can be in a single stack.</text>
 </plain>
 <instances>
 <instance part="R1" gate="G$1" x="17.78" y="48.26" rot="R90"/>
@@ -10845,10 +10848,10 @@ required per I2C Bus</text>
 <instance part="U$23" gate="-23" x="444.5" y="279.4" rot="R90"/>
 <instance part="U$23" gate="-24" x="449.58" y="279.4" rot="R90"/>
 <instance part="P+19" gate="1" x="449.58" y="269.24"/>
-<instance part="+3V14" gate="G$1" x="162.56" y="78.74"/>
-<instance part="GND38" gate="1" x="162.56" y="63.5"/>
-<instance part="JMP1" gate="-0R" x="162.56" y="71.12" rot="MR180"/>
-<instance part="JMP1" gate="G$2" x="162.56" y="71.12"/>
+<instance part="+3V14" gate="G$1" x="152.4" y="226.06"/>
+<instance part="GND38" gate="1" x="152.4" y="210.82"/>
+<instance part="JMP1" gate="-0R" x="152.4" y="218.44" rot="MR180"/>
+<instance part="JMP1" gate="G$2" x="152.4" y="218.44"/>
 </instances>
 <busses>
 </busses>
@@ -11164,7 +11167,7 @@ required per I2C Bus</text>
 <segment>
 <pinref part="JMP1" gate="-0R" pin="1"/>
 <pinref part="GND38" gate="1" pin="GND"/>
-<wire x1="162.56" y1="66.04" x2="162.56" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="152.4" y1="213.36" x2="152.4" y2="215.9" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="+5V" class="0">
@@ -11777,7 +11780,7 @@ required per I2C Bus</text>
 <segment>
 <pinref part="JMP1" gate="-0R" pin="3"/>
 <pinref part="+3V14" gate="G$1" pin="+3V3"/>
-<wire x1="162.56" y1="76.2" x2="162.56" y2="73.66" width="0.1524" layer="91"/>
+<wire x1="152.4" y1="223.52" x2="152.4" y2="220.98" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$36" class="0">
@@ -12344,17 +12347,17 @@ required per I2C Bus</text>
 <segment>
 <pinref part="U$13" gate="G$1" pin="A2"/>
 <wire x1="180.34" y1="223.52" x2="172.72" y2="223.52" width="0.1524" layer="91"/>
-<wire x1="172.72" y1="223.52" x2="172.72" y2="175.26" width="0.1524" layer="91"/>
+<wire x1="172.72" y1="223.52" x2="172.72" y2="218.44" width="0.1524" layer="91"/>
 <pinref part="U$17" gate="G$1" pin="A2"/>
+<wire x1="172.72" y1="218.44" x2="172.72" y2="175.26" width="0.1524" layer="91"/>
 <wire x1="172.72" y1="175.26" x2="172.72" y2="81.28" width="0.1524" layer="91"/>
 <wire x1="172.72" y1="81.28" x2="180.34" y2="81.28" width="0.1524" layer="91"/>
 <pinref part="U$9" gate="G$1" pin="A2"/>
 <wire x1="180.34" y1="175.26" x2="172.72" y2="175.26" width="0.1524" layer="91"/>
 <junction x="172.72" y="175.26"/>
-<wire x1="172.72" y1="81.28" x2="172.72" y2="71.12" width="0.1524" layer="91"/>
-<junction x="172.72" y="81.28"/>
 <pinref part="JMP1" gate="-0R" pin="2"/>
-<wire x1="165.1" y1="71.12" x2="172.72" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="172.72" y1="218.44" x2="154.94" y2="218.44" width="0.1524" layer="91"/>
+<junction x="172.72" y="218.44"/>
 </segment>
 </net>
 </nets>

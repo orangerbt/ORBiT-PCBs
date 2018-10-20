@@ -32,9 +32,9 @@ Schematics and PCBS for ORBiT Avionics system.
 
 ### Telemetry
 
-- UART4 - P8 33 uart4_rtsn, 35 uart4_ctsn 							P9 11 uart4_rxd, 13 uart4_txd
+- UART4 - P8 33 uart4_rtsn, 35 uart4_ctsn, P9 11 uart4_rxd, 13 uart4_txd
 - UART5 - P8 31 uart5_ctsn, 32 uart5_rtsn, 37 uart5_txd, 38 uart5_rxd
-- SPI0 -	P8 26-28													P9 17 spi0_cs0, 18 spi0_d1 , 21 spi0_d0 , 22 spi0_sclk
+- SPI0 -  P8 26-28, P9 17 spi0_cs0, 18 spi0_d1 , 21 spi0_d0 , 22 spi0_sclk
     - SPI0 addressing
     - P8 26 = gpio61 = A0
     - P8 27 = gpio86 = A1

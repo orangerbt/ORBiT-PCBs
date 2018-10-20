@@ -5,12 +5,21 @@ Schematics and PCBS for ORBiT Avionics system.
 ## Modules
 
 - Telemetry (GPS, IMU, atmospheric conditions, remote control)
+    - Digi 9Xtend 900MHz 1W radio
+    - Linx TM series GNSS reciever
+    - Bosch BMX055 IMU
+    - Bosch BME280 atmospheric conditions sensor
 - Power (battery management, charging, regulation)
+    - TI bq40z60 BMU
+    - TI TPS40305 5V regulator
 - Actuation (power devices)
-*********************************************
+    - 3x Microchip MCP23008 I2C I/O expanders
+    - 2x Microchip MCP33926 H-bridge drivers
+- Data acquisition (sensors)
+    - Analog Devices AD9201 ADC
+    - Analog Devices LTC2984 temperature measurement system
 
 ## Notes
-
 - Make sure to power down HDMI framer via I2C0
 - Add CAT24C256 EEPROMs to identify modules via I2C2
 - Add RTC to telemetry board

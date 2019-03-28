@@ -157,6 +157,7 @@
 <layer number="255" name="routoute" color="7" fill="1" visible="yes" active="yes"/>
 </layers>
 <library>
+<description>ORBiT JST Surface mount connector</description>
 <packages>
 <package name="JST_ZH_6PIN" urn="urn:adsk.eagle:footprint:38583/1" locally_modified="yes">
 <description>&lt;h3&gt;6-Pin Vertical JST Connector&lt;/h3&gt;

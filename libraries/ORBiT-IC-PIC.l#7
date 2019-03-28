@@ -362,7 +362,7 @@
 </deviceset>
 <deviceset name="PIC16F18424">
 <gates>
-<gate name="G$1" symbol="PIC16(L)F184" x="0" y="-5.08"/>
+<gate name="G$1" symbol="PIC16(L)F184" x="-12.7" y="-20.32"/>
 </gates>
 <devices>
 <device name="" package="14-TSSOP">

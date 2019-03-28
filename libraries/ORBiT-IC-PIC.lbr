@@ -72,6 +72,7 @@
 <layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
 </layers>
 <library>
+<description>ORBiT PIC Microcontroller</description>
 <packages>
 <package name="14-SOIC" urn="urn:adsk.eagle:footprint:10014324/1" locally_modified="yes">
 <description>14-SOIC, 1.27 mm pitch, 6.00 mm span, 8.65 X 3.90 X 1.75 mm body

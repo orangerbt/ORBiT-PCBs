@@ -8,4 +8,6 @@
 3.  Dual Port SRAM
     1.  71V30S55TFG
     2.  https://www.digikey.com/product-detail/en/idt-integrated-device-technology-inc/71V30S55TFG/800-3622-ND/4400847
-4.  
+4.  CPLD
+    1.  5M240ZT100C5N
+    2.  https://www.digikey.com/product-detail/en/intel/5M240ZT100C5N/544-2716-ND/2499439

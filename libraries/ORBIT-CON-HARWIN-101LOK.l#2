@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="yes"/>
@@ -72,10 +72,8 @@
 <layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
 </layers>
 <library>
-<description>orbit card edge connector&lt;br&gt;
-HARWIN 101LOK</description>
 <packages>
-<package name="M80-4115042">
+<package name="ORBIT-CON-HARWIN-101LOK-M80-4115042">
 <pad name="PIN1" x="0" y="1" drill="0.65"/>
 <pad name="PIN2" x="2" y="1" drill="0.65"/>
 <pad name="PIN3" x="4" y="1" drill="0.65"/>
@@ -141,7 +139,7 @@ HARWIN 101LOK</description>
 <vertex x="-1.6" y="0.6"/>
 </polygon>
 </package>
-<package name="M80-5305042">
+<package name="ORBIT-CON-HARWIN-101LOK-M80-5305042">
 <pad name="PIN1" x="0" y="-1" drill="0.65"/>
 <pad name="PIN2" x="2" y="-1" drill="0.65"/>
 <pad name="PIN3" x="4" y="-1" drill="0.65"/>
@@ -212,65 +210,65 @@ HARWIN 101LOK</description>
 </package>
 </packages>
 <symbols>
-<symbol name="CARD-EDGE-50PIN">
-<pin name="PIN1" x="-10.16" y="0" length="middle"/>
-<pin name="PIN2" x="-10.16" y="-2.54" length="middle"/>
-<pin name="PIN3" x="-10.16" y="-5.08" length="middle"/>
-<pin name="PIN4" x="-10.16" y="-7.62" length="middle"/>
-<pin name="PIN5" x="-10.16" y="-10.16" length="middle"/>
-<pin name="PIN6" x="-10.16" y="-12.7" length="middle"/>
-<pin name="PIN7" x="-10.16" y="-15.24" length="middle"/>
-<pin name="PIN8" x="-10.16" y="-17.78" length="middle"/>
-<pin name="PIN9" x="-10.16" y="-20.32" length="middle"/>
-<pin name="PIN10" x="-10.16" y="-22.86" length="middle"/>
-<pin name="PIN11" x="-10.16" y="-25.4" length="middle"/>
-<pin name="PIN12" x="-10.16" y="-27.94" length="middle"/>
-<pin name="PIN13" x="-10.16" y="-30.48" length="middle"/>
-<pin name="PIN14" x="-10.16" y="-33.02" length="middle"/>
-<pin name="PIN15" x="-10.16" y="-35.56" length="middle"/>
-<pin name="PIN16" x="-10.16" y="-38.1" length="middle"/>
-<pin name="PIN17" x="-10.16" y="-40.64" length="middle"/>
-<pin name="PIN18" x="-10.16" y="-43.18" length="middle"/>
-<pin name="PIN19" x="-10.16" y="-45.72" length="middle"/>
-<pin name="PIN20" x="-10.16" y="-48.26" length="middle"/>
-<pin name="PIN21" x="-10.16" y="-50.8" length="middle"/>
-<pin name="PIN22" x="-10.16" y="-53.34" length="middle"/>
-<pin name="PIN23" x="-10.16" y="-55.88" length="middle"/>
-<pin name="PIN24" x="-10.16" y="-58.42" length="middle"/>
-<pin name="PIN25" x="-10.16" y="-60.96" length="middle"/>
-<pin name="PIN26" x="27.94" y="0" length="middle" rot="R180"/>
-<pin name="PIN27" x="27.94" y="-2.54" length="middle" rot="R180"/>
-<pin name="PIN28" x="27.94" y="-5.08" length="middle" rot="R180"/>
-<pin name="PIN29" x="27.94" y="-7.62" length="middle" rot="R180"/>
-<pin name="PIN30" x="27.94" y="-10.16" length="middle" rot="R180"/>
-<pin name="PIN31" x="27.94" y="-12.7" length="middle" rot="R180"/>
-<pin name="PIN32" x="27.94" y="-15.24" length="middle" rot="R180"/>
-<pin name="PIN33" x="27.94" y="-17.78" length="middle" rot="R180"/>
-<pin name="PIN34" x="27.94" y="-20.32" length="middle" rot="R180"/>
-<pin name="PIN35" x="27.94" y="-22.86" length="middle" rot="R180"/>
-<pin name="PIN36" x="27.94" y="-25.4" length="middle" rot="R180"/>
-<pin name="PIN37" x="27.94" y="-27.94" length="middle" rot="R180"/>
-<pin name="PIN38" x="27.94" y="-30.48" length="middle" rot="R180"/>
-<pin name="PIN39" x="27.94" y="-33.02" length="middle" rot="R180"/>
-<pin name="PIN40" x="27.94" y="-35.56" length="middle" rot="R180"/>
-<pin name="PIN41" x="27.94" y="-38.1" length="middle" rot="R180"/>
-<pin name="PIN42" x="27.94" y="-40.64" length="middle" rot="R180"/>
-<pin name="PIN43" x="27.94" y="-43.18" length="middle" rot="R180"/>
-<pin name="PIN44" x="27.94" y="-45.72" length="middle" rot="R180"/>
-<pin name="PIN45" x="27.94" y="-48.26" length="middle" rot="R180"/>
-<pin name="PIN46" x="27.94" y="-50.8" length="middle" rot="R180"/>
-<pin name="PIN47" x="27.94" y="-53.34" length="middle" rot="R180"/>
-<pin name="PIN48" x="27.94" y="-55.88" length="middle" rot="R180"/>
-<pin name="PIN49" x="27.94" y="-58.42" length="middle" rot="R180"/>
-<pin name="PIN50" x="27.94" y="-60.96" length="middle" rot="R180"/>
-<wire x1="-5.08" y1="2.54" x2="-5.08" y2="-63.5" width="0.1524" layer="94"/>
-<wire x1="-5.08" y1="-63.5" x2="22.86" y2="-63.5" width="0.1524" layer="94"/>
-<wire x1="22.86" y1="-63.5" x2="22.86" y2="2.54" width="0.1524" layer="94"/>
-<wire x1="22.86" y1="2.54" x2="-5.08" y2="2.54" width="0.1524" layer="94"/>
+<symbol name="ORBIT-CON-HARWIN-101LOK-(25+25)PIN">
+<pin name="PIN1" x="-5" y="0" length="middle"/>
+<pin name="PIN2" x="-5" y="-1" length="middle"/>
+<pin name="PIN3" x="-5" y="-2" length="middle"/>
+<pin name="PIN4" x="-5" y="-3" length="middle"/>
+<pin name="PIN5" x="-5" y="-4" length="middle"/>
+<pin name="PIN6" x="-5" y="-5" length="middle"/>
+<pin name="PIN7" x="-5" y="-6" length="middle"/>
+<pin name="PIN8" x="-5" y="-7" length="middle"/>
+<pin name="PIN9" x="-5" y="-8" length="middle"/>
+<pin name="PIN10" x="-5" y="-9" length="middle"/>
+<pin name="PIN11" x="-5" y="-10" length="middle"/>
+<pin name="PIN12" x="-5" y="-11" length="middle"/>
+<pin name="PIN13" x="-5" y="-12" length="middle"/>
+<pin name="PIN14" x="-5" y="-13" length="middle"/>
+<pin name="PIN15" x="-5" y="-14" length="middle"/>
+<pin name="PIN16" x="-5" y="-15" length="middle"/>
+<pin name="PIN17" x="-5" y="-16" length="middle"/>
+<pin name="PIN18" x="-5" y="-17" length="middle"/>
+<pin name="PIN19" x="-5" y="-18" length="middle"/>
+<pin name="PIN20" x="-5" y="-19" length="middle"/>
+<pin name="PIN21" x="-5" y="-20" length="middle"/>
+<pin name="PIN22" x="-5" y="-21" length="middle"/>
+<pin name="PIN23" x="-5" y="-22" length="middle"/>
+<pin name="PIN24" x="-5" y="-23" length="middle"/>
+<pin name="PIN25" x="-5" y="-24" length="middle"/>
+<pin name="PIN26" x="22" y="0" length="middle" rot="R180"/>
+<pin name="PIN27" x="22" y="-1" length="middle" rot="R180"/>
+<pin name="PIN28" x="22" y="-2" length="middle" rot="R180"/>
+<pin name="PIN29" x="22" y="-3" length="middle" rot="R180"/>
+<pin name="PIN30" x="22" y="-4" length="middle" rot="R180"/>
+<pin name="PIN31" x="22" y="-5" length="middle" rot="R180"/>
+<pin name="PIN32" x="22" y="-6" length="middle" rot="R180"/>
+<pin name="PIN33" x="22" y="-7" length="middle" rot="R180"/>
+<pin name="PIN34" x="22" y="-8" length="middle" rot="R180"/>
+<pin name="PIN35" x="22" y="-9" length="middle" rot="R180"/>
+<pin name="PIN36" x="22" y="-10" length="middle" rot="R180"/>
+<pin name="PIN37" x="22" y="-11" length="middle" rot="R180"/>
+<pin name="PIN38" x="22" y="-12" length="middle" rot="R180"/>
+<pin name="PIN39" x="22" y="-13" length="middle" rot="R180"/>
+<pin name="PIN40" x="22" y="-14" length="middle" rot="R180"/>
+<pin name="PIN41" x="22" y="-15" length="middle" rot="R180"/>
+<pin name="PIN42" x="22" y="-16" length="middle" rot="R180"/>
+<pin name="PIN43" x="22" y="-17" length="middle" rot="R180"/>
+<pin name="PIN44" x="22" y="-18" length="middle" rot="R180"/>
+<pin name="PIN45" x="22" y="-19" length="middle" rot="R180"/>
+<pin name="PIN46" x="22" y="-20" length="middle" rot="R180"/>
+<pin name="PIN47" x="22" y="-21" length="middle" rot="R180"/>
+<pin name="PIN48" x="22" y="-22" length="middle" rot="R180"/>
+<pin name="PIN49" x="22" y="-23" length="middle" rot="R180"/>
+<pin name="PIN50" x="22" y="-24" length="middle" rot="R180"/>
+<wire x1="0" y1="1" x2="17" y2="1" width="0.254" layer="94"/>
+<wire x1="17" y1="1" x2="17" y2="-25" width="0.254" layer="94"/>
+<wire x1="17" y1="-25" x2="0" y2="-25" width="0.254" layer="94"/>
+<wire x1="0" y1="-25" x2="0" y2="1" width="0.254" layer="94"/>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="CARD_EDGE_50PIN">
+<deviceset name="ORBIT-CON-HARWIN-101LOK-M80-4115042">
 <description>ORBIT-CON-HARWIN-101LOK-M80-4115042&lt;p&gt;
 
 Description:&lt;br&gt;
@@ -279,10 +277,10 @@ Headers &amp; Wire Housings 25+25 POS FEM WO J/S 4.5mm TAIL TIN&lt;p&gt;
 Website:&lt;br&gt;
 https://www.mouser.com/ProductDetail/Harwin/M80-4115042?qs=sGAEpiMZZMs%252BGHln7q6pmzlZUuX%2F53qjVusOkRqubuw%3D</description>
 <gates>
-<gate name="G$1" symbol="CARD-EDGE-50PIN" x="-7.62" y="30.48"/>
+<gate name="G$1" symbol="ORBIT-CON-HARWIN-101LOK-(25+25)PIN" x="-7.62" y="12.7"/>
 </gates>
 <devices>
-<device name="M80-4115042" package="M80-4115042">
+<device name="" package="ORBIT-CON-HARWIN-101LOK-M80-4115042">
 <connects>
 <connect gate="G$1" pin="PIN1" pad="PIN1"/>
 <connect gate="G$1" pin="PIN10" pad="PIN10"/>
@@ -339,7 +337,21 @@ https://www.mouser.com/ProductDetail/Harwin/M80-4115042?qs=sGAEpiMZZMs%252BGHln7
 <technology name=""/>
 </technologies>
 </device>
-<device name="M80-5305042" package="M80-5305042">
+</devices>
+</deviceset>
+<deviceset name="ORBIT-CON-HARWIN-101LOK-M80-5305042">
+<description>ORBIT-CON-HARWIN-101LOK-M80-5305042&lt;br&gt;&lt;br&gt;
+
+Description:&lt;br&gt;
+Headers &amp; Wire Housings 25+25 POS R/A MALE 3mm TAIL W/JS TIN&lt;p&gt;
+
+Website:&lt;br&gt;
+https://www.mouser.com/ProductDetail/Harwin/M80-5305042?qs=sGAEpiMZZMs%252BGHln7q6pmzlZUuX%2F53qjb2qIM22rDyA%3D</description>
+<gates>
+<gate name="G$1" symbol="ORBIT-CON-HARWIN-101LOK-(25+25)PIN" x="-7.62" y="10.16"/>
+</gates>
+<devices>
+<device name="" package="ORBIT-CON-HARWIN-101LOK-M80-5305042">
 <connects>
 <connect gate="G$1" pin="PIN1" pad="PIN1"/>
 <connect gate="G$1" pin="PIN10" pad="PIN10"/>

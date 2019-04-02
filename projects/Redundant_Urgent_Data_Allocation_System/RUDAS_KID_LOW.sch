@@ -458,14 +458,14 @@
 <pin name="TDI" x="17.78" y="53.34" length="short" direction="in" rot="R270"/>
 <pin name="TCK" x="15.24" y="53.34" length="short" direction="in" rot="R270"/>
 <pin name="TDO" x="12.7" y="53.34" length="short" direction="out" rot="R270"/>
-<pin name="VCC@1" x="10.16" y="53.34" length="short" direction="pwr" rot="R270"/>
-<pin name="VCC@2" x="7.62" y="53.34" length="short" direction="pwr" rot="R270"/>
-<pin name="VCC@3" x="5.08" y="53.34" length="short" direction="pwr" rot="R270"/>
-<pin name="VCC@4" x="2.54" y="53.34" length="short" direction="pwr" rot="R270"/>
-<pin name="VCC@5" x="0" y="53.34" length="short" direction="pwr" rot="R270"/>
-<pin name="VCC@6" x="-2.54" y="53.34" length="short" direction="pwr" rot="R270"/>
-<pin name="VCC@7" x="-5.08" y="53.34" length="short" direction="pwr" rot="R270"/>
-<pin name="VCC@8" x="-7.62" y="53.34" length="short" direction="pwr" rot="R270"/>
+<pin name="VCCO_IO1@1" x="10.16" y="53.34" length="short" direction="pwr" rot="R270"/>
+<pin name="VCC_CORE@1" x="7.62" y="53.34" length="short" direction="pwr" rot="R270"/>
+<pin name="VCC_IO1@3" x="5.08" y="53.34" length="short" direction="pwr" rot="R270"/>
+<pin name="VCC_IO1@4" x="2.54" y="53.34" length="short" direction="pwr" rot="R270"/>
+<pin name="VCC_IO2@5" x="0" y="53.34" length="short" direction="pwr" rot="R270"/>
+<pin name="VCC_CORE@2" x="-2.54" y="53.34" length="short" direction="pwr" rot="R270"/>
+<pin name="VCC_IO2@7" x="-5.08" y="53.34" length="short" direction="pwr" rot="R270"/>
+<pin name="VCC_IO2@8" x="-7.62" y="53.34" length="short" direction="pwr" rot="R270"/>
 <pin name="GND@1" x="-10.16" y="53.34" length="short" direction="pwr" rot="R270"/>
 <pin name="GND@2" x="-12.7" y="53.34" length="short" direction="pwr" rot="R270"/>
 <pin name="GND@3" x="-15.24" y="53.34" length="short" direction="pwr" rot="R270"/>
@@ -589,14 +589,14 @@ Source: 5M240ZT100.bsd
 <connect gate="G$1" pin="TDI" pad="23"/>
 <connect gate="G$1" pin="TDO" pad="25"/>
 <connect gate="G$1" pin="TMS" pad="22"/>
-<connect gate="G$1" pin="VCC@1" pad="9"/>
-<connect gate="G$1" pin="VCC@2" pad="13"/>
-<connect gate="G$1" pin="VCC@3" pad="31"/>
-<connect gate="G$1" pin="VCC@4" pad="45"/>
-<connect gate="G$1" pin="VCC@5" pad="59"/>
-<connect gate="G$1" pin="VCC@6" pad="63"/>
-<connect gate="G$1" pin="VCC@7" pad="80"/>
-<connect gate="G$1" pin="VCC@8" pad="94"/>
+<connect gate="G$1" pin="VCCO_IO1@1" pad="9"/>
+<connect gate="G$1" pin="VCC_CORE@1" pad="13"/>
+<connect gate="G$1" pin="VCC_CORE@2" pad="63"/>
+<connect gate="G$1" pin="VCC_IO1@3" pad="31"/>
+<connect gate="G$1" pin="VCC_IO1@4" pad="45"/>
+<connect gate="G$1" pin="VCC_IO2@5" pad="59"/>
+<connect gate="G$1" pin="VCC_IO2@7" pad="80"/>
+<connect gate="G$1" pin="VCC_IO2@8" pad="94"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -5901,27 +5901,26 @@ Source: http://www.rohm.com/products/databook/motor/pdf/bd623x_series-e.pdf</des
 </class>
 </classes>
 <parts>
-<part name="IC1" library="ORBiT-IC-CPLD-Intel-MAX_V" deviceset="5M240ZT100" device=""/>
 <part name="U$1" library="ORBiT-IC-IDT-sram" deviceset="IDT71V30" device=""/>
-<part name="C1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2"/>
-<part name="C2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2"/>
-<part name="C3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2"/>
-<part name="C4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2"/>
-<part name="C5" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2"/>
-<part name="C6" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2"/>
-<part name="C7" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2"/>
-<part name="C8" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2"/>
-<part name="C9" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2"/>
-<part name="C10" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2"/>
+<part name="C1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C2012" package3d_urn="urn:adsk.eagle:package:23625/2"/>
+<part name="C2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C2012" package3d_urn="urn:adsk.eagle:package:23625/2"/>
+<part name="C3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C2012" package3d_urn="urn:adsk.eagle:package:23625/2"/>
+<part name="C4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C2012" package3d_urn="urn:adsk.eagle:package:23625/2"/>
+<part name="C5" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C2012" package3d_urn="urn:adsk.eagle:package:23625/2"/>
+<part name="C6" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C2012" package3d_urn="urn:adsk.eagle:package:23625/2"/>
+<part name="C7" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C2012" package3d_urn="urn:adsk.eagle:package:23625/2"/>
+<part name="C8" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C2012" package3d_urn="urn:adsk.eagle:package:23625/2"/>
+<part name="C9" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C2012" package3d_urn="urn:adsk.eagle:package:23625/2"/>
+<part name="C10" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C2012" package3d_urn="urn:adsk.eagle:package:23625/2"/>
 <part name="IC2" library="ORBIT-STM32F" deviceset="STM32F1_XL_DENSITY_LQFP144" device="" value="STM32F103VGT6"/>
-<part name="C11" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2"/>
-<part name="C12" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2"/>
-<part name="C13" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2"/>
-<part name="C14" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2"/>
-<part name="C15" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2"/>
-<part name="C16" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2"/>
-<part name="C17" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2"/>
-<part name="C18" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2"/>
+<part name="C11" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C2012" package3d_urn="urn:adsk.eagle:package:23625/2"/>
+<part name="C12" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C2012" package3d_urn="urn:adsk.eagle:package:23625/2"/>
+<part name="C13" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C2012" package3d_urn="urn:adsk.eagle:package:23625/2"/>
+<part name="C14" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C2012" package3d_urn="urn:adsk.eagle:package:23625/2"/>
+<part name="C15" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C2012" package3d_urn="urn:adsk.eagle:package:23625/2"/>
+<part name="C16" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C2012" package3d_urn="urn:adsk.eagle:package:23625/2"/>
+<part name="C17" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C2012" package3d_urn="urn:adsk.eagle:package:23625/2"/>
+<part name="C18" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C2012" package3d_urn="urn:adsk.eagle:package:23625/2"/>
 <part name="CAN_L" library="ORBiT-special" deviceset="TP" device=""/>
 <part name="CAN_H" library="ORBiT-special" deviceset="TP" device=""/>
 <part name="CAN_GND" library="ORBiT-special" deviceset="TP" device=""/>
@@ -5931,16 +5930,13 @@ Source: http://www.rohm.com/products/databook/motor/pdf/bd623x_series-e.pdf</des
 <part name="UART_GND" library="ORBiT-special" deviceset="TP" device=""/>
 <part name="UART_VCC" library="ORBiT-special" deviceset="TP" device=""/>
 <part name="U$2" library="ORBiT-IC-CAN-DRIVER" deviceset="ISO1050" device=""/>
+<part name="IC3" library="ORBiT-IC-CPLD-Intel-MAX_V" deviceset="5M240ZT100" device=""/>
 </parts>
 <sheets>
 <sheet>
 <plain>
 </plain>
 <instances>
-<instance part="IC1" gate="G$1" x="60.96" y="48.26" smashed="yes">
-<attribute name="NAME" x="58.42" y="49.53" size="1.778" layer="95"/>
-<attribute name="VALUE" x="58.42" y="45.72" size="1.778" layer="96"/>
-</instance>
 <instance part="U$1" gate="G$1" x="-106.68" y="43.18" smashed="yes" rot="MR0"/>
 <instance part="C1" gate="G$1" x="-104.14" y="2.54" smashed="yes" rot="MR90">
 <attribute name="NAME" x="-103.759" y="4.064" size="1.778" layer="95" rot="MR90"/>
@@ -6043,6 +6039,10 @@ Source: http://www.rohm.com/products/databook/motor/pdf/bd623x_series-e.pdf</des
 <attribute name="NAME" x="-341.63" y="-57.15" size="1.778" layer="95" rot="R180"/>
 </instance>
 <instance part="U$2" gate="G$1" x="-419.1" y="-7.62" smashed="yes"/>
+<instance part="IC3" gate="G$1" x="60.96" y="35.56" smashed="yes">
+<attribute name="NAME" x="58.42" y="36.83" size="1.778" layer="95"/>
+<attribute name="VALUE" x="58.42" y="33.02" size="1.778" layer="96"/>
+</instance>
 </instances>
 <busses>
 <bus name="CPLD_DATA:D[0..7]">
@@ -6051,8 +6051,8 @@ Source: http://www.rohm.com/products/databook/motor/pdf/bd623x_series-e.pdf</des
 <label x="-63.5" y="38.1" size="1.778" layer="95" rot="R90"/>
 </segment>
 <segment>
-<wire x1="55.88" y1="-15.24" x2="76.2" y2="-15.24" width="0.762" layer="92"/>
-<label x="63.5" y="-17.78" size="1.778" layer="95"/>
+<wire x1="55.88" y1="-27.94" x2="76.2" y2="-27.94" width="0.762" layer="92"/>
+<label x="33.02" y="-165.1" size="1.778" layer="95"/>
 </segment>
 </bus>
 <bus name="CPLD_ADDR:A[0..9]">
@@ -6061,11 +6061,11 @@ Source: http://www.rohm.com/products/databook/motor/pdf/bd623x_series-e.pdf</des
 <label x="-63.5" y="66.04" size="1.778" layer="95" rot="R90"/>
 </segment>
 <segment>
-<wire x1="127" y1="10.16" x2="127" y2="33.02" width="0.762" layer="92"/>
+<wire x1="127" y1="-2.54" x2="127" y2="20.32" width="0.762" layer="92"/>
 </segment>
 <segment>
-<wire x1="90.17" y1="-15.494" x2="80.01" y2="-15.494" width="0.762" layer="92"/>
-<label x="97.79" y="-18.288" size="1.778" layer="95" rot="MR0"/>
+<wire x1="90.17" y1="-28.194" x2="80.01" y2="-28.194" width="0.762" layer="92"/>
+<label x="67.31" y="-165.608" size="1.778" layer="95" rot="MR0"/>
 </segment>
 </bus>
 <bus name="CPLD_CON:!BUSY!,!CE!,!INT!,!OE!,R/!W!">
@@ -6074,8 +6074,8 @@ Source: http://www.rohm.com/products/databook/motor/pdf/bd623x_series-e.pdf</des
 <label x="-63.5" y="15.24" size="1.778" layer="95" rot="R90"/>
 </segment>
 <segment>
-<wire x1="127" y1="35.56" x2="127" y2="48.26" width="0.762" layer="92"/>
-<label x="129.54" y="48.26" size="1.778" layer="95" rot="MR270"/>
+<wire x1="127" y1="22.86" x2="127" y2="35.56" width="0.762" layer="92"/>
+<label x="129.54" y="35.56" size="1.778" layer="95" rot="MR270"/>
 </segment>
 </bus>
 <bus name="STM32_ADDR:FSMC_A[0..9]">
@@ -6115,16 +6115,16 @@ Source: http://www.rohm.com/products/databook/motor/pdf/bd623x_series-e.pdf</des
 <label x="-154.94" y="15.24" size="1.778" layer="95" rot="R90"/>
 </segment>
 </bus>
-<bus name="CPLD_JTAG:C_TCK,C_TDI,C_TDO,C_TMS">
-<segment>
-<wire x1="71.12" y1="116.84" x2="81.28" y2="116.84" width="0.762" layer="92"/>
-<label x="71.12" y="119.38" size="1.778" layer="95"/>
-</segment>
-</bus>
 <bus name="STM32_JTAG:S_TCK,S_TDI,S_TDO,S_TMS,S_TRST">
 <segment>
 <wire x1="-396.24" y1="119.38" x2="-396.24" y2="106.68" width="0.762" layer="92"/>
 <label x="-399.542" y="121.412" size="1.778" layer="95" rot="R270"/>
+</segment>
+</bus>
+<bus name="CPLD_JTAG:C_TCK,C_TDI,C_TDO,C_TMS">
+<segment>
+<wire x1="71.12" y1="104.14" x2="81.28" y2="104.14" width="0.762" layer="92"/>
+<label x="71.12" y="106.68" size="1.778" layer="95"/>
 </segment>
 </bus>
 </busses>
@@ -6137,10 +6137,10 @@ Source: http://www.rohm.com/products/databook/motor/pdf/bd623x_series-e.pdf</des
 <pinref part="U$1" gate="G$1" pin="A_L0"/>
 </segment>
 <segment>
-<wire x1="127" y1="33.02" x2="124.46" y2="30.48" width="0.1524" layer="91"/>
-<wire x1="114.3" y1="30.48" x2="124.46" y2="30.48" width="0.1524" layer="91"/>
-<label x="119.38" y="33.02" size="1.778" layer="95" rot="MR180"/>
-<pinref part="IC1" gate="G$1" pin="IO73"/>
+<wire x1="127" y1="20.32" x2="124.46" y2="17.78" width="0.1524" layer="91"/>
+<wire x1="114.3" y1="17.78" x2="124.46" y2="17.78" width="0.1524" layer="91"/>
+<label x="119.38" y="20.32" size="1.778" layer="95" rot="MR180"/>
+<pinref part="IC3" gate="G$1" pin="IO73"/>
 </segment>
 </net>
 <net name="A1" class="0">
@@ -6151,10 +6151,10 @@ Source: http://www.rohm.com/products/databook/motor/pdf/bd623x_series-e.pdf</des
 <pinref part="U$1" gate="G$1" pin="A_L1"/>
 </segment>
 <segment>
-<wire x1="127" y1="30.48" x2="124.46" y2="27.94" width="0.1524" layer="91"/>
-<wire x1="114.3" y1="27.94" x2="124.46" y2="27.94" width="0.1524" layer="91"/>
-<label x="119.38" y="27.94" size="1.778" layer="95"/>
-<pinref part="IC1" gate="G$1" pin="IO72"/>
+<wire x1="127" y1="17.78" x2="124.46" y2="15.24" width="0.1524" layer="91"/>
+<wire x1="114.3" y1="15.24" x2="124.46" y2="15.24" width="0.1524" layer="91"/>
+<label x="119.38" y="15.24" size="1.778" layer="95"/>
+<pinref part="IC3" gate="G$1" pin="IO72"/>
 </segment>
 </net>
 <net name="A2" class="0">
@@ -6165,10 +6165,10 @@ Source: http://www.rohm.com/products/databook/motor/pdf/bd623x_series-e.pdf</des
 <pinref part="U$1" gate="G$1" pin="A_L2"/>
 </segment>
 <segment>
-<wire x1="127" y1="27.94" x2="124.46" y2="25.4" width="0.1524" layer="91"/>
-<wire x1="114.3" y1="25.4" x2="124.46" y2="25.4" width="0.1524" layer="91"/>
-<label x="119.38" y="25.4" size="1.778" layer="95"/>
-<pinref part="IC1" gate="G$1" pin="IO71"/>
+<wire x1="127" y1="15.24" x2="124.46" y2="12.7" width="0.1524" layer="91"/>
+<wire x1="114.3" y1="12.7" x2="124.46" y2="12.7" width="0.1524" layer="91"/>
+<label x="119.38" y="12.7" size="1.778" layer="95"/>
+<pinref part="IC3" gate="G$1" pin="IO71"/>
 </segment>
 </net>
 <net name="A3" class="0">
@@ -6179,10 +6179,10 @@ Source: http://www.rohm.com/products/databook/motor/pdf/bd623x_series-e.pdf</des
 <pinref part="U$1" gate="G$1" pin="A_L3"/>
 </segment>
 <segment>
-<wire x1="127" y1="25.4" x2="124.46" y2="22.86" width="0.1524" layer="91"/>
-<wire x1="114.3" y1="22.86" x2="124.46" y2="22.86" width="0.1524" layer="91"/>
-<label x="119.38" y="22.86" size="1.778" layer="95"/>
-<pinref part="IC1" gate="G$1" pin="IO70"/>
+<wire x1="127" y1="12.7" x2="124.46" y2="10.16" width="0.1524" layer="91"/>
+<wire x1="114.3" y1="10.16" x2="124.46" y2="10.16" width="0.1524" layer="91"/>
+<label x="119.38" y="10.16" size="1.778" layer="95"/>
+<pinref part="IC3" gate="G$1" pin="IO70"/>
 </segment>
 </net>
 <net name="A4" class="0">
@@ -6193,11 +6193,11 @@ Source: http://www.rohm.com/products/databook/motor/pdf/bd623x_series-e.pdf</des
 <pinref part="U$1" gate="G$1" pin="A_L4"/>
 </segment>
 <segment>
-<wire x1="127" y1="22.86" x2="124.46" y2="20.32" width="0.1524" layer="91"/>
-<wire x1="116.84" y1="20.32" x2="124.46" y2="20.32" width="0.1524" layer="91"/>
-<label x="119.38" y="20.32" size="1.778" layer="95"/>
-<wire x1="116.84" y1="20.32" x2="114.3" y2="20.32" width="0.1524" layer="91"/>
-<pinref part="IC1" gate="G$1" pin="IO69"/>
+<wire x1="127" y1="10.16" x2="124.46" y2="7.62" width="0.1524" layer="91"/>
+<wire x1="116.84" y1="7.62" x2="124.46" y2="7.62" width="0.1524" layer="91"/>
+<label x="119.38" y="7.62" size="1.778" layer="95"/>
+<wire x1="116.84" y1="7.62" x2="114.3" y2="7.62" width="0.1524" layer="91"/>
+<pinref part="IC3" gate="G$1" pin="IO69"/>
 </segment>
 </net>
 <net name="A5" class="0">
@@ -6208,11 +6208,11 @@ Source: http://www.rohm.com/products/databook/motor/pdf/bd623x_series-e.pdf</des
 <pinref part="U$1" gate="G$1" pin="A_L5"/>
 </segment>
 <segment>
-<wire x1="127" y1="20.32" x2="124.46" y2="17.78" width="0.1524" layer="91"/>
-<wire x1="116.84" y1="17.78" x2="124.46" y2="17.78" width="0.1524" layer="91"/>
-<label x="119.38" y="17.78" size="1.778" layer="95"/>
-<wire x1="116.84" y1="17.78" x2="114.3" y2="17.78" width="0.1524" layer="91"/>
-<pinref part="IC1" gate="G$1" pin="IO68"/>
+<wire x1="127" y1="7.62" x2="124.46" y2="5.08" width="0.1524" layer="91"/>
+<wire x1="116.84" y1="5.08" x2="124.46" y2="5.08" width="0.1524" layer="91"/>
+<label x="119.38" y="5.08" size="1.778" layer="95"/>
+<wire x1="116.84" y1="5.08" x2="114.3" y2="5.08" width="0.1524" layer="91"/>
+<pinref part="IC3" gate="G$1" pin="IO68"/>
 </segment>
 </net>
 <net name="A6" class="0">
@@ -6223,10 +6223,10 @@ Source: http://www.rohm.com/products/databook/motor/pdf/bd623x_series-e.pdf</des
 <pinref part="U$1" gate="G$1" pin="A_L6"/>
 </segment>
 <segment>
-<wire x1="88.9" y1="-15.24" x2="91.44" y2="-12.7" width="0.1524" layer="91"/>
-<wire x1="91.44" y1="-5.08" x2="91.44" y2="-12.7" width="0.1524" layer="91"/>
-<label x="91.44" y="-7.62" size="1.778" layer="95" rot="R270"/>
-<pinref part="IC1" gate="G$1" pin="IO67"/>
+<wire x1="88.9" y1="-27.94" x2="91.44" y2="-25.4" width="0.1524" layer="91"/>
+<wire x1="91.44" y1="-17.78" x2="91.44" y2="-25.4" width="0.1524" layer="91"/>
+<label x="91.44" y="-20.32" size="1.778" layer="95" rot="R270"/>
+<pinref part="IC3" gate="G$1" pin="IO67"/>
 </segment>
 </net>
 <net name="A7" class="0">
@@ -6237,10 +6237,10 @@ Source: http://www.rohm.com/products/databook/motor/pdf/bd623x_series-e.pdf</des
 <pinref part="U$1" gate="G$1" pin="A_L7"/>
 </segment>
 <segment>
-<wire x1="86.36" y1="-15.24" x2="88.9" y2="-12.7" width="0.1524" layer="91"/>
-<wire x1="88.9" y1="-5.08" x2="88.9" y2="-12.7" width="0.1524" layer="91"/>
-<label x="88.9" y="-7.62" size="1.778" layer="95" rot="R270"/>
-<pinref part="IC1" gate="G$1" pin="IO66"/>
+<wire x1="86.36" y1="-27.94" x2="88.9" y2="-25.4" width="0.1524" layer="91"/>
+<wire x1="88.9" y1="-17.78" x2="88.9" y2="-25.4" width="0.1524" layer="91"/>
+<label x="88.9" y="-20.32" size="1.778" layer="95" rot="R270"/>
+<pinref part="IC3" gate="G$1" pin="IO66"/>
 </segment>
 </net>
 <net name="A8" class="0">
@@ -6251,10 +6251,10 @@ Source: http://www.rohm.com/products/databook/motor/pdf/bd623x_series-e.pdf</des
 <pinref part="U$1" gate="G$1" pin="A_L8"/>
 </segment>
 <segment>
-<wire x1="83.82" y1="-15.24" x2="86.36" y2="-12.7" width="0.1524" layer="91"/>
-<wire x1="86.36" y1="-5.08" x2="86.36" y2="-12.7" width="0.1524" layer="91"/>
-<label x="86.36" y="-7.62" size="1.778" layer="95" rot="R270"/>
-<pinref part="IC1" gate="G$1" pin="IO64"/>
+<wire x1="83.82" y1="-27.94" x2="86.36" y2="-25.4" width="0.1524" layer="91"/>
+<wire x1="86.36" y1="-17.78" x2="86.36" y2="-25.4" width="0.1524" layer="91"/>
+<label x="86.36" y="-20.32" size="1.778" layer="95" rot="R270"/>
+<pinref part="IC3" gate="G$1" pin="IO64"/>
 </segment>
 </net>
 <net name="A9" class="0">
@@ -6265,10 +6265,10 @@ Source: http://www.rohm.com/products/databook/motor/pdf/bd623x_series-e.pdf</des
 <pinref part="U$1" gate="G$1" pin="A_L9"/>
 </segment>
 <segment>
-<wire x1="81.28" y1="-15.24" x2="83.82" y2="-12.7" width="0.1524" layer="91"/>
-<wire x1="83.82" y1="-5.08" x2="83.82" y2="-12.7" width="0.1524" layer="91"/>
-<label x="83.82" y="-7.62" size="1.778" layer="95" rot="R270"/>
-<pinref part="IC1" gate="G$1" pin="IO62"/>
+<wire x1="81.28" y1="-27.94" x2="83.82" y2="-25.4" width="0.1524" layer="91"/>
+<wire x1="83.82" y1="-17.78" x2="83.82" y2="-25.4" width="0.1524" layer="91"/>
+<label x="83.82" y="-20.32" size="1.778" layer="95" rot="R270"/>
+<pinref part="IC3" gate="G$1" pin="IO62"/>
 </segment>
 </net>
 <net name="D0" class="0">
@@ -6279,10 +6279,10 @@ Source: http://www.rohm.com/products/databook/motor/pdf/bd623x_series-e.pdf</des
 <pinref part="U$1" gate="G$1" pin="I/O_L0"/>
 </segment>
 <segment>
-<wire x1="76.2" y1="-15.24" x2="78.74" y2="-12.7" width="0.1524" layer="91"/>
-<wire x1="78.74" y1="-5.08" x2="78.74" y2="-12.7" width="0.1524" layer="91"/>
-<label x="78.74" y="-7.62" size="1.778" layer="95" rot="R270"/>
-<pinref part="IC1" gate="G$1" pin="IO58"/>
+<wire x1="76.2" y1="-27.94" x2="78.74" y2="-25.4" width="0.1524" layer="91"/>
+<wire x1="78.74" y1="-17.78" x2="78.74" y2="-25.4" width="0.1524" layer="91"/>
+<label x="78.74" y="-20.32" size="1.778" layer="95" rot="R270"/>
+<pinref part="IC3" gate="G$1" pin="IO58"/>
 </segment>
 </net>
 <net name="D1" class="0">
@@ -6293,10 +6293,10 @@ Source: http://www.rohm.com/products/databook/motor/pdf/bd623x_series-e.pdf</des
 <pinref part="U$1" gate="G$1" pin="I/O_L1"/>
 </segment>
 <segment>
-<wire x1="73.66" y1="-15.24" x2="76.2" y2="-12.7" width="0.1524" layer="91"/>
-<wire x1="76.2" y1="-5.08" x2="76.2" y2="-12.7" width="0.1524" layer="91"/>
-<label x="76.2" y="-7.62" size="1.778" layer="95" rot="R270"/>
-<pinref part="IC1" gate="G$1" pin="IO57"/>
+<wire x1="73.66" y1="-27.94" x2="76.2" y2="-25.4" width="0.1524" layer="91"/>
+<wire x1="76.2" y1="-17.78" x2="76.2" y2="-25.4" width="0.1524" layer="91"/>
+<label x="76.2" y="-20.32" size="1.778" layer="95" rot="R270"/>
+<pinref part="IC3" gate="G$1" pin="IO57"/>
 </segment>
 </net>
 <net name="D2" class="0">
@@ -6307,10 +6307,10 @@ Source: http://www.rohm.com/products/databook/motor/pdf/bd623x_series-e.pdf</des
 <pinref part="U$1" gate="G$1" pin="I/O_L2"/>
 </segment>
 <segment>
-<wire x1="71.12" y1="-15.24" x2="73.66" y2="-12.7" width="0.1524" layer="91"/>
-<wire x1="73.66" y1="-5.08" x2="73.66" y2="-12.7" width="0.1524" layer="91"/>
-<label x="73.66" y="-7.62" size="1.778" layer="95" rot="R270"/>
-<pinref part="IC1" gate="G$1" pin="IO56"/>
+<wire x1="71.12" y1="-27.94" x2="73.66" y2="-25.4" width="0.1524" layer="91"/>
+<wire x1="73.66" y1="-17.78" x2="73.66" y2="-25.4" width="0.1524" layer="91"/>
+<label x="73.66" y="-20.32" size="1.778" layer="95" rot="R270"/>
+<pinref part="IC3" gate="G$1" pin="IO56"/>
 </segment>
 </net>
 <net name="D3" class="0">
@@ -6321,10 +6321,10 @@ Source: http://www.rohm.com/products/databook/motor/pdf/bd623x_series-e.pdf</des
 <pinref part="U$1" gate="G$1" pin="I/O_L3"/>
 </segment>
 <segment>
-<wire x1="68.58" y1="-15.24" x2="71.12" y2="-12.7" width="0.1524" layer="91"/>
-<wire x1="71.12" y1="-5.08" x2="71.12" y2="-12.7" width="0.1524" layer="91"/>
-<label x="71.12" y="-7.62" size="1.778" layer="95" rot="R270"/>
-<pinref part="IC1" gate="G$1" pin="IO55"/>
+<wire x1="68.58" y1="-27.94" x2="71.12" y2="-25.4" width="0.1524" layer="91"/>
+<wire x1="71.12" y1="-17.78" x2="71.12" y2="-25.4" width="0.1524" layer="91"/>
+<label x="71.12" y="-20.32" size="1.778" layer="95" rot="R270"/>
+<pinref part="IC3" gate="G$1" pin="IO55"/>
 </segment>
 </net>
 <net name="D4" class="0">
@@ -6335,10 +6335,10 @@ Source: http://www.rohm.com/products/databook/motor/pdf/bd623x_series-e.pdf</des
 <pinref part="U$1" gate="G$1" pin="I/O_L4"/>
 </segment>
 <segment>
-<wire x1="66.04" y1="-15.24" x2="68.58" y2="-12.7" width="0.1524" layer="91"/>
-<wire x1="68.58" y1="-5.08" x2="68.58" y2="-12.7" width="0.1524" layer="91"/>
-<label x="68.58" y="-7.62" size="1.778" layer="95" rot="R270"/>
-<pinref part="IC1" gate="G$1" pin="IO54"/>
+<wire x1="66.04" y1="-27.94" x2="68.58" y2="-25.4" width="0.1524" layer="91"/>
+<wire x1="68.58" y1="-17.78" x2="68.58" y2="-25.4" width="0.1524" layer="91"/>
+<label x="68.58" y="-20.32" size="1.778" layer="95" rot="R270"/>
+<pinref part="IC3" gate="G$1" pin="IO54"/>
 </segment>
 </net>
 <net name="D5" class="0">
@@ -6349,10 +6349,10 @@ Source: http://www.rohm.com/products/databook/motor/pdf/bd623x_series-e.pdf</des
 <pinref part="U$1" gate="G$1" pin="I/O_L5"/>
 </segment>
 <segment>
-<wire x1="63.5" y1="-15.24" x2="66.04" y2="-12.7" width="0.1524" layer="91"/>
-<wire x1="66.04" y1="-5.08" x2="66.04" y2="-12.7" width="0.1524" layer="91"/>
-<label x="66.04" y="-7.62" size="1.778" layer="95" rot="R270"/>
-<pinref part="IC1" gate="G$1" pin="IO53"/>
+<wire x1="63.5" y1="-27.94" x2="66.04" y2="-25.4" width="0.1524" layer="91"/>
+<wire x1="66.04" y1="-17.78" x2="66.04" y2="-25.4" width="0.1524" layer="91"/>
+<label x="66.04" y="-20.32" size="1.778" layer="95" rot="R270"/>
+<pinref part="IC3" gate="G$1" pin="IO53"/>
 </segment>
 </net>
 <net name="D6" class="0">
@@ -6363,10 +6363,10 @@ Source: http://www.rohm.com/products/databook/motor/pdf/bd623x_series-e.pdf</des
 <pinref part="U$1" gate="G$1" pin="I/O_L6"/>
 </segment>
 <segment>
-<wire x1="60.96" y1="-15.24" x2="63.5" y2="-12.7" width="0.1524" layer="91"/>
-<wire x1="63.5" y1="-5.08" x2="63.5" y2="-12.7" width="0.1524" layer="91"/>
-<label x="63.5" y="-7.62" size="1.778" layer="95" rot="R270"/>
-<pinref part="IC1" gate="G$1" pin="IO52"/>
+<wire x1="60.96" y1="-27.94" x2="63.5" y2="-25.4" width="0.1524" layer="91"/>
+<wire x1="63.5" y1="-17.78" x2="63.5" y2="-25.4" width="0.1524" layer="91"/>
+<label x="63.5" y="-20.32" size="1.778" layer="95" rot="R270"/>
+<pinref part="IC3" gate="G$1" pin="IO52"/>
 </segment>
 </net>
 <net name="D7" class="0">
@@ -6377,10 +6377,10 @@ Source: http://www.rohm.com/products/databook/motor/pdf/bd623x_series-e.pdf</des
 <pinref part="U$1" gate="G$1" pin="I/O_L7"/>
 </segment>
 <segment>
-<wire x1="58.42" y1="-15.24" x2="60.96" y2="-12.7" width="0.1524" layer="91"/>
-<wire x1="60.96" y1="-5.08" x2="60.96" y2="-12.7" width="0.1524" layer="91"/>
-<label x="60.96" y="-7.62" size="1.778" layer="95" rot="R270"/>
-<pinref part="IC1" gate="G$1" pin="IO51"/>
+<wire x1="58.42" y1="-27.94" x2="60.96" y2="-25.4" width="0.1524" layer="91"/>
+<wire x1="60.96" y1="-17.78" x2="60.96" y2="-25.4" width="0.1524" layer="91"/>
+<label x="60.96" y="-20.32" size="1.778" layer="95" rot="R270"/>
+<pinref part="IC3" gate="G$1" pin="IO51"/>
 </segment>
 </net>
 <net name="!OE!" class="0">
@@ -6391,10 +6391,10 @@ Source: http://www.rohm.com/products/databook/motor/pdf/bd623x_series-e.pdf</des
 <pinref part="U$1" gate="G$1" pin="!OE!_L"/>
 </segment>
 <segment>
-<wire x1="127" y1="35.56" x2="124.46" y2="33.02" width="0.1524" layer="91"/>
-<wire x1="114.3" y1="33.02" x2="124.46" y2="33.02" width="0.1524" layer="91"/>
-<label x="116.84" y="35.56" size="1.778" layer="95" rot="MR180"/>
-<pinref part="IC1" gate="G$1" pin="IO74"/>
+<wire x1="127" y1="22.86" x2="124.46" y2="20.32" width="0.1524" layer="91"/>
+<wire x1="114.3" y1="20.32" x2="124.46" y2="20.32" width="0.1524" layer="91"/>
+<label x="116.84" y="22.86" size="1.778" layer="95" rot="MR180"/>
+<pinref part="IC3" gate="G$1" pin="IO74"/>
 </segment>
 </net>
 <net name="!CE!" class="0">
@@ -6405,10 +6405,10 @@ Source: http://www.rohm.com/products/databook/motor/pdf/bd623x_series-e.pdf</des
 <pinref part="U$1" gate="G$1" pin="!CE!_L"/>
 </segment>
 <segment>
-<wire x1="127" y1="38.1" x2="124.46" y2="35.56" width="0.1524" layer="91"/>
-<wire x1="114.3" y1="35.56" x2="124.46" y2="35.56" width="0.1524" layer="91"/>
-<label x="116.84" y="38.1" size="1.778" layer="95" rot="MR180"/>
-<pinref part="IC1" gate="G$1" pin="IO75"/>
+<wire x1="127" y1="25.4" x2="124.46" y2="22.86" width="0.1524" layer="91"/>
+<wire x1="114.3" y1="22.86" x2="124.46" y2="22.86" width="0.1524" layer="91"/>
+<label x="116.84" y="25.4" size="1.778" layer="95" rot="MR180"/>
+<pinref part="IC3" gate="G$1" pin="IO75"/>
 </segment>
 </net>
 <net name="!BUSY!" class="0">
@@ -6419,10 +6419,10 @@ Source: http://www.rohm.com/products/databook/motor/pdf/bd623x_series-e.pdf</des
 <pinref part="U$1" gate="G$1" pin="!BUSY!_L"/>
 </segment>
 <segment>
-<wire x1="127" y1="43.18" x2="124.46" y2="40.64" width="0.1524" layer="91"/>
-<wire x1="114.3" y1="40.64" x2="124.46" y2="40.64" width="0.1524" layer="91"/>
-<label x="116.84" y="43.18" size="1.778" layer="95" rot="MR180"/>
-<pinref part="IC1" gate="G$1" pin="IO77"/>
+<wire x1="127" y1="30.48" x2="124.46" y2="27.94" width="0.1524" layer="91"/>
+<wire x1="114.3" y1="27.94" x2="124.46" y2="27.94" width="0.1524" layer="91"/>
+<label x="116.84" y="30.48" size="1.778" layer="95" rot="MR180"/>
+<pinref part="IC3" gate="G$1" pin="IO77"/>
 </segment>
 </net>
 <net name="R/!W!" class="0">
@@ -6433,10 +6433,10 @@ Source: http://www.rohm.com/products/databook/motor/pdf/bd623x_series-e.pdf</des
 <pinref part="U$1" gate="G$1" pin="R/!W!_L"/>
 </segment>
 <segment>
-<wire x1="127" y1="45.72" x2="124.46" y2="43.18" width="0.1524" layer="91"/>
-<wire x1="114.3" y1="43.18" x2="124.46" y2="43.18" width="0.1524" layer="91"/>
-<label x="116.84" y="45.72" size="1.778" layer="95" rot="MR180"/>
-<pinref part="IC1" gate="G$1" pin="IO78"/>
+<wire x1="127" y1="33.02" x2="124.46" y2="30.48" width="0.1524" layer="91"/>
+<wire x1="114.3" y1="30.48" x2="124.46" y2="30.48" width="0.1524" layer="91"/>
+<label x="116.84" y="33.02" size="1.778" layer="95" rot="MR180"/>
+<pinref part="IC3" gate="G$1" pin="IO78"/>
 </segment>
 </net>
 <net name="!INT!" class="0">
@@ -6447,10 +6447,10 @@ Source: http://www.rohm.com/products/databook/motor/pdf/bd623x_series-e.pdf</des
 <pinref part="U$1" gate="G$1" pin="!INT!_L"/>
 </segment>
 <segment>
-<wire x1="127" y1="40.64" x2="124.46" y2="38.1" width="0.1524" layer="91"/>
-<label x="116.84" y="40.64" size="1.778" layer="95" rot="MR180"/>
-<wire x1="124.46" y1="38.1" x2="114.3" y2="38.1" width="0.1524" layer="91"/>
-<pinref part="IC1" gate="G$1" pin="IO76"/>
+<wire x1="127" y1="27.94" x2="124.46" y2="25.4" width="0.1524" layer="91"/>
+<label x="116.84" y="27.94" size="1.778" layer="95" rot="MR180"/>
+<wire x1="124.46" y1="25.4" x2="114.3" y2="25.4" width="0.1524" layer="91"/>
+<pinref part="IC3" gate="G$1" pin="IO76"/>
 </segment>
 </net>
 <net name="N$1" class="0">
@@ -6474,43 +6474,6 @@ Source: http://www.rohm.com/products/databook/motor/pdf/bd623x_series-e.pdf</des
 </segment>
 </net>
 <net name="CPLD_GND" class="0">
-<segment>
-<pinref part="IC1" gate="G$1" pin="GND@9"/>
-<wire x1="30.48" y1="101.6" x2="30.48" y2="106.68" width="0.1524" layer="91"/>
-<pinref part="IC1" gate="G$1" pin="GND@1"/>
-<wire x1="30.48" y1="106.68" x2="33.02" y2="106.68" width="0.1524" layer="91"/>
-<wire x1="33.02" y1="106.68" x2="35.56" y2="106.68" width="0.1524" layer="91"/>
-<wire x1="35.56" y1="106.68" x2="38.1" y2="106.68" width="0.1524" layer="91"/>
-<wire x1="38.1" y1="106.68" x2="40.64" y2="106.68" width="0.1524" layer="91"/>
-<wire x1="40.64" y1="106.68" x2="43.18" y2="106.68" width="0.1524" layer="91"/>
-<wire x1="43.18" y1="106.68" x2="45.72" y2="106.68" width="0.1524" layer="91"/>
-<wire x1="45.72" y1="106.68" x2="48.26" y2="106.68" width="0.1524" layer="91"/>
-<wire x1="48.26" y1="106.68" x2="50.8" y2="106.68" width="0.1524" layer="91"/>
-<wire x1="50.8" y1="106.68" x2="50.8" y2="101.6" width="0.1524" layer="91"/>
-<pinref part="IC1" gate="G$1" pin="GND@2"/>
-<wire x1="48.26" y1="101.6" x2="48.26" y2="106.68" width="0.1524" layer="91"/>
-<junction x="48.26" y="106.68"/>
-<pinref part="IC1" gate="G$1" pin="GND@3"/>
-<wire x1="45.72" y1="101.6" x2="45.72" y2="106.68" width="0.1524" layer="91"/>
-<junction x="45.72" y="106.68"/>
-<pinref part="IC1" gate="G$1" pin="GND@4"/>
-<wire x1="43.18" y1="101.6" x2="43.18" y2="106.68" width="0.1524" layer="91"/>
-<junction x="43.18" y="106.68"/>
-<pinref part="IC1" gate="G$1" pin="GND@5"/>
-<wire x1="40.64" y1="101.6" x2="40.64" y2="106.68" width="0.1524" layer="91"/>
-<junction x="40.64" y="106.68"/>
-<pinref part="IC1" gate="G$1" pin="GND@6"/>
-<wire x1="38.1" y1="101.6" x2="38.1" y2="106.68" width="0.1524" layer="91"/>
-<junction x="38.1" y="106.68"/>
-<pinref part="IC1" gate="G$1" pin="GND@7"/>
-<wire x1="35.56" y1="101.6" x2="35.56" y2="106.68" width="0.1524" layer="91"/>
-<junction x="35.56" y="106.68"/>
-<pinref part="IC1" gate="G$1" pin="GND@8"/>
-<wire x1="33.02" y1="101.6" x2="33.02" y2="106.68" width="0.1524" layer="91"/>
-<junction x="33.02" y="106.68"/>
-<wire x1="35.56" y1="106.68" x2="35.56" y2="111.76" width="0.1524" layer="91"/>
-<label x="35.56" y="111.76" size="1.778" layer="95" rot="R90" xref="yes"/>
-</segment>
 <segment>
 <pinref part="C8" gate="G$1" pin="2"/>
 <wire x1="-10.16" y1="137.16" x2="-10.16" y2="134.62" width="0.1524" layer="91"/>
@@ -6546,41 +6509,45 @@ Source: http://www.rohm.com/products/databook/motor/pdf/bd623x_series-e.pdf</des
 <junction x="-12.7" y="134.62"/>
 <label x="-12.7" y="129.54" size="1.778" layer="95" rot="R270" xref="yes"/>
 </segment>
+<segment>
+<wire x1="30.48" y1="88.9" x2="30.48" y2="93.98" width="0.1524" layer="91"/>
+<wire x1="30.48" y1="93.98" x2="33.02" y2="93.98" width="0.1524" layer="91"/>
+<wire x1="33.02" y1="93.98" x2="35.56" y2="93.98" width="0.1524" layer="91"/>
+<wire x1="35.56" y1="93.98" x2="38.1" y2="93.98" width="0.1524" layer="91"/>
+<wire x1="38.1" y1="93.98" x2="40.64" y2="93.98" width="0.1524" layer="91"/>
+<wire x1="40.64" y1="93.98" x2="43.18" y2="93.98" width="0.1524" layer="91"/>
+<wire x1="43.18" y1="93.98" x2="45.72" y2="93.98" width="0.1524" layer="91"/>
+<wire x1="45.72" y1="93.98" x2="48.26" y2="93.98" width="0.1524" layer="91"/>
+<wire x1="48.26" y1="93.98" x2="50.8" y2="93.98" width="0.1524" layer="91"/>
+<wire x1="50.8" y1="93.98" x2="50.8" y2="88.9" width="0.1524" layer="91"/>
+<wire x1="48.26" y1="88.9" x2="48.26" y2="93.98" width="0.1524" layer="91"/>
+<junction x="48.26" y="93.98"/>
+<wire x1="45.72" y1="88.9" x2="45.72" y2="93.98" width="0.1524" layer="91"/>
+<junction x="45.72" y="93.98"/>
+<wire x1="43.18" y1="88.9" x2="43.18" y2="93.98" width="0.1524" layer="91"/>
+<junction x="43.18" y="93.98"/>
+<wire x1="40.64" y1="88.9" x2="40.64" y2="93.98" width="0.1524" layer="91"/>
+<junction x="40.64" y="93.98"/>
+<wire x1="38.1" y1="88.9" x2="38.1" y2="93.98" width="0.1524" layer="91"/>
+<junction x="38.1" y="93.98"/>
+<wire x1="35.56" y1="88.9" x2="35.56" y2="93.98" width="0.1524" layer="91"/>
+<junction x="35.56" y="93.98"/>
+<wire x1="33.02" y1="88.9" x2="33.02" y2="93.98" width="0.1524" layer="91"/>
+<junction x="33.02" y="93.98"/>
+<wire x1="35.56" y1="93.98" x2="35.56" y2="99.06" width="0.1524" layer="91"/>
+<label x="35.56" y="99.06" size="1.778" layer="95" rot="R90" xref="yes"/>
+<pinref part="IC3" gate="G$1" pin="GND@1"/>
+<pinref part="IC3" gate="G$1" pin="GND@2"/>
+<pinref part="IC3" gate="G$1" pin="GND@3"/>
+<pinref part="IC3" gate="G$1" pin="GND@4"/>
+<pinref part="IC3" gate="G$1" pin="GND@5"/>
+<pinref part="IC3" gate="G$1" pin="GND@6"/>
+<pinref part="IC3" gate="G$1" pin="GND@7"/>
+<pinref part="IC3" gate="G$1" pin="GND@8"/>
+<pinref part="IC3" gate="G$1" pin="GND@9"/>
+</segment>
 </net>
 <net name="CPLD_VCC" class="0">
-<segment>
-<pinref part="IC1" gate="G$1" pin="VCC@8"/>
-<wire x1="53.34" y1="101.6" x2="53.34" y2="106.68" width="0.1524" layer="91"/>
-<pinref part="IC1" gate="G$1" pin="VCC@1"/>
-<wire x1="53.34" y1="106.68" x2="55.88" y2="106.68" width="0.1524" layer="91"/>
-<wire x1="55.88" y1="106.68" x2="58.42" y2="106.68" width="0.1524" layer="91"/>
-<wire x1="58.42" y1="106.68" x2="60.96" y2="106.68" width="0.1524" layer="91"/>
-<wire x1="60.96" y1="106.68" x2="63.5" y2="106.68" width="0.1524" layer="91"/>
-<wire x1="63.5" y1="106.68" x2="66.04" y2="106.68" width="0.1524" layer="91"/>
-<wire x1="66.04" y1="106.68" x2="68.58" y2="106.68" width="0.1524" layer="91"/>
-<wire x1="68.58" y1="106.68" x2="71.12" y2="106.68" width="0.1524" layer="91"/>
-<wire x1="71.12" y1="106.68" x2="71.12" y2="101.6" width="0.1524" layer="91"/>
-<pinref part="IC1" gate="G$1" pin="VCC@2"/>
-<wire x1="68.58" y1="101.6" x2="68.58" y2="106.68" width="0.1524" layer="91"/>
-<junction x="68.58" y="106.68"/>
-<pinref part="IC1" gate="G$1" pin="VCC@3"/>
-<wire x1="66.04" y1="101.6" x2="66.04" y2="106.68" width="0.1524" layer="91"/>
-<junction x="66.04" y="106.68"/>
-<pinref part="IC1" gate="G$1" pin="VCC@4"/>
-<wire x1="63.5" y1="101.6" x2="63.5" y2="106.68" width="0.1524" layer="91"/>
-<junction x="63.5" y="106.68"/>
-<pinref part="IC1" gate="G$1" pin="VCC@5"/>
-<wire x1="60.96" y1="101.6" x2="60.96" y2="106.68" width="0.1524" layer="91"/>
-<junction x="60.96" y="106.68"/>
-<pinref part="IC1" gate="G$1" pin="VCC@6"/>
-<wire x1="58.42" y1="101.6" x2="58.42" y2="106.68" width="0.1524" layer="91"/>
-<junction x="58.42" y="106.68"/>
-<pinref part="IC1" gate="G$1" pin="VCC@7"/>
-<wire x1="55.88" y1="101.6" x2="55.88" y2="106.68" width="0.1524" layer="91"/>
-<junction x="55.88" y="106.68"/>
-<wire x1="58.42" y1="106.68" x2="58.42" y2="111.76" width="0.1524" layer="91"/>
-<label x="58.42" y="111.76" size="1.778" layer="95" rot="R90" xref="yes"/>
-</segment>
 <segment>
 <pinref part="C4" gate="G$1" pin="1"/>
 <wire x1="-40.64" y1="144.78" x2="-40.64" y2="147.32" width="0.1524" layer="91"/>
@@ -6615,6 +6582,39 @@ Source: http://www.rohm.com/products/databook/motor/pdf/bd623x_series-e.pdf</des
 <wire x1="-12.7" y1="147.32" x2="-12.7" y2="152.4" width="0.1524" layer="91"/>
 <junction x="-12.7" y="147.32"/>
 <label x="-12.7" y="152.4" size="1.778" layer="95" rot="R90" xref="yes"/>
+</segment>
+<segment>
+<wire x1="53.34" y1="88.9" x2="53.34" y2="93.98" width="0.1524" layer="91"/>
+<wire x1="53.34" y1="93.98" x2="55.88" y2="93.98" width="0.1524" layer="91"/>
+<wire x1="55.88" y1="93.98" x2="58.42" y2="93.98" width="0.1524" layer="91"/>
+<wire x1="58.42" y1="93.98" x2="60.96" y2="93.98" width="0.1524" layer="91"/>
+<wire x1="60.96" y1="93.98" x2="63.5" y2="93.98" width="0.1524" layer="91"/>
+<wire x1="63.5" y1="93.98" x2="66.04" y2="93.98" width="0.1524" layer="91"/>
+<wire x1="66.04" y1="93.98" x2="68.58" y2="93.98" width="0.1524" layer="91"/>
+<wire x1="68.58" y1="93.98" x2="71.12" y2="93.98" width="0.1524" layer="91"/>
+<wire x1="71.12" y1="93.98" x2="71.12" y2="88.9" width="0.1524" layer="91"/>
+<wire x1="68.58" y1="88.9" x2="68.58" y2="93.98" width="0.1524" layer="91"/>
+<junction x="68.58" y="93.98"/>
+<wire x1="66.04" y1="88.9" x2="66.04" y2="93.98" width="0.1524" layer="91"/>
+<junction x="66.04" y="93.98"/>
+<wire x1="63.5" y1="88.9" x2="63.5" y2="93.98" width="0.1524" layer="91"/>
+<junction x="63.5" y="93.98"/>
+<wire x1="60.96" y1="88.9" x2="60.96" y2="93.98" width="0.1524" layer="91"/>
+<junction x="60.96" y="93.98"/>
+<wire x1="58.42" y1="88.9" x2="58.42" y2="93.98" width="0.1524" layer="91"/>
+<junction x="58.42" y="93.98"/>
+<wire x1="55.88" y1="88.9" x2="55.88" y2="93.98" width="0.1524" layer="91"/>
+<junction x="55.88" y="93.98"/>
+<wire x1="58.42" y1="93.98" x2="58.42" y2="99.06" width="0.1524" layer="91"/>
+<label x="58.42" y="99.06" size="1.778" layer="95" rot="R90" xref="yes"/>
+<pinref part="IC3" gate="G$1" pin="VCCO_IO1@1"/>
+<pinref part="IC3" gate="G$1" pin="VCC_CORE@1"/>
+<pinref part="IC3" gate="G$1" pin="VCC_IO1@3"/>
+<pinref part="IC3" gate="G$1" pin="VCC_IO1@4"/>
+<pinref part="IC3" gate="G$1" pin="VCC_IO2@5"/>
+<pinref part="IC3" gate="G$1" pin="VCC_CORE@2"/>
+<pinref part="IC3" gate="G$1" pin="VCC_IO2@7"/>
+<pinref part="IC3" gate="G$1" pin="VCC_IO2@8"/>
 </segment>
 </net>
 <net name="FSMC_A0" class="0">
@@ -6889,38 +6889,6 @@ Source: http://www.rohm.com/products/databook/motor/pdf/bd623x_series-e.pdf</des
 <wire x1="-304.8" y1="7.62" x2="-304.8" y2="-2.54" width="0.1524" layer="91"/>
 <label x="-304.8" y="-10.16" size="1.778" layer="95" rot="R90"/>
 <wire x1="-304.8" y1="-2.54" x2="-304.8" y2="-10.16" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="C_TDO" class="0">
-<segment>
-<wire x1="71.12" y1="116.84" x2="73.66" y2="114.3" width="0.1524" layer="91"/>
-<wire x1="73.66" y1="114.3" x2="73.66" y2="101.6" width="0.1524" layer="91"/>
-<label x="73.66" y="104.14" size="1.778" layer="95" rot="R90"/>
-<pinref part="IC1" gate="G$1" pin="TDO"/>
-</segment>
-</net>
-<net name="C_TCK" class="0">
-<segment>
-<wire x1="73.66" y1="116.84" x2="76.2" y2="114.3" width="0.1524" layer="91"/>
-<wire x1="76.2" y1="114.3" x2="76.2" y2="101.6" width="0.1524" layer="91"/>
-<label x="76.2" y="104.14" size="1.778" layer="95" rot="R90"/>
-<pinref part="IC1" gate="G$1" pin="TCK"/>
-</segment>
-</net>
-<net name="C_TDI" class="0">
-<segment>
-<wire x1="76.2" y1="116.84" x2="78.74" y2="114.3" width="0.1524" layer="91"/>
-<wire x1="78.74" y1="114.3" x2="78.74" y2="101.6" width="0.1524" layer="91"/>
-<label x="78.74" y="104.14" size="1.778" layer="95" rot="R90"/>
-<pinref part="IC1" gate="G$1" pin="TDI"/>
-</segment>
-</net>
-<net name="C_TMS" class="0">
-<segment>
-<wire x1="78.74" y1="116.84" x2="81.28" y2="114.3" width="0.1524" layer="91"/>
-<wire x1="81.28" y1="114.3" x2="81.28" y2="101.6" width="0.1524" layer="91"/>
-<label x="81.28" y="104.14" size="1.778" layer="95" rot="R90"/>
-<pinref part="IC1" gate="G$1" pin="TMS"/>
 </segment>
 </net>
 <net name="S_TDI" class="0">
@@ -7318,6 +7286,38 @@ Source: http://www.rohm.com/products/databook/motor/pdf/bd623x_series-e.pdf</des
 <wire x1="-406.4" y1="50.8" x2="-378.46" y2="50.8" width="0.1524" layer="91"/>
 <label x="-406.4" y="50.8" size="1.778" layer="95"/>
 <pinref part="IC2" gate="G$1" pin="PB7"/>
+</segment>
+</net>
+<net name="C_TDO" class="0">
+<segment>
+<wire x1="71.12" y1="104.14" x2="73.66" y2="101.6" width="0.1524" layer="91"/>
+<wire x1="73.66" y1="101.6" x2="73.66" y2="88.9" width="0.1524" layer="91"/>
+<label x="73.66" y="91.44" size="1.778" layer="95" rot="R90"/>
+<pinref part="IC3" gate="G$1" pin="TDO"/>
+</segment>
+</net>
+<net name="C_TCK" class="0">
+<segment>
+<wire x1="73.66" y1="104.14" x2="76.2" y2="101.6" width="0.1524" layer="91"/>
+<wire x1="76.2" y1="101.6" x2="76.2" y2="88.9" width="0.1524" layer="91"/>
+<label x="76.2" y="91.44" size="1.778" layer="95" rot="R90"/>
+<pinref part="IC3" gate="G$1" pin="TCK"/>
+</segment>
+</net>
+<net name="C_TDI" class="0">
+<segment>
+<wire x1="76.2" y1="104.14" x2="78.74" y2="101.6" width="0.1524" layer="91"/>
+<wire x1="78.74" y1="101.6" x2="78.74" y2="88.9" width="0.1524" layer="91"/>
+<label x="78.74" y="91.44" size="1.778" layer="95" rot="R90"/>
+<pinref part="IC3" gate="G$1" pin="TDI"/>
+</segment>
+</net>
+<net name="C_TMS" class="0">
+<segment>
+<wire x1="78.74" y1="104.14" x2="81.28" y2="101.6" width="0.1524" layer="91"/>
+<wire x1="81.28" y1="101.6" x2="81.28" y2="88.9" width="0.1524" layer="91"/>
+<label x="81.28" y="91.44" size="1.778" layer="95" rot="R90"/>
+<pinref part="IC3" gate="G$1" pin="TMS"/>
 </segment>
 </net>
 </nets>

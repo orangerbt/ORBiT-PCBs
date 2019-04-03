@@ -9218,446 +9218,6 @@ Source: http://www.rohm.com/products/databook/motor/pdf/bd623x_series-e.pdf</des
 </deviceset>
 </devicesets>
 </library>
-<library name="ORBIT-CONN HEADER-3M-2500 Series">
-<description>ORBIT - CONNECTOR HEADER&lt;BR&gt;
-3M 2500 Series</description>
-<packages>
-<package name="R/A-10PIN">
-<description>3M-CONN-RIGHT_ANGLE-10PIN&lt;P&gt;
-CONN HEADER R/A 10POS 2.54MM &lt;br&gt;
-N2510-5002-RB&lt;p&gt;
-
-Website: &lt;br&gt;
-https://www.digikey.com/product-detail/en/3m/N2510-5002-RB/MHE10K-ND/755188</description>
-<pad name="PIN1" x="0" y="0" drill="0.889"/>
-<pad name="PIN2" x="2.54" y="0" drill="0.889"/>
-<pad name="PIN3" x="5.08" y="0" drill="0.889"/>
-<pad name="PIN4" x="7.62" y="0" drill="0.889"/>
-<pad name="PIN5" x="10.16" y="0" drill="0.889"/>
-<pad name="PIN6" x="0" y="2.54" drill="0.889"/>
-<pad name="PIN7" x="2.54" y="2.54" drill="0.889"/>
-<pad name="PIN8" x="5.08" y="2.54" drill="0.889"/>
-<pad name="PIN9" x="7.62" y="2.54" drill="0.889"/>
-<pad name="PIN10" x="10.16" y="2.54" drill="0.889"/>
-<wire x1="-4.9276" y1="12.446" x2="15.0876" y2="12.446" width="0.127" layer="21"/>
-<wire x1="15.0876" y1="12.446" x2="15.0876" y2="3.556" width="0.127" layer="21"/>
-<wire x1="15.0876" y1="3.556" x2="11.43" y2="3.556" width="0.127" layer="21"/>
-<wire x1="11.43" y1="3.556" x2="-1.27" y2="3.556" width="0.127" layer="21"/>
-<wire x1="-1.27" y1="3.556" x2="-4.9276" y2="3.556" width="0.127" layer="21"/>
-<wire x1="-4.9276" y1="3.556" x2="-4.9276" y2="12.446" width="0.127" layer="21"/>
-<wire x1="-1.27" y1="3.556" x2="-1.27" y2="-1.27" width="0.127" layer="21"/>
-<wire x1="-1.27" y1="-1.27" x2="11.43" y2="-1.27" width="0.127" layer="21"/>
-<wire x1="11.43" y1="-1.27" x2="11.43" y2="3.556" width="0.127" layer="21"/>
-<polygon width="0.127" layer="21">
-<vertex x="-2.032" y="0"/>
-<vertex x="-3.302" y="1.016"/>
-<vertex x="-3.302" y="-1.016"/>
-</polygon>
-<text x="-2.54" y="5.08" size="0.8128" layer="21">3M-CONN-R/A-10PIN
-N2510-5002-RB</text>
-</package>
-<package name="SMD-10PIN">
-<description>3M-CONN-SMD-10PIN&lt;P&gt;
-CONN HEADER SMD 10POS 2.54MM&lt;br&gt;
-N2510-6V0C-RB-WD&lt;p&gt;
-
-Website: &lt;br&gt;
-https://www.digikey.com/product-detail/en/3m/N2510-6V0C-RB-WD/MSH10KTR-ND/1125434</description>
-<smd name="PIN1" x="0" y="0" dx="1.27" dy="5.08" layer="1"/>
-<smd name="PIN2" x="2.54" y="0" dx="1.27" dy="5.08" layer="1"/>
-<smd name="PIN3" x="5.08" y="0" dx="1.27" dy="5.08" layer="1"/>
-<smd name="PIN4" x="7.62" y="0" dx="1.27" dy="5.08" layer="1"/>
-<smd name="PIN5" x="10.16" y="0" dx="1.27" dy="5.08" layer="1"/>
-<smd name="PIN6" x="0" y="6.858" dx="1.27" dy="5.08" layer="1"/>
-<smd name="PIN7" x="2.54" y="6.858" dx="1.27" dy="5.08" layer="1"/>
-<smd name="PIN8" x="5.08" y="6.858" dx="1.27" dy="5.08" layer="1"/>
-<smd name="PIN9" x="7.62" y="6.858" dx="1.27" dy="5.08" layer="1"/>
-<smd name="PIN10" x="10.16" y="6.858" dx="1.27" dy="5.08" layer="1"/>
-<polygon width="0.127" layer="21">
-<vertex x="-1.27" y="0.762"/>
-<vertex x="-2.032" y="1.27"/>
-<vertex x="-2.032" y="0.254"/>
-</polygon>
-<wire x1="-4.9276" y1="-0.8636" x2="-4.9276" y2="7.7216" width="0.127" layer="21"/>
-<wire x1="-4.9276" y1="7.7216" x2="15.0876" y2="7.7216" width="0.127" layer="21"/>
-<wire x1="15.0876" y1="7.7216" x2="15.0876" y2="-0.8636" width="0.127" layer="21"/>
-<wire x1="15.0876" y1="-0.8636" x2="-4.9276" y2="-0.8636" width="0.127" layer="21"/>
-<text x="-3.81" y="3.048" size="0.6096" layer="21">3M-CONN-SMD-10PIN    N2510-6V0C-RB-WE</text>
-</package>
-<package name="VERT-10PIN">
-<description>3M-CONN-VERTICAL-10PIN&lt;P&gt;
-CONN HEADER VERT 10POS 2.54MM &lt;br&gt;
-N2510-6002-RB&lt;p&gt;
-
-Website: &lt;br&gt;
-https://www.digikey.com/product-detail/en/3m/N2510-6002-RB/MHC10K-ND/755176</description>
-<pad name="PIN1" x="0" y="0" drill="0.89"/>
-<pad name="PIN2" x="2.54" y="0" drill="0.89"/>
-<pad name="PIN3" x="5.08" y="0" drill="0.89"/>
-<pad name="PIN4" x="7.62" y="0" drill="0.89"/>
-<pad name="PIN5" x="10.16" y="0" drill="0.89"/>
-<pad name="PIN6" x="0" y="2.54" drill="0.89"/>
-<pad name="PIN7" x="2.54" y="2.54" drill="0.89"/>
-<pad name="PIN8" x="5.08" y="2.54" drill="0.89"/>
-<pad name="PIN9" x="7.62" y="2.54" drill="0.89"/>
-<pad name="PIN10" x="10.16" y="2.54" drill="0.89"/>
-<polygon width="0.127" layer="21">
-<vertex x="0" y="-1.016"/>
-<vertex x="-0.762" y="-1.778"/>
-<vertex x="0.762" y="-1.778"/>
-</polygon>
-<wire x1="-4.9276" y1="5.7912" x2="15.0876" y2="5.7912" width="0.127" layer="21"/>
-<wire x1="15.0876" y1="5.7912" x2="15.0876" y2="-2.794" width="0.127" layer="21"/>
-<wire x1="15.0876" y1="-2.794" x2="-4.9276" y2="-2.794" width="0.127" layer="21"/>
-<wire x1="-4.9276" y1="-2.794" x2="-4.9276" y2="5.7912" width="0.127" layer="21"/>
-<text x="-2.54" y="4.064" size="0.6096" layer="21">3M-CONN-VERT-10PIN
-N2510-6002-RB</text>
-</package>
-<package name="R/A-20PIN">
-<description>3M-CONN-RIGHT_ANGLE-20PIN&lt;P&gt;
-CONN HEADER R/A 20POS 2.54MM &lt;br&gt;
-N2520-5002-RB&lt;p&gt;
-
-Website: &lt;br&gt;
-https://www.digikey.com/product-detail/en/3m/N2520-5002-RB/MHE20K-ND/755191</description>
-<pad name="PIN1" x="0" y="0" drill="0.889"/>
-<pad name="PIN2" x="2.54" y="0" drill="0.889"/>
-<pad name="PIN3" x="5.08" y="0" drill="0.889"/>
-<pad name="PIN4" x="7.62" y="0" drill="0.889"/>
-<pad name="PIN5" x="10.16" y="0" drill="0.889"/>
-<pad name="PIN6" x="12.7" y="0" drill="0.889"/>
-<pad name="PIN7" x="15.24" y="0" drill="0.889"/>
-<pad name="PIN8" x="17.78" y="0" drill="0.889"/>
-<pad name="PIN9" x="20.32" y="0" drill="0.889"/>
-<pad name="PIN10" x="22.86" y="0" drill="0.889"/>
-<pad name="PIN11" x="0" y="2.54" drill="0.889"/>
-<pad name="PIN12" x="2.54" y="2.54" drill="0.889"/>
-<pad name="PIN13" x="5.08" y="2.54" drill="0.889"/>
-<pad name="PIN14" x="7.62" y="2.54" drill="0.889"/>
-<pad name="PIN15" x="10.16" y="2.54" drill="0.889"/>
-<pad name="PIN16" x="12.7" y="2.54" drill="0.889"/>
-<pad name="PIN17" x="15.24" y="2.54" drill="0.889"/>
-<pad name="PIN18" x="17.78" y="2.54" drill="0.889"/>
-<pad name="PIN19" x="20.32" y="2.54" drill="0.889"/>
-<pad name="PIN20" x="22.86" y="2.54" drill="0.889"/>
-<wire x1="-4.9276" y1="12.446" x2="27.7876" y2="12.446" width="0.127" layer="21"/>
-<wire x1="27.7876" y1="12.446" x2="27.7876" y2="3.556" width="0.127" layer="21"/>
-<wire x1="27.7876" y1="3.556" x2="24.13" y2="3.556" width="0.127" layer="21"/>
-<wire x1="24.13" y1="3.556" x2="-1.27" y2="3.556" width="0.127" layer="21"/>
-<wire x1="-1.27" y1="3.556" x2="-4.9276" y2="3.556" width="0.127" layer="21"/>
-<wire x1="-4.9276" y1="3.556" x2="-4.9276" y2="12.446" width="0.127" layer="21"/>
-<wire x1="-1.27" y1="3.556" x2="-1.27" y2="-1.27" width="0.127" layer="21"/>
-<wire x1="-1.27" y1="-1.27" x2="24.13" y2="-1.27" width="0.127" layer="21"/>
-<wire x1="24.13" y1="-1.27" x2="24.13" y2="3.556" width="0.127" layer="21"/>
-<polygon width="0.127" layer="21">
-<vertex x="-2.032" y="0"/>
-<vertex x="-3.302" y="1.016"/>
-<vertex x="-3.302" y="-1.016"/>
-</polygon>
-<text x="-2.54" y="5.08" size="0.8128" layer="21">3M-CONN-R/A-20PIN
-N2520-5002-RB</text>
-</package>
-<package name="SMD-20PIN">
-<description>3M-CONN-SMD-20PIN&lt;P&gt;
-CONN HEADER SMD 20POS 2.54MM&lt;br&gt;
-N2520-6V0C-RB-WE&lt;p&gt;
-
-Website: &lt;br&gt;
-https://www.digikey.com/product-detail/en/3m/N2520-6V0C-RB-WE/MSH20KCT-ND/1125449</description>
-<smd name="PIN1" x="0" y="0" dx="1.27" dy="5.08" layer="1"/>
-<smd name="PIN2" x="2.54" y="0" dx="1.27" dy="5.08" layer="1"/>
-<smd name="PIN3" x="5.08" y="0" dx="1.27" dy="5.08" layer="1"/>
-<smd name="PIN4" x="7.62" y="0" dx="1.27" dy="5.08" layer="1"/>
-<smd name="PIN5" x="10.16" y="0" dx="1.27" dy="5.08" layer="1"/>
-<smd name="PIN6" x="12.7" y="0" dx="1.27" dy="5.08" layer="1"/>
-<smd name="PIN7" x="15.24" y="0" dx="1.27" dy="5.08" layer="1"/>
-<smd name="PIN8" x="17.78" y="0" dx="1.27" dy="5.08" layer="1"/>
-<smd name="PIN9" x="20.32" y="0" dx="1.27" dy="5.08" layer="1"/>
-<smd name="PIN10" x="22.86" y="0" dx="1.27" dy="5.08" layer="1"/>
-<smd name="PIN11" x="22.86" y="6.858" dx="1.27" dy="5.08" layer="1"/>
-<smd name="PIN12" x="20.32" y="6.858" dx="1.27" dy="5.08" layer="1"/>
-<smd name="PIN13" x="17.78" y="6.858" dx="1.27" dy="5.08" layer="1"/>
-<smd name="PIN14" x="15.24" y="6.858" dx="1.27" dy="5.08" layer="1"/>
-<smd name="PIN15" x="12.7" y="6.858" dx="1.27" dy="5.08" layer="1"/>
-<smd name="PIN16" x="10.16" y="6.858" dx="1.27" dy="5.08" layer="1"/>
-<smd name="PIN17" x="7.62" y="6.858" dx="1.27" dy="5.08" layer="1"/>
-<smd name="PIN18" x="5.08" y="6.858" dx="1.27" dy="5.08" layer="1"/>
-<smd name="PIN19" x="2.54" y="6.858" dx="1.27" dy="5.08" layer="1"/>
-<smd name="PIN20" x="0" y="6.858" dx="1.27" dy="5.08" layer="1"/>
-<polygon width="0.127" layer="21">
-<vertex x="-1.27" y="0.762"/>
-<vertex x="-2.032" y="1.27"/>
-<vertex x="-2.032" y="0.254"/>
-</polygon>
-<wire x1="-4.9276" y1="-0.8636" x2="-4.9276" y2="7.7216" width="0.127" layer="21"/>
-<wire x1="-4.9276" y1="7.7216" x2="27.7876" y2="7.7216" width="0.127" layer="21"/>
-<wire x1="27.7876" y1="7.7216" x2="27.7876" y2="-0.8636" width="0.127" layer="21"/>
-<wire x1="27.7876" y1="-0.8636" x2="-4.9276" y2="-0.8636" width="0.127" layer="21"/>
-<text x="0" y="3.048" size="0.8128" layer="21">3M-CONN-SMD-20PIN    N2520-6V0C-RB-WE</text>
-</package>
-<package name="VERT-20PIN">
-<description>3M-CONN-VERTICAL-20PIN&lt;P&gt;
-CONN HEADER VERT 20POS 2.54MM &lt;br&gt;
-N2520-6002-RB&lt;p&gt;
-
-Website: &lt;br&gt;
-https://www.digikey.com/product-detail/en/3m/N2520-6002-RB/MHC20K-ND/755179</description>
-<pad name="PIN1" x="0" y="0" drill="0.89"/>
-<pad name="PIN2" x="2.54" y="0" drill="0.89"/>
-<pad name="PIN3" x="5.08" y="0" drill="0.89"/>
-<pad name="PIN4" x="7.62" y="0" drill="0.89"/>
-<pad name="PIN5" x="10.16" y="0" drill="0.89"/>
-<pad name="PIN6" x="12.7" y="0" drill="0.89"/>
-<pad name="PIN7" x="15.24" y="0" drill="0.89"/>
-<pad name="PIN8" x="17.78" y="0" drill="0.89"/>
-<pad name="PIN9" x="20.32" y="0" drill="0.89"/>
-<pad name="PIN10" x="22.86" y="0" drill="0.89"/>
-<pad name="PIN11" x="0" y="2.54" drill="0.89"/>
-<pad name="PIN12" x="2.54" y="2.54" drill="0.89"/>
-<pad name="PIN13" x="5.08" y="2.54" drill="0.89"/>
-<pad name="PIN14" x="7.62" y="2.54" drill="0.89"/>
-<pad name="PIN15" x="10.16" y="2.54" drill="0.89"/>
-<pad name="PIN16" x="12.7" y="2.54" drill="0.89"/>
-<pad name="PIN17" x="15.24" y="2.54" drill="0.89"/>
-<pad name="PIN18" x="17.78" y="2.54" drill="0.89"/>
-<pad name="PIN19" x="20.32" y="2.54" drill="0.89"/>
-<pad name="PIN20" x="22.86" y="2.54" drill="0.89"/>
-<polygon width="0.127" layer="21">
-<vertex x="0" y="-1.016"/>
-<vertex x="-0.762" y="-1.778"/>
-<vertex x="0.762" y="-1.778"/>
-</polygon>
-<wire x1="-4.9276" y1="5.7912" x2="27.7876" y2="5.7912" width="0.127" layer="21"/>
-<wire x1="27.7876" y1="5.7912" x2="27.7876" y2="-2.794" width="0.127" layer="21"/>
-<wire x1="27.7876" y1="-2.794" x2="-4.9276" y2="-2.794" width="0.127" layer="21"/>
-<wire x1="-4.9276" y1="-2.794" x2="-4.9276" y2="5.7912" width="0.127" layer="21"/>
-<text x="-2.54" y="4.064" size="0.8128" layer="21">3M-CONN-VERT-20PIN     N2520-6002-RB</text>
-</package>
-</packages>
-<symbols>
-<symbol name="10PIN">
-<description>3M CONN HEADER 10PIN</description>
-<pin name="PIN1" x="-5.08" y="5.08" length="middle"/>
-<pin name="PIN2" x="-5.08" y="2.54" length="middle"/>
-<pin name="PIN3" x="-5.08" y="0" length="middle"/>
-<pin name="PIN4" x="-5.08" y="-2.54" length="middle"/>
-<pin name="PIN5" x="-5.08" y="-5.08" length="middle"/>
-<pin name="PIN6" x="22.86" y="5.08" length="middle" rot="R180"/>
-<pin name="PIN7" x="22.86" y="2.54" length="middle" rot="R180"/>
-<pin name="PIN8" x="22.86" y="0" length="middle" rot="R180"/>
-<pin name="PIN9" x="22.86" y="-2.54" length="middle" rot="R180"/>
-<pin name="PIN10" x="22.86" y="-5.08" length="middle" rot="R180"/>
-<wire x1="0" y1="7.62" x2="0" y2="-7.62" width="0.254" layer="94"/>
-<wire x1="0" y1="-7.62" x2="17.78" y2="-7.62" width="0.254" layer="94"/>
-<wire x1="17.78" y1="-7.62" x2="17.78" y2="7.62" width="0.254" layer="94"/>
-<wire x1="17.78" y1="7.62" x2="0" y2="7.62" width="0.254" layer="94"/>
-</symbol>
-<symbol name="20PIN">
-<description>3M CONN HEADER 20PIN</description>
-<pin name="PIN1" x="-5.08" y="10.16" length="middle"/>
-<pin name="PIN2" x="-5.08" y="7.62" length="middle"/>
-<pin name="PIN3" x="-5.08" y="5.08" length="middle"/>
-<pin name="PIN4" x="-5.08" y="2.54" length="middle"/>
-<pin name="PIN5" x="-5.08" y="0" length="middle"/>
-<pin name="PIN6" x="-5.08" y="-2.54" length="middle"/>
-<pin name="PIN7" x="-5.08" y="-5.08" length="middle"/>
-<pin name="PIN8" x="-5.08" y="-7.62" length="middle"/>
-<pin name="PIN9" x="-5.08" y="-10.16" length="middle"/>
-<pin name="PIN10" x="-5.08" y="-12.7" length="middle"/>
-<pin name="PIN11" x="25.4" y="10.16" length="middle" rot="R180"/>
-<pin name="PIN12" x="25.4" y="7.62" length="middle" rot="R180"/>
-<pin name="PIN13" x="25.4" y="5.08" length="middle" rot="R180"/>
-<pin name="PIN14" x="25.4" y="2.54" length="middle" rot="R180"/>
-<pin name="PIN15" x="25.4" y="0" length="middle" rot="R180"/>
-<pin name="PIN16" x="25.4" y="-2.54" length="middle" rot="R180"/>
-<pin name="PIN17" x="25.4" y="-5.08" length="middle" rot="R180"/>
-<pin name="PIN18" x="25.4" y="-7.62" length="middle" rot="R180"/>
-<pin name="PIN19" x="25.4" y="-10.16" length="middle" rot="R180"/>
-<pin name="PIN20" x="25.4" y="-12.7" length="middle" rot="R180"/>
-<wire x1="0" y1="12.7" x2="0" y2="-15.24" width="0.254" layer="94"/>
-<wire x1="0" y1="-15.24" x2="20.32" y2="-15.24" width="0.254" layer="94"/>
-<wire x1="20.32" y1="-15.24" x2="20.32" y2="12.7" width="0.254" layer="94"/>
-<wire x1="20.32" y1="12.7" x2="0" y2="12.7" width="0.254" layer="94"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="CONN-10PIN">
-<description>3M-CONN-RIGHT_ANGLE-10PIN&lt;P&gt;
-
-CONN HEADER R/A 10POS 2.54MM &lt;br&gt;
-N2510-5002-RB&lt;BR&gt;
-
-https://www.digikey.com/product-detail/en/3m/N2510-5002-RB/MHE10K-ND/755188 &lt;P&gt;
-
-CONN HEADER SMD 10POS 2.54MM&lt;br&gt;
-N2510-6V0C-RB-WD&lt;BR&gt;
-
-https://www.digikey.com/product-detail/en/3m/N2510-6V0C-RB-WD/MSH10KTR-ND/1125434&lt;P&gt;
-
-CONN HEADER VERT 10POS 2.54MM &lt;br&gt;
-N2510-6002-RB&lt;BR&gt;
-
-https://www.digikey.com/product-detail/en/3m/N2510-6002-RB/MHC10K-ND/755176</description>
-<gates>
-<gate name="G$1" symbol="10PIN" x="-7.62" y="0"/>
-</gates>
-<devices>
-<device name="R/A-10PIN" package="R/A-10PIN">
-<connects>
-<connect gate="G$1" pin="PIN1" pad="PIN1"/>
-<connect gate="G$1" pin="PIN10" pad="PIN10"/>
-<connect gate="G$1" pin="PIN2" pad="PIN2"/>
-<connect gate="G$1" pin="PIN3" pad="PIN3"/>
-<connect gate="G$1" pin="PIN4" pad="PIN4"/>
-<connect gate="G$1" pin="PIN5" pad="PIN5"/>
-<connect gate="G$1" pin="PIN6" pad="PIN6"/>
-<connect gate="G$1" pin="PIN7" pad="PIN7"/>
-<connect gate="G$1" pin="PIN8" pad="PIN8"/>
-<connect gate="G$1" pin="PIN9" pad="PIN9"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="SMD-10PIN" package="SMD-10PIN">
-<connects>
-<connect gate="G$1" pin="PIN1" pad="PIN1"/>
-<connect gate="G$1" pin="PIN10" pad="PIN10"/>
-<connect gate="G$1" pin="PIN2" pad="PIN2"/>
-<connect gate="G$1" pin="PIN3" pad="PIN3"/>
-<connect gate="G$1" pin="PIN4" pad="PIN4"/>
-<connect gate="G$1" pin="PIN5" pad="PIN5"/>
-<connect gate="G$1" pin="PIN6" pad="PIN6"/>
-<connect gate="G$1" pin="PIN7" pad="PIN7"/>
-<connect gate="G$1" pin="PIN8" pad="PIN8"/>
-<connect gate="G$1" pin="PIN9" pad="PIN9"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="VERT-10PIN" package="VERT-10PIN">
-<connects>
-<connect gate="G$1" pin="PIN1" pad="PIN1"/>
-<connect gate="G$1" pin="PIN10" pad="PIN10"/>
-<connect gate="G$1" pin="PIN2" pad="PIN2"/>
-<connect gate="G$1" pin="PIN3" pad="PIN3"/>
-<connect gate="G$1" pin="PIN4" pad="PIN4"/>
-<connect gate="G$1" pin="PIN5" pad="PIN5"/>
-<connect gate="G$1" pin="PIN6" pad="PIN6"/>
-<connect gate="G$1" pin="PIN7" pad="PIN7"/>
-<connect gate="G$1" pin="PIN8" pad="PIN8"/>
-<connect gate="G$1" pin="PIN9" pad="PIN9"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="CONN-20PIN">
-<description>3M-CONNECTOR 2500 Series&lt;p&gt;
-
-CONN HEADER VERT 20POS 2.54MM &lt;br&gt;
-N2520-6002-RB&lt;br&gt;
-https://www.digikey.com/product-detail/en/3m/N2520-6002-RB/MHC20K-ND/755179&lt;p&gt;
-
-CONN HEADER R/A 20POS 2.54MM &lt;br&gt;
-N2520-5002-RB&lt;br&gt;
-https://www.digikey.com/product-detail/en/3m/N2520-5002-RB/MHE20K-ND/755191&lt;p&gt;
-
-CONN HEADER SMD 20POS 2.54MM&lt;br&gt;
-N2520-6V0C-RB-WE&lt;br&gt;
-https://www.digikey.com/product-detail/en/3m/N2520-6V0C-RB-WE/MSH20KCT-ND/1125449</description>
-<gates>
-<gate name="G$1" symbol="20PIN" x="-10.16" y="0"/>
-</gates>
-<devices>
-<device name="R/A-20PIN" package="R/A-20PIN">
-<connects>
-<connect gate="G$1" pin="PIN1" pad="PIN1"/>
-<connect gate="G$1" pin="PIN10" pad="PIN10"/>
-<connect gate="G$1" pin="PIN11" pad="PIN11"/>
-<connect gate="G$1" pin="PIN12" pad="PIN12"/>
-<connect gate="G$1" pin="PIN13" pad="PIN13"/>
-<connect gate="G$1" pin="PIN14" pad="PIN14"/>
-<connect gate="G$1" pin="PIN15" pad="PIN15"/>
-<connect gate="G$1" pin="PIN16" pad="PIN16"/>
-<connect gate="G$1" pin="PIN17" pad="PIN17"/>
-<connect gate="G$1" pin="PIN18" pad="PIN18"/>
-<connect gate="G$1" pin="PIN19" pad="PIN19"/>
-<connect gate="G$1" pin="PIN2" pad="PIN2"/>
-<connect gate="G$1" pin="PIN20" pad="PIN20"/>
-<connect gate="G$1" pin="PIN3" pad="PIN3"/>
-<connect gate="G$1" pin="PIN4" pad="PIN4"/>
-<connect gate="G$1" pin="PIN5" pad="PIN5"/>
-<connect gate="G$1" pin="PIN6" pad="PIN6"/>
-<connect gate="G$1" pin="PIN7" pad="PIN7"/>
-<connect gate="G$1" pin="PIN8" pad="PIN8"/>
-<connect gate="G$1" pin="PIN9" pad="PIN9"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="SMD-20PIN" package="SMD-20PIN">
-<connects>
-<connect gate="G$1" pin="PIN1" pad="PIN1"/>
-<connect gate="G$1" pin="PIN10" pad="PIN10"/>
-<connect gate="G$1" pin="PIN11" pad="PIN11"/>
-<connect gate="G$1" pin="PIN12" pad="PIN12"/>
-<connect gate="G$1" pin="PIN13" pad="PIN13"/>
-<connect gate="G$1" pin="PIN14" pad="PIN14"/>
-<connect gate="G$1" pin="PIN15" pad="PIN15"/>
-<connect gate="G$1" pin="PIN16" pad="PIN16"/>
-<connect gate="G$1" pin="PIN17" pad="PIN17"/>
-<connect gate="G$1" pin="PIN18" pad="PIN18"/>
-<connect gate="G$1" pin="PIN19" pad="PIN19"/>
-<connect gate="G$1" pin="PIN2" pad="PIN2"/>
-<connect gate="G$1" pin="PIN20" pad="PIN20"/>
-<connect gate="G$1" pin="PIN3" pad="PIN3"/>
-<connect gate="G$1" pin="PIN4" pad="PIN4"/>
-<connect gate="G$1" pin="PIN5" pad="PIN5"/>
-<connect gate="G$1" pin="PIN6" pad="PIN6"/>
-<connect gate="G$1" pin="PIN7" pad="PIN7"/>
-<connect gate="G$1" pin="PIN8" pad="PIN8"/>
-<connect gate="G$1" pin="PIN9" pad="PIN9"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="VERT-20PIN" package="VERT-20PIN">
-<connects>
-<connect gate="G$1" pin="PIN1" pad="PIN1"/>
-<connect gate="G$1" pin="PIN10" pad="PIN10"/>
-<connect gate="G$1" pin="PIN11" pad="PIN11"/>
-<connect gate="G$1" pin="PIN12" pad="PIN12"/>
-<connect gate="G$1" pin="PIN13" pad="PIN13"/>
-<connect gate="G$1" pin="PIN14" pad="PIN14"/>
-<connect gate="G$1" pin="PIN15" pad="PIN15"/>
-<connect gate="G$1" pin="PIN16" pad="PIN16"/>
-<connect gate="G$1" pin="PIN17" pad="PIN17"/>
-<connect gate="G$1" pin="PIN18" pad="PIN18"/>
-<connect gate="G$1" pin="PIN19" pad="PIN19"/>
-<connect gate="G$1" pin="PIN2" pad="PIN2"/>
-<connect gate="G$1" pin="PIN20" pad="PIN20"/>
-<connect gate="G$1" pin="PIN3" pad="PIN3"/>
-<connect gate="G$1" pin="PIN4" pad="PIN4"/>
-<connect gate="G$1" pin="PIN5" pad="PIN5"/>
-<connect gate="G$1" pin="PIN6" pad="PIN6"/>
-<connect gate="G$1" pin="PIN7" pad="PIN7"/>
-<connect gate="G$1" pin="PIN8" pad="PIN8"/>
-<connect gate="G$1" pin="PIN9" pad="PIN9"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="ORBiT-special">
 <description>&lt;b&gt;ORBiT Special Devices and Symbols Library&lt;/b&gt;&lt;br&gt;&lt;br&gt;
 &lt;author&gt;Created by ceeden@syr.edu and gysmolny@syr.edu&lt;/author&gt;</description>
@@ -10041,6 +9601,251 @@ https://www.mouser.com/ProductDetail/Harwin/M80-4115042?qs=sGAEpiMZZMs%252BGHln7
 </deviceset>
 </devicesets>
 </library>
+<library name="Wurth_Elektronik_Electromechanic_FPC_Connectors_&amp;_Flat_Flexible_Cable_rev18c" urn="urn:adsk.eagle:library:488576">
+<description>&lt;BR&gt;Wurth Elektronik   FPC Connector and FFC Cable&lt;br&gt;&lt;Hr&gt;
+&lt;BR&gt;&lt;BR&gt; 
+&lt;TABLE BORDER=0 CELLSPACING=0 CELLPADDING=0&gt;
+&lt;TR&gt;   
+&lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;BR&gt;&lt;br&gt;
+      &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &amp;nbsp;&lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+&lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;br&gt;
+      -----&lt;BR&gt;
+      -----&lt;BR&gt;
+      -----&lt;BR&gt;
+      -----&lt;BR&gt;
+      -----&lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+    &lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt; &lt;FONT FACE=ARIAL SIZE=3&gt;&lt;br&gt;
+      ---------------------------&lt;BR&gt;
+&lt;B&gt;&lt;I&gt;&lt;span style='font-size:26pt;
+  color:#FF6600;'&gt;WE &lt;/span&gt;&lt;/i&gt;&lt;/b&gt;
+&lt;BR&gt;
+      ---------------------------&lt;BR&gt;&lt;b&gt;Würth Elektronik&lt;/b&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+    &lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;br&gt;
+      ---------O---&lt;BR&gt;
+      ----O--------&lt;BR&gt;
+      ---------O---&lt;BR&gt;
+      ----O--------&lt;BR&gt;
+      ---------O---&lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+   
+&lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;BR&gt;
+      &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &amp;nbsp;&lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+  &lt;/TR&gt;
+
+  &lt;TR&gt;
+    &lt;TD COLSPAN=7&gt;&amp;nbsp;
+    &lt;/TD&gt;
+  &lt;/TR&gt;
+  
+&lt;/TABLE&gt;
+&lt;B&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;More than you expect&lt;BR&gt;&lt;BR&gt;&lt;BR&gt;&lt;/B&gt;
+
+&lt;HR&gt;&lt;BR&gt;
+&lt;b&gt;Würth Elektronik eiSos GmbH &amp; Co. KG&lt;/b&gt;&lt;br&gt;
+EMC &amp; Inductive Solutions&lt;br&gt;
+
+Max-Eyth-Str.1&lt;br&gt;
+D-74638 Waldenburg&lt;br&gt;
+&lt;br&gt;
+Tel: +49 (0)7942-945-0&lt;br&gt;
+Fax:+49 (0)7942-945-405&lt;br&gt;
+&lt;br&gt;
+&lt;a href="http://www.we-online.com/web/en/electronic_components/produkte_pb/bauteilebibliotheken/eagle_4.php"&gt;www.we-online.com/eagle&lt;/a&gt;&lt;br&gt;
+&lt;a href="mailto:libraries@we-online.com"&gt;libraries@we-online.com&lt;/a&gt; &lt;BR&gt;&lt;BR&gt;
+&lt;br&gt;&lt;HR&gt;&lt;BR&gt;
+Neither Autodesk nor Würth Elektronik eiSos does warrant that this library is error-free or &lt;br&gt;
+that it meets your specific requirements.&lt;br&gt;&lt;BR&gt;
+Please contact us for more information.&lt;br&gt;&lt;BR&gt;&lt;br&gt;
+&lt;hr&gt;
+Eagle Version 6, Library Revision 2018C,2018-05-07&lt;br&gt;
+&lt;HR&gt;
+Copyright: Würth Elektronik</description>
+<packages>
+<package name="686108183422" urn="urn:adsk.eagle:footprint:3360623/1" library_version="2">
+<smd name="Z1" x="-6.275" y="0" dx="1.65" dy="1.3" layer="1"/>
+<smd name="Z2" x="6.275" y="0" dx="1.65" dy="1.3" layer="1"/>
+<smd name="1" x="-3.5" y="1.9" dx="1" dy="0.3" layer="1" rot="R90"/>
+<smd name="2" x="-2.5" y="1.9" dx="1" dy="0.3" layer="1" rot="R90"/>
+<smd name="3" x="-1.5" y="1.9" dx="1" dy="0.3" layer="1" rot="R90"/>
+<smd name="4" x="-0.5" y="1.9" dx="1" dy="0.3" layer="1" rot="R90"/>
+<smd name="5" x="0.5" y="1.9" dx="1" dy="0.3" layer="1" rot="R90"/>
+<smd name="6" x="1.5" y="1.9" dx="1" dy="0.3" layer="1" rot="R90"/>
+<smd name="7" x="2.5" y="1.9" dx="1" dy="0.3" layer="1" rot="R90"/>
+<smd name="8" x="3.5" y="1.9" dx="1" dy="0.3" layer="1" rot="R90"/>
+<wire x1="-7.1" y1="1.65" x2="7.1" y2="1.65" width="0.127" layer="51"/>
+<wire x1="7.1" y1="1.65" x2="7.1" y2="-2.15" width="0.127" layer="51"/>
+<wire x1="7.1" y1="-2.15" x2="-7.1" y2="-2.15" width="0.127" layer="51"/>
+<wire x1="-7.1" y1="-2.15" x2="-7.1" y2="1.65" width="0.127" layer="51"/>
+<wire x1="-7.1" y1="-0.84" x2="-7.1" y2="-2.15" width="0.127" layer="21"/>
+<wire x1="-7.1" y1="-2.15" x2="7.1" y2="-2.15" width="0.127" layer="21"/>
+<wire x1="7.1" y1="-2.15" x2="7.1" y2="-0.84" width="0.127" layer="21"/>
+<wire x1="-3.91" y1="1.65" x2="-7.1" y2="1.65" width="0.127" layer="21"/>
+<wire x1="-7.1" y1="1.65" x2="-7.1" y2="0.87" width="0.127" layer="21"/>
+<wire x1="3.94" y1="1.65" x2="7.1" y2="1.65" width="0.127" layer="21"/>
+<wire x1="7.1" y1="1.65" x2="7.1" y2="0.91" width="0.127" layer="21"/>
+<text x="-2.51" y="3.79" size="1.27" layer="25">&gt;Name</text>
+<text x="-2.45" y="-4.07" size="1.27" layer="27">&gt;Value</text>
+<polygon width="0.127" layer="39">
+<vertex x="-7.5" y="2.6"/>
+<vertex x="7.3" y="2.6"/>
+<vertex x="7.3" y="-2.4"/>
+<vertex x="-7.5" y="-2.4"/>
+</polygon>
+<circle x="-4" y="2" radius="0.1" width="0.127" layer="21"/>
+</package>
+<package name="686106183522" urn="urn:adsk.eagle:footprint:3360632/1" library_version="2">
+<smd name="Z1" x="-5.275" y="0" dx="1.65" dy="1.3" layer="1"/>
+<smd name="Z2" x="5.275" y="0" dx="1.65" dy="1.3" layer="1"/>
+<smd name="1" x="-2.5" y="1.9" dx="1" dy="0.3" layer="1" rot="R90"/>
+<smd name="2" x="-1.5" y="1.9" dx="1" dy="0.3" layer="1" rot="R90"/>
+<smd name="3" x="-0.5" y="1.9" dx="1" dy="0.3" layer="1" rot="R90"/>
+<smd name="4" x="0.5" y="1.9" dx="1" dy="0.3" layer="1" rot="R90"/>
+<smd name="5" x="1.5" y="1.9" dx="1" dy="0.3" layer="1" rot="R90"/>
+<smd name="6" x="2.5" y="1.9" dx="1" dy="0.3" layer="1" rot="R90"/>
+<wire x1="-6.1" y1="1.65" x2="6.1" y2="1.65" width="0.127" layer="51"/>
+<wire x1="6.1" y1="1.65" x2="6.1" y2="-2.15" width="0.127" layer="51"/>
+<wire x1="6.1" y1="-2.15" x2="-6.1" y2="-2.15" width="0.127" layer="51"/>
+<wire x1="-6.1" y1="-2.15" x2="-6.1" y2="1.65" width="0.127" layer="51"/>
+<wire x1="-6.1" y1="-0.84" x2="-6.1" y2="-2.15" width="0.127" layer="21"/>
+<wire x1="-6.1" y1="-2.15" x2="6.1" y2="-2.15" width="0.127" layer="21"/>
+<wire x1="6.1" y1="-2.15" x2="6.1" y2="-0.84" width="0.127" layer="21"/>
+<wire x1="-2.94" y1="1.65" x2="-6.1" y2="1.65" width="0.127" layer="21"/>
+<wire x1="-6.1" y1="1.65" x2="-6.1" y2="0.86" width="0.127" layer="21"/>
+<wire x1="2.86" y1="1.65" x2="6.1" y2="1.65" width="0.127" layer="21"/>
+<wire x1="6.1" y1="1.65" x2="6.1" y2="0.87" width="0.127" layer="21"/>
+<text x="-2.51" y="3.79" size="1.27" layer="25">&gt;Name</text>
+<text x="-2.45" y="-4.07" size="1.27" layer="27">&gt;Value</text>
+<polygon width="0.127" layer="39">
+<vertex x="-6.3" y="2.6"/>
+<vertex x="6.3" y="2.6"/>
+<vertex x="6.3" y="-2.4"/>
+<vertex x="-6.3" y="-2.4"/>
+</polygon>
+<circle x="-3" y="2.1" radius="0.1" width="0.127" layer="21"/>
+</package>
+</packages>
+<packages3d>
+<package3d name="686108183422" urn="urn:adsk.eagle:package:3360846/1" type="box" library_version="2">
+<packageinstances>
+<packageinstance name="686108183422"/>
+</packageinstances>
+</package3d>
+<package3d name="686106183522" urn="urn:adsk.eagle:package:3360855/1" type="box" library_version="2">
+<packageinstances>
+<packageinstance name="686106183522"/>
+</packageinstances>
+</package3d>
+</packages3d>
+<symbols>
+<symbol name="SINGLEROW-8" urn="urn:adsk.eagle:symbol:3360367/1" library_version="2">
+<pin name="1" x="-7.62" y="7.62" visible="pad" length="short" direction="pas" swaplevel="1"/>
+<pin name="2" x="-7.62" y="5.08" visible="pad" length="short" direction="pas" swaplevel="1"/>
+<pin name="3" x="-7.62" y="2.54" visible="pad" length="short" direction="pas" swaplevel="1"/>
+<pin name="4" x="-7.62" y="0" visible="pad" length="short" direction="pas" swaplevel="1"/>
+<pin name="5" x="-7.62" y="-2.54" visible="pad" length="short" direction="pas" swaplevel="1"/>
+<pin name="6" x="-7.62" y="-5.08" visible="pad" length="short" direction="pas" swaplevel="1"/>
+<pin name="7" x="-7.62" y="-7.62" visible="pad" length="short" direction="pas" swaplevel="1"/>
+<pin name="8" x="-7.62" y="-10.16" visible="pad" length="short" direction="pas" swaplevel="1"/>
+<text x="-5.08" y="10.62" size="1.778" layer="95">&gt;NAME</text>
+<text x="-5.08" y="-15.24" size="1.778" layer="96">&gt;VALUE</text>
+<wire x1="-5.08" y1="10.16" x2="-5.08" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="-12.7" x2="5.08" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-12.7" x2="5.08" y2="10.16" width="0.254" layer="94"/>
+<wire x1="5.08" y1="10.16" x2="-5.08" y2="10.16" width="0.254" layer="94"/>
+</symbol>
+<symbol name="SINGLEROW-6" urn="urn:adsk.eagle:symbol:3360366/1" library_version="2">
+<pin name="1" x="-7.62" y="5.08" visible="pad" length="short" direction="pas" swaplevel="1"/>
+<pin name="2" x="-7.62" y="2.54" visible="pad" length="short" direction="pas" swaplevel="1"/>
+<pin name="3" x="-7.62" y="0" visible="pad" length="short" direction="pas" swaplevel="1"/>
+<pin name="4" x="-7.62" y="-2.54" visible="pad" length="short" direction="pas" swaplevel="1"/>
+<pin name="5" x="-7.62" y="-5.08" visible="pad" length="short" direction="pas" swaplevel="1"/>
+<pin name="6" x="-7.62" y="-7.62" visible="pad" length="short" direction="pas" swaplevel="1"/>
+<text x="-7.62" y="8.08" size="1.778" layer="95">&gt;NAME</text>
+<text x="-7.62" y="-12.7" size="1.778" layer="96">&gt;VALUE</text>
+<wire x1="-5.08" y1="7.62" x2="-5.08" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="-10.16" x2="5.08" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-10.16" x2="5.08" y2="7.62" width="0.254" layer="94"/>
+<wire x1="5.08" y1="7.62" x2="-5.08" y2="7.62" width="0.254" layer="94"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="686108183422" urn="urn:adsk.eagle:component:3361069/1" prefix="J" uservalue="yes" library_version="2">
+<description>&lt;b&gt;686108183422&lt;/b&gt;&lt;br&gt;
+
+&lt;b&gt;WR-FPC 1.00mm SMT Horizontal Top Contact - Low Profile
+&lt;p&gt;&lt;a href="http://katalog.we-online.de/media/images/v2/Family_WR-FPC_6861xx183422.jpg"&gt;
+&lt;img src="http://katalog.we-online.de/media/images/v2/Family_WR-FPC_6861xx183422.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="http://katalog.we-online.de/en/em/FPC_1_00_SMT_ZIF_HORIZONTAL_TOP_CONTACT_LOW_PROFILE_6861xx183422"&gt;http://katalog.we-online.de/en/em/FPC_1_00_SMT_ZIF_HORIZONTAL_TOP_CONTACT_LOW_PROFILE_6861xx183422&lt;/a&gt;&lt;p&gt;
+Created by Yingchun,shan&lt;br&gt;
+2016 (C) Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="SINGLEROW-8" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="686108183422">
+<connects>
+<connect gate="G$1" pin="1" pad="8"/>
+<connect gate="G$1" pin="2" pad="7"/>
+<connect gate="G$1" pin="3" pad="6"/>
+<connect gate="G$1" pin="4" pad="5"/>
+<connect gate="G$1" pin="5" pad="4"/>
+<connect gate="G$1" pin="6" pad="3"/>
+<connect gate="G$1" pin="7" pad="2"/>
+<connect gate="G$1" pin="8" pad="1"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:3360846/1"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="686106183522" urn="urn:adsk.eagle:component:3361078/1" prefix="J" uservalue="yes" library_version="2">
+<description>&lt;b&gt;686106183522&lt;/b&gt;&lt;br&gt;
+
+&lt;b&gt;WR-FPC 1.00mm SMT Horizontal Bottom Contact - Low Profile
+&lt;p&gt;&lt;a href="http://katalog.we-online.de/media/images/v2/Family_WR-FPC_6861xx183522.jpg"&gt;
+&lt;img src="http://katalog.we-online.de/media/images/v2/Family_WR-FPC_6861xx183522.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="http://katalog.we-online.de/en/em/FPC_1_00_SMT_ZIF_HORIZONTAL_BOTTOM_CONTACT_LOW_PROFILE_6861xx183522"&gt;http://katalog.we-online.de/en/em/FPC_1_00_SMT_ZIF_HORIZONTAL_BOTTOM_CONTACT_LOW_PROFILE_6861xx183522&lt;/a&gt;&lt;p&gt;
+Created by Yingchun,shan&lt;br&gt;
+2016 (C) Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="SINGLEROW-6" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="686106183522">
+<connects>
+<connect gate="G$1" pin="1" pad="6"/>
+<connect gate="G$1" pin="2" pad="5"/>
+<connect gate="G$1" pin="3" pad="4"/>
+<connect gate="G$1" pin="4" pad="3"/>
+<connect gate="G$1" pin="5" pad="2"/>
+<connect gate="G$1" pin="6" pad="1"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:3360855/1"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -10073,8 +9878,6 @@ https://www.mouser.com/ProductDetail/Harwin/M80-4115042?qs=sGAEpiMZZMs%252BGHln7
 <part name="C18" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C2012" package3d_urn="urn:adsk.eagle:package:23625/2"/>
 <part name="U$2" library="ORBiT-IC-CAN-DRIVER" deviceset="ISO1050" device=""/>
 <part name="IC3" library="ORBiT-IC-CPLD-Intel-MAX_V" deviceset="5M240ZT100" device=""/>
-<part name="U$3" library="ORBIT-CONN HEADER-3M-2500 Series" deviceset="CONN-10PIN" device="R/A-10PIN"/>
-<part name="U$4" library="ORBIT-CONN HEADER-3M-2500 Series" deviceset="CONN-20PIN" device="R/A-20PIN"/>
 <part name="R1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R2012" package3d_urn="urn:adsk.eagle:package:23543/2"/>
 <part name="R2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R2012" package3d_urn="urn:adsk.eagle:package:23543/2"/>
 <part name="R3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R2012" package3d_urn="urn:adsk.eagle:package:23543/2"/>
@@ -10097,6 +9900,8 @@ https://www.mouser.com/ProductDetail/Harwin/M80-4115042?qs=sGAEpiMZZMs%252BGHln7
 <part name="TP11" library="ORBiT-special" deviceset="TP" device="063"/>
 <part name="TP12" library="ORBiT-special" deviceset="TP" device="063"/>
 <part name="U$5" library="ORBIT-CON-HARWIN-101LOK" deviceset="CARD_EDGE_50PIN" device="M80-5305042"/>
+<part name="J2" library="Wurth_Elektronik_Electromechanic_FPC_Connectors_&amp;_Flat_Flexible_Cable_rev18c" library_urn="urn:adsk.eagle:library:488576" deviceset="686108183422" device="" package3d_urn="urn:adsk.eagle:package:3360846/1"/>
+<part name="J1" library="Wurth_Elektronik_Electromechanic_FPC_Connectors_&amp;_Flat_Flexible_Cable_rev18c" library_urn="urn:adsk.eagle:library:488576" deviceset="686106183522" device="" package3d_urn="urn:adsk.eagle:package:3360855/1"/>
 </parts>
 <sheets>
 <sheet>
@@ -10185,8 +9990,6 @@ https://www.mouser.com/ProductDetail/Harwin/M80-4115042?qs=sGAEpiMZZMs%252BGHln7
 <attribute name="NAME" x="58.42" y="36.83" size="1.778" layer="95"/>
 <attribute name="VALUE" x="58.42" y="33.02" size="1.778" layer="96"/>
 </instance>
-<instance part="U$3" gate="G$1" x="-215.9" y="-22.86" smashed="yes"/>
-<instance part="U$4" gate="G$1" x="-215.9" y="-73.66" smashed="yes"/>
 <instance part="R1" gate="G$1" x="-246.38" y="-55.88" smashed="yes" rot="R90">
 <attribute name="NAME" x="-247.8786" y="-59.69" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="-243.078" y="-59.69" size="1.778" layer="96" rot="R90"/>
@@ -10200,28 +10003,27 @@ https://www.mouser.com/ProductDetail/Harwin/M80-4115042?qs=sGAEpiMZZMs%252BGHln7
 <attribute name="VALUE" x="-232.918" y="-59.69" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="R4" gate="G$1" x="-231.14" y="-55.88" smashed="yes" rot="R90">
-<attribute name="NAME" x="-232.6386" y="-59.69" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="-227.838" y="-59.69" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="R5" gate="G$1" x="-243.84" y="-86.36" smashed="yes" rot="R90">
 <attribute name="NAME" x="-245.3386" y="-90.17" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="-240.538" y="-90.17" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="R6" gate="G$1" x="-236.22" y="-10.16" smashed="yes" rot="R90">
-<attribute name="NAME" x="-237.7186" y="-13.97" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="-232.918" y="-13.97" size="1.778" layer="96" rot="R90"/>
+<instance part="R6" gate="G$1" x="-236.22" y="-12.7" smashed="yes" rot="R90">
+<attribute name="NAME" x="-237.7186" y="-16.51" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="-232.918" y="-16.51" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="R7" gate="G$1" x="-231.14" y="-10.16" smashed="yes" rot="R90">
-<attribute name="NAME" x="-232.6386" y="-13.97" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="-227.838" y="-13.97" size="1.778" layer="96" rot="R90"/>
+<instance part="R7" gate="G$1" x="-231.14" y="-12.7" smashed="yes" rot="R90">
+<attribute name="NAME" x="-232.6386" y="-16.51" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="-227.838" y="-16.51" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="R8" gate="G$1" x="-226.06" y="-10.16" smashed="yes" rot="R90">
-<attribute name="NAME" x="-227.5586" y="-13.97" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="-222.758" y="-13.97" size="1.778" layer="96" rot="R90"/>
+<instance part="R8" gate="G$1" x="-226.06" y="-12.7" smashed="yes" rot="R90">
+<attribute name="NAME" x="-227.5586" y="-16.51" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="-222.758" y="-16.51" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="R9" gate="G$1" x="-238.76" y="-35.56" smashed="yes" rot="R90">
-<attribute name="NAME" x="-240.2586" y="-39.37" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="-235.458" y="-39.37" size="1.778" layer="96" rot="R90"/>
+<instance part="R9" gate="G$1" x="-238.76" y="-39.37" smashed="yes" rot="R90">
+<attribute name="NAME" x="-240.2586" y="-43.18" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="-235.458" y="-43.18" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="TP1" gate="G$1" x="-347.98" y="-48.26" smashed="yes" rot="R270">
 <attribute name="NAME" x="-346.71" y="-46.99" size="1.778" layer="95"/>
@@ -10260,6 +10062,14 @@ https://www.mouser.com/ProductDetail/Harwin/M80-4115042?qs=sGAEpiMZZMs%252BGHln7
 <attribute name="NAME" x="-346.71" y="-44.45" size="1.778" layer="95"/>
 </instance>
 <instance part="U$5" gate="G$1" x="-106.68" y="-27.94" smashed="yes"/>
+<instance part="J2" gate="G$1" x="-213.36" y="-71.12" smashed="yes">
+<attribute name="NAME" x="-218.44" y="-60.5" size="1.778" layer="95"/>
+<attribute name="VALUE" x="-218.44" y="-86.36" size="1.778" layer="96"/>
+</instance>
+<instance part="J1" gate="G$1" x="-213.36" y="-25.4" smashed="yes">
+<attribute name="NAME" x="-220.98" y="-17.32" size="1.778" layer="95"/>
+<attribute name="VALUE" x="-220.98" y="-38.1" size="1.778" layer="96"/>
+</instance>
 </instances>
 <busses>
 <bus name="CPLD_DATA:D[0..7]">
@@ -10348,8 +10158,8 @@ https://www.mouser.com/ProductDetail/Harwin/M80-4115042?qs=sGAEpiMZZMs%252BGHln7
 <label x="71.12" y="106.68" size="1.778" layer="95"/>
 </segment>
 <segment>
-<wire x1="-254" y1="-27.94" x2="-254" y2="-15.24" width="0.762" layer="92"/>
-<label x="-256.54" y="-25.4" size="1.778" layer="95" rot="R90"/>
+<wire x1="-254" y1="-30.48" x2="-254" y2="-20.32" width="0.762" layer="92"/>
+<label x="-256.54" y="-30.48" size="1.778" layer="95" rot="R90"/>
 </segment>
 </bus>
 <bus name="RUDAS:LAN_CLK_N[0..5],LAN_CLK_P[0..5],LAN_N[0..5],LAN_P[0..5],NOTE[0..5]">
@@ -10372,7 +10182,16 @@ https://www.mouser.com/ProductDetail/Harwin/M80-4115042?qs=sGAEpiMZZMs%252BGHln7
 <wire x1="142.24" y1="53.34" x2="142.24" y2="68.834" width="0.762" layer="92"/>
 </segment>
 <segment>
-<wire x1="2.54" y1="-27.94" x2="45.72" y2="-27.94" width="0.762" layer="92"/>
+<wire x1="-15.24" y1="15.24" x2="-15.24" y2="25.4" width="0.762" layer="92"/>
+<label x="-20.32" y="22.86" size="1.778" layer="95" rot="R270"/>
+</segment>
+<segment>
+<wire x1="-17.78" y1="55.88" x2="-17.78" y2="63.5" width="0.762" layer="92"/>
+<label x="-48.26" y="45.72" size="1.778" layer="95" rot="R270"/>
+</segment>
+<segment>
+<wire x1="-17.78" y1="30.48" x2="-17.78" y2="40.64" width="0.762" layer="92"/>
+<label x="-20.32" y="40.64" size="1.778" layer="95" rot="R270"/>
 </segment>
 </bus>
 </busses>
@@ -10797,18 +10616,16 @@ https://www.mouser.com/ProductDetail/Harwin/M80-4115042?qs=sGAEpiMZZMs%252BGHln7
 <pinref part="IC3" gate="G$1" pin="GND@9"/>
 </segment>
 <segment>
-<pinref part="U$3" gate="G$1" pin="PIN6"/>
-<wire x1="-193.04" y1="-17.78" x2="-187.96" y2="-17.78" width="0.1524" layer="91"/>
-<wire x1="-187.96" y1="-17.78" x2="-187.96" y2="-27.94" width="0.1524" layer="91"/>
-<pinref part="U$3" gate="G$1" pin="PIN10"/>
-<wire x1="-187.96" y1="-27.94" x2="-193.04" y2="-27.94" width="0.1524" layer="91"/>
+<wire x1="-231.14" y1="-33.02" x2="-220.98" y2="-33.02" width="0.1524" layer="91"/>
+<wire x1="-231.14" y1="-33.02" x2="-243.84" y2="-33.02" width="0.1524" layer="91"/>
+<label x="-254" y="-33.02" size="1.778" layer="95" rot="R180" xref="yes"/>
 <pinref part="R9" gate="G$1" pin="1"/>
-<wire x1="-238.76" y1="-40.64" x2="-238.76" y2="-43.18" width="0.1524" layer="91"/>
-<wire x1="-238.76" y1="-43.18" x2="-187.96" y2="-43.18" width="0.1524" layer="91"/>
-<wire x1="-187.96" y1="-43.18" x2="-187.96" y2="-27.94" width="0.1524" layer="91"/>
-<junction x="-187.96" y="-27.94"/>
-<wire x1="-187.96" y1="-27.94" x2="-180.34" y2="-27.94" width="0.1524" layer="91"/>
-<label x="-180.34" y="-27.94" size="1.778" layer="95" xref="yes"/>
+<wire x1="-243.84" y1="-33.02" x2="-254" y2="-33.02" width="0.1524" layer="91"/>
+<wire x1="-238.76" y1="-44.45" x2="-238.76" y2="-45.72" width="0.1524" layer="91"/>
+<wire x1="-238.76" y1="-45.72" x2="-243.84" y2="-45.72" width="0.1524" layer="91"/>
+<wire x1="-243.84" y1="-45.72" x2="-243.84" y2="-33.02" width="0.1524" layer="91"/>
+<junction x="-243.84" y="-33.02"/>
+<pinref part="J1" gate="G$1" pin="6"/>
 </segment>
 </net>
 <net name="CPLD_VCC" class="0">
@@ -11133,11 +10950,11 @@ https://www.mouser.com/ProductDetail/Harwin/M80-4115042?qs=sGAEpiMZZMs%252BGHln7
 <wire x1="-264.16" y1="-66.04" x2="-261.62" y2="-68.58" width="0.1524" layer="91"/>
 <wire x1="-261.62" y1="-68.58" x2="-241.3" y2="-68.58" width="0.1524" layer="91"/>
 <label x="-259.08" y="-68.58" size="1.778" layer="95"/>
-<pinref part="U$4" gate="G$1" pin="PIN3"/>
 <pinref part="R2" gate="G$1" pin="1"/>
 <wire x1="-241.3" y1="-68.58" x2="-220.98" y2="-68.58" width="0.1524" layer="91"/>
 <wire x1="-241.3" y1="-60.96" x2="-241.3" y2="-68.58" width="0.1524" layer="91"/>
 <junction x="-241.3" y="-68.58"/>
+<pinref part="J2" gate="G$1" pin="3"/>
 </segment>
 </net>
 <net name="S_TMS" class="0">
@@ -11151,11 +10968,11 @@ https://www.mouser.com/ProductDetail/Harwin/M80-4115042?qs=sGAEpiMZZMs%252BGHln7
 <wire x1="-264.16" y1="-68.58" x2="-261.62" y2="-71.12" width="0.1524" layer="91"/>
 <wire x1="-261.62" y1="-71.12" x2="-236.22" y2="-71.12" width="0.1524" layer="91"/>
 <label x="-259.08" y="-71.12" size="1.778" layer="95"/>
-<pinref part="U$4" gate="G$1" pin="PIN4"/>
 <pinref part="R3" gate="G$1" pin="1"/>
 <wire x1="-236.22" y1="-71.12" x2="-220.98" y2="-71.12" width="0.1524" layer="91"/>
 <wire x1="-236.22" y1="-60.96" x2="-236.22" y2="-71.12" width="0.1524" layer="91"/>
 <junction x="-236.22" y="-71.12"/>
+<pinref part="J2" gate="G$1" pin="4"/>
 </segment>
 </net>
 <net name="S_TCK" class="0">
@@ -11169,11 +10986,11 @@ https://www.mouser.com/ProductDetail/Harwin/M80-4115042?qs=sGAEpiMZZMs%252BGHln7
 <wire x1="-264.16" y1="-71.12" x2="-261.62" y2="-73.66" width="0.1524" layer="91"/>
 <wire x1="-261.62" y1="-73.66" x2="-243.84" y2="-73.66" width="0.1524" layer="91"/>
 <label x="-259.08" y="-73.66" size="1.778" layer="95"/>
-<pinref part="U$4" gate="G$1" pin="PIN5"/>
 <pinref part="R5" gate="G$1" pin="2"/>
 <wire x1="-243.84" y1="-73.66" x2="-220.98" y2="-73.66" width="0.1524" layer="91"/>
 <wire x1="-243.84" y1="-81.28" x2="-243.84" y2="-73.66" width="0.1524" layer="91"/>
 <junction x="-243.84" y="-73.66"/>
+<pinref part="J2" gate="G$1" pin="5"/>
 </segment>
 </net>
 <net name="S_TRST" class="0">
@@ -11187,11 +11004,11 @@ https://www.mouser.com/ProductDetail/Harwin/M80-4115042?qs=sGAEpiMZZMs%252BGHln7
 <wire x1="-264.16" y1="-63.5" x2="-261.62" y2="-66.04" width="0.1524" layer="91"/>
 <wire x1="-261.62" y1="-66.04" x2="-246.38" y2="-66.04" width="0.1524" layer="91"/>
 <label x="-259.08" y="-66.04" size="1.778" layer="95"/>
-<pinref part="U$4" gate="G$1" pin="PIN2"/>
 <pinref part="R1" gate="G$1" pin="1"/>
 <wire x1="-246.38" y1="-66.04" x2="-220.98" y2="-66.04" width="0.1524" layer="91"/>
 <wire x1="-246.38" y1="-60.96" x2="-246.38" y2="-66.04" width="0.1524" layer="91"/>
 <junction x="-246.38" y="-66.04"/>
+<pinref part="J2" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="S_TDO" class="0">
@@ -11202,14 +11019,14 @@ https://www.mouser.com/ProductDetail/Harwin/M80-4115042?qs=sGAEpiMZZMs%252BGHln7
 <pinref part="IC2" gate="G$1" pin="JTDO"/>
 </segment>
 <segment>
-<wire x1="-264.16" y1="-76.2" x2="-261.62" y2="-78.74" width="0.1524" layer="91"/>
-<wire x1="-261.62" y1="-78.74" x2="-231.14" y2="-78.74" width="0.1524" layer="91"/>
-<label x="-259.08" y="-78.74" size="1.778" layer="95"/>
-<pinref part="U$4" gate="G$1" pin="PIN7"/>
+<wire x1="-264.16" y1="-73.66" x2="-261.62" y2="-76.2" width="0.1524" layer="91"/>
+<wire x1="-261.62" y1="-76.2" x2="-231.14" y2="-76.2" width="0.1524" layer="91"/>
+<label x="-259.08" y="-76.2" size="1.778" layer="95"/>
+<wire x1="-231.14" y1="-76.2" x2="-220.98" y2="-76.2" width="0.1524" layer="91"/>
 <pinref part="R4" gate="G$1" pin="1"/>
-<wire x1="-231.14" y1="-78.74" x2="-220.98" y2="-78.74" width="0.1524" layer="91"/>
-<wire x1="-231.14" y1="-60.96" x2="-231.14" y2="-78.74" width="0.1524" layer="91"/>
-<junction x="-231.14" y="-78.74"/>
+<wire x1="-231.14" y1="-60.96" x2="-231.14" y2="-76.2" width="0.1524" layer="91"/>
+<junction x="-231.14" y="-76.2"/>
+<pinref part="J2" gate="G$1" pin="6"/>
 </segment>
 </net>
 <net name="BOOT" class="0">
@@ -11230,9 +11047,10 @@ https://www.mouser.com/ProductDetail/Harwin/M80-4115042?qs=sGAEpiMZZMs%252BGHln7
 <wire x1="-388.62" y1="104.14" x2="-396.24" y2="104.14" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="U$4" gate="G$1" pin="PIN9"/>
-<wire x1="-220.98" y1="-83.82" x2="-228.6" y2="-83.82" width="0.1524" layer="91"/>
-<label x="-228.6" y="-83.82" size="1.778" layer="95" rot="R180" xref="yes"/>
+<wire x1="-223.52" y1="-78.74" x2="-264.16" y2="-78.74" width="0.1524" layer="91"/>
+<label x="-264.16" y="-78.74" size="1.778" layer="95" rot="R180" xref="yes"/>
+<wire x1="-223.52" y1="-78.74" x2="-220.98" y2="-78.74" width="0.1524" layer="91"/>
+<pinref part="J2" gate="G$1" pin="7"/>
 </segment>
 </net>
 <net name="S_OSC_IN" class="0">
@@ -11380,53 +11198,23 @@ https://www.mouser.com/ProductDetail/Harwin/M80-4115042?qs=sGAEpiMZZMs%252BGHln7
 <label x="-342.9" y="154.94" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="U$4" gate="G$1" pin="PIN12"/>
-<wire x1="-190.5" y1="-66.04" x2="-185.42" y2="-66.04" width="0.1524" layer="91"/>
-<pinref part="U$4" gate="G$1" pin="PIN20"/>
-<wire x1="-185.42" y1="-66.04" x2="-185.42" y2="-68.58" width="0.1524" layer="91"/>
-<wire x1="-185.42" y1="-68.58" x2="-185.42" y2="-71.12" width="0.1524" layer="91"/>
-<wire x1="-185.42" y1="-71.12" x2="-185.42" y2="-73.66" width="0.1524" layer="91"/>
-<wire x1="-185.42" y1="-73.66" x2="-185.42" y2="-76.2" width="0.1524" layer="91"/>
-<wire x1="-185.42" y1="-76.2" x2="-185.42" y2="-78.74" width="0.1524" layer="91"/>
-<wire x1="-185.42" y1="-78.74" x2="-185.42" y2="-81.28" width="0.1524" layer="91"/>
-<wire x1="-185.42" y1="-81.28" x2="-185.42" y2="-83.82" width="0.1524" layer="91"/>
-<wire x1="-185.42" y1="-83.82" x2="-185.42" y2="-86.36" width="0.1524" layer="91"/>
-<wire x1="-185.42" y1="-86.36" x2="-190.5" y2="-86.36" width="0.1524" layer="91"/>
-<pinref part="U$4" gate="G$1" pin="PIN19"/>
-<wire x1="-190.5" y1="-83.82" x2="-185.42" y2="-83.82" width="0.1524" layer="91"/>
-<junction x="-185.42" y="-83.82"/>
-<pinref part="U$4" gate="G$1" pin="PIN18"/>
-<wire x1="-190.5" y1="-81.28" x2="-185.42" y2="-81.28" width="0.1524" layer="91"/>
-<junction x="-185.42" y="-81.28"/>
-<pinref part="U$4" gate="G$1" pin="PIN17"/>
-<wire x1="-190.5" y1="-78.74" x2="-185.42" y2="-78.74" width="0.1524" layer="91"/>
-<junction x="-185.42" y="-78.74"/>
-<pinref part="U$4" gate="G$1" pin="PIN16"/>
-<wire x1="-190.5" y1="-76.2" x2="-185.42" y2="-76.2" width="0.1524" layer="91"/>
-<junction x="-185.42" y="-76.2"/>
-<pinref part="U$4" gate="G$1" pin="PIN15"/>
-<wire x1="-190.5" y1="-73.66" x2="-185.42" y2="-73.66" width="0.1524" layer="91"/>
-<junction x="-185.42" y="-73.66"/>
-<pinref part="U$4" gate="G$1" pin="PIN14"/>
-<wire x1="-190.5" y1="-71.12" x2="-185.42" y2="-71.12" width="0.1524" layer="91"/>
-<junction x="-185.42" y="-71.12"/>
-<pinref part="U$4" gate="G$1" pin="PIN13"/>
-<wire x1="-190.5" y1="-68.58" x2="-185.42" y2="-68.58" width="0.1524" layer="91"/>
-<junction x="-185.42" y="-68.58"/>
-<wire x1="-185.42" y1="-66.04" x2="-180.34" y2="-66.04" width="0.1524" layer="91"/>
-<junction x="-185.42" y="-66.04"/>
-<label x="-180.34" y="-66.04" size="1.778" layer="95" xref="yes"/>
-<pinref part="R5" gate="G$1" pin="1"/>
-<wire x1="-243.84" y1="-91.44" x2="-243.84" y2="-93.98" width="0.1524" layer="91"/>
-<wire x1="-243.84" y1="-93.98" x2="-185.42" y2="-93.98" width="0.1524" layer="91"/>
-<wire x1="-185.42" y1="-93.98" x2="-185.42" y2="-86.36" width="0.1524" layer="91"/>
-<junction x="-185.42" y="-86.36"/>
-</segment>
-<segment>
 <pinref part="U$2" gate="G$1" pin="GND1"/>
 <wire x1="-424.18" y1="-29.972" x2="-424.18" y2="-35.56" width="0.1524" layer="91"/>
 <wire x1="-424.18" y1="-35.56" x2="-429.26" y2="-35.56" width="0.1524" layer="91"/>
 <label x="-429.26" y="-35.56" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="R5" gate="G$1" pin="1"/>
+<wire x1="-243.84" y1="-91.44" x2="-243.84" y2="-93.98" width="0.1524" layer="91"/>
+<wire x1="-243.84" y1="-93.98" x2="-241.3" y2="-93.98" width="0.1524" layer="91"/>
+<wire x1="-241.3" y1="-93.98" x2="-241.3" y2="-81.28" width="0.1524" layer="91"/>
+<wire x1="-241.3" y1="-81.28" x2="-259.08" y2="-81.28" width="0.1524" layer="91"/>
+<wire x1="-259.08" y1="-81.28" x2="-261.62" y2="-83.82" width="0.1524" layer="91"/>
+<wire x1="-261.62" y1="-83.82" x2="-264.16" y2="-83.82" width="0.1524" layer="91"/>
+<wire x1="-241.3" y1="-81.28" x2="-220.98" y2="-81.28" width="0.1524" layer="91"/>
+<junction x="-241.3" y="-81.28"/>
+<label x="-264.16" y="-83.82" size="1.778" layer="95" rot="R180" xref="yes"/>
+<pinref part="J2" gate="G$1" pin="8"/>
 </segment>
 </net>
 <net name="S_VCC" class="0">
@@ -11512,16 +11300,11 @@ https://www.mouser.com/ProductDetail/Harwin/M80-4115042?qs=sGAEpiMZZMs%252BGHln7
 <label x="-76.2" y="152.4" size="1.778" layer="95" rot="R90" xref="yes"/>
 </segment>
 <segment>
-<pinref part="U$4" gate="G$1" pin="PIN1"/>
 <wire x1="-220.98" y1="-63.5" x2="-226.06" y2="-63.5" width="0.1524" layer="91"/>
 <wire x1="-226.06" y1="-63.5" x2="-226.06" y2="-48.26" width="0.1524" layer="91"/>
-<wire x1="-226.06" y1="-48.26" x2="-185.42" y2="-48.26" width="0.1524" layer="91"/>
-<wire x1="-185.42" y1="-48.26" x2="-185.42" y2="-63.5" width="0.1524" layer="91"/>
-<pinref part="U$4" gate="G$1" pin="PIN11"/>
-<wire x1="-185.42" y1="-63.5" x2="-190.5" y2="-63.5" width="0.1524" layer="91"/>
-<wire x1="-185.42" y1="-48.26" x2="-180.34" y2="-48.26" width="0.1524" layer="91"/>
-<junction x="-185.42" y="-48.26"/>
-<label x="-180.34" y="-48.26" size="1.778" layer="95" xref="yes"/>
+<wire x1="-226.06" y1="-48.26" x2="-233.68" y2="-48.26" width="0.1524" layer="91"/>
+<wire x1="-233.68" y1="-48.26" x2="-223.52" y2="-48.26" width="0.1524" layer="91"/>
+<label x="-223.52" y="-48.26" size="1.778" layer="95" xref="yes"/>
 <pinref part="R1" gate="G$1" pin="2"/>
 <wire x1="-246.38" y1="-50.8" x2="-246.38" y2="-48.26" width="0.1524" layer="91"/>
 <wire x1="-246.38" y1="-48.26" x2="-241.3" y2="-48.26" width="0.1524" layer="91"/>
@@ -11538,6 +11321,7 @@ https://www.mouser.com/ProductDetail/Harwin/M80-4115042?qs=sGAEpiMZZMs%252BGHln7
 <pinref part="R4" gate="G$1" pin="2"/>
 <wire x1="-231.14" y1="-50.8" x2="-231.14" y2="-48.26" width="0.1524" layer="91"/>
 <junction x="-231.14" y="-48.26"/>
+<pinref part="J2" gate="G$1" pin="1"/>
 </segment>
 <segment>
 <pinref part="U$2" gate="G$1" pin="VCC1"/>
@@ -11560,8 +11344,8 @@ https://www.mouser.com/ProductDetail/Harwin/M80-4115042?qs=sGAEpiMZZMs%252BGHln7
 <wire x1="-436.88" y1="-12.192" x2="-436.88" y2="-10.16" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<wire x1="-350.52" y1="-66.04" x2="-378.46" y2="-66.04" width="0.1524" layer="91"/>
-<label x="-378.46" y="-66.04" size="1.778" layer="95"/>
+<wire x1="-350.52" y1="-66.04" x2="-373.38" y2="-66.04" width="0.1524" layer="91"/>
+<label x="-373.38" y="-66.04" size="1.778" layer="95"/>
 <pinref part="TP7" gate="G$1" pin="TP"/>
 </segment>
 </net>
@@ -11580,8 +11364,8 @@ https://www.mouser.com/ProductDetail/Harwin/M80-4115042?qs=sGAEpiMZZMs%252BGHln7
 <wire x1="-436.88" y1="-5.08" x2="-449.58" y2="-5.08" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<wire x1="-350.52" y1="-68.58" x2="-378.46" y2="-68.58" width="0.1524" layer="91"/>
-<label x="-378.46" y="-68.58" size="1.778" layer="95"/>
+<wire x1="-350.52" y1="-68.58" x2="-373.38" y2="-68.58" width="0.1524" layer="91"/>
+<label x="-373.38" y="-68.58" size="1.778" layer="95"/>
 <pinref part="TP8" gate="G$1" pin="TP"/>
 </segment>
 </net>
@@ -11592,8 +11376,8 @@ https://www.mouser.com/ProductDetail/Harwin/M80-4115042?qs=sGAEpiMZZMs%252BGHln7
 <label x="-406.4" y="73.66" size="1.778" layer="95"/>
 </segment>
 <segment>
-<wire x1="-350.52" y1="-60.96" x2="-378.46" y2="-60.96" width="0.1524" layer="91"/>
-<label x="-378.46" y="-60.96" size="1.778" layer="95"/>
+<wire x1="-350.52" y1="-60.96" x2="-373.38" y2="-60.96" width="0.1524" layer="91"/>
+<label x="-373.38" y="-60.96" size="1.778" layer="95"/>
 <pinref part="TP5" gate="G$1" pin="TP"/>
 </segment>
 </net>
@@ -11606,8 +11390,8 @@ https://www.mouser.com/ProductDetail/Harwin/M80-4115042?qs=sGAEpiMZZMs%252BGHln7
 </segment>
 <segment>
 <wire x1="-353.06" y1="-63.5" x2="-350.52" y2="-63.5" width="0.1524" layer="91"/>
-<wire x1="-353.06" y1="-63.5" x2="-378.46" y2="-63.5" width="0.1524" layer="91"/>
-<label x="-378.46" y="-63.5" size="1.778" layer="95"/>
+<wire x1="-353.06" y1="-63.5" x2="-373.38" y2="-63.5" width="0.1524" layer="91"/>
+<label x="-373.38" y="-63.5" size="1.778" layer="95"/>
 <pinref part="TP6" gate="G$1" pin="TP"/>
 </segment>
 </net>
@@ -11618,8 +11402,8 @@ https://www.mouser.com/ProductDetail/Harwin/M80-4115042?qs=sGAEpiMZZMs%252BGHln7
 <pinref part="IC2" gate="G$1" pin="PA1"/>
 </segment>
 <segment>
-<wire x1="-350.52" y1="-40.64" x2="-378.46" y2="-40.64" width="0.1524" layer="91"/>
-<label x="-378.46" y="-40.64" size="1.778" layer="95"/>
+<wire x1="-350.52" y1="-40.64" x2="-373.38" y2="-40.64" width="0.1524" layer="91"/>
+<label x="-373.38" y="-40.64" size="1.778" layer="95"/>
 <pinref part="TP11" gate="G$1" pin="TP"/>
 </segment>
 </net>
@@ -11631,9 +11415,9 @@ https://www.mouser.com/ProductDetail/Harwin/M80-4115042?qs=sGAEpiMZZMs%252BGHln7
 <pinref part="IC2" gate="G$1" pin="PA2"/>
 </segment>
 <segment>
-<wire x1="-350.52" y1="-43.18" x2="-375.92" y2="-43.18" width="0.1524" layer="91"/>
-<label x="-378.46" y="-43.18" size="1.778" layer="95"/>
-<wire x1="-375.92" y1="-43.18" x2="-378.46" y2="-43.18" width="0.1524" layer="91"/>
+<wire x1="-350.52" y1="-43.18" x2="-370.84" y2="-43.18" width="0.1524" layer="91"/>
+<label x="-373.38" y="-43.18" size="1.778" layer="95"/>
+<wire x1="-370.84" y1="-43.18" x2="-373.38" y2="-43.18" width="0.1524" layer="91"/>
 <pinref part="TP12" gate="G$1" pin="TP"/>
 </segment>
 </net>
@@ -11644,8 +11428,8 @@ https://www.mouser.com/ProductDetail/Harwin/M80-4115042?qs=sGAEpiMZZMs%252BGHln7
 <pinref part="IC2" gate="G$1" pin="PA5"/>
 </segment>
 <segment>
-<wire x1="-378.46" y1="-50.8" x2="-350.52" y2="-50.8" width="0.1524" layer="91"/>
-<label x="-378.46" y="-50.8" size="1.778" layer="95"/>
+<wire x1="-373.38" y1="-50.8" x2="-350.52" y2="-50.8" width="0.1524" layer="91"/>
+<label x="-373.38" y="-50.8" size="1.778" layer="95"/>
 <pinref part="TP2" gate="G$1" pin="TP"/>
 </segment>
 </net>
@@ -11656,8 +11440,8 @@ https://www.mouser.com/ProductDetail/Harwin/M80-4115042?qs=sGAEpiMZZMs%252BGHln7
 <pinref part="IC2" gate="G$1" pin="PA6"/>
 </segment>
 <segment>
-<wire x1="-378.46" y1="-53.34" x2="-350.52" y2="-53.34" width="0.1524" layer="91"/>
-<label x="-378.46" y="-53.34" size="1.778" layer="95"/>
+<wire x1="-373.38" y1="-53.34" x2="-350.52" y2="-53.34" width="0.1524" layer="91"/>
+<label x="-373.38" y="-53.34" size="1.778" layer="95"/>
 <pinref part="TP3" gate="G$1" pin="TP"/>
 </segment>
 </net>
@@ -11668,8 +11452,8 @@ https://www.mouser.com/ProductDetail/Harwin/M80-4115042?qs=sGAEpiMZZMs%252BGHln7
 <pinref part="IC2" gate="G$1" pin="PA7"/>
 </segment>
 <segment>
-<wire x1="-378.46" y1="-55.88" x2="-350.52" y2="-55.88" width="0.1524" layer="91"/>
-<label x="-378.46" y="-55.88" size="1.778" layer="95"/>
+<wire x1="-373.38" y1="-55.88" x2="-350.52" y2="-55.88" width="0.1524" layer="91"/>
+<label x="-373.38" y="-55.88" size="1.778" layer="95"/>
 <pinref part="TP4" gate="G$1" pin="TP"/>
 </segment>
 </net>
@@ -11680,8 +11464,8 @@ https://www.mouser.com/ProductDetail/Harwin/M80-4115042?qs=sGAEpiMZZMs%252BGHln7
 <pinref part="IC2" gate="G$1" pin="PA4"/>
 </segment>
 <segment>
-<wire x1="-378.46" y1="-48.26" x2="-350.52" y2="-48.26" width="0.1524" layer="91"/>
-<label x="-378.46" y="-48.26" size="1.778" layer="95"/>
+<wire x1="-373.38" y1="-48.26" x2="-350.52" y2="-48.26" width="0.1524" layer="91"/>
+<label x="-373.38" y="-48.26" size="1.778" layer="95"/>
 <pinref part="TP1" gate="G$1" pin="TP"/>
 </segment>
 </net>
@@ -11692,8 +11476,8 @@ https://www.mouser.com/ProductDetail/Harwin/M80-4115042?qs=sGAEpiMZZMs%252BGHln7
 <pinref part="IC2" gate="G$1" pin="PB6"/>
 </segment>
 <segment>
-<wire x1="-378.46" y1="-81.28" x2="-350.52" y2="-81.28" width="0.1524" layer="91"/>
-<label x="-378.46" y="-81.28" size="1.778" layer="95"/>
+<wire x1="-373.38" y1="-81.28" x2="-350.52" y2="-81.28" width="0.1524" layer="91"/>
+<label x="-373.38" y="-81.28" size="1.778" layer="95"/>
 <pinref part="TP9" gate="G$1" pin="TP"/>
 </segment>
 </net>
@@ -11704,8 +11488,8 @@ https://www.mouser.com/ProductDetail/Harwin/M80-4115042?qs=sGAEpiMZZMs%252BGHln7
 <pinref part="IC2" gate="G$1" pin="PB7"/>
 </segment>
 <segment>
-<wire x1="-378.46" y1="-83.82" x2="-350.52" y2="-83.82" width="0.1524" layer="91"/>
-<label x="-378.46" y="-83.82" size="1.778" layer="95"/>
+<wire x1="-373.38" y1="-83.82" x2="-350.52" y2="-83.82" width="0.1524" layer="91"/>
+<label x="-373.38" y="-83.82" size="1.778" layer="95"/>
 <pinref part="TP10" gate="G$1" pin="TP"/>
 </segment>
 </net>
@@ -11717,14 +11501,14 @@ https://www.mouser.com/ProductDetail/Harwin/M80-4115042?qs=sGAEpiMZZMs%252BGHln7
 <pinref part="IC3" gate="G$1" pin="TDO"/>
 </segment>
 <segment>
-<wire x1="-254" y1="-17.78" x2="-251.46" y2="-20.32" width="0.1524" layer="91"/>
-<wire x1="-251.46" y1="-20.32" x2="-236.22" y2="-20.32" width="0.1524" layer="91"/>
-<label x="-248.92" y="-20.32" size="1.778" layer="95"/>
-<pinref part="U$3" gate="G$1" pin="PIN2"/>
+<wire x1="-254" y1="-22.86" x2="-251.46" y2="-25.4" width="0.1524" layer="91"/>
+<wire x1="-251.46" y1="-25.4" x2="-236.22" y2="-25.4" width="0.1524" layer="91"/>
+<label x="-248.92" y="-25.4" size="1.778" layer="95"/>
 <pinref part="R6" gate="G$1" pin="1"/>
-<wire x1="-236.22" y1="-20.32" x2="-220.98" y2="-20.32" width="0.1524" layer="91"/>
-<wire x1="-236.22" y1="-15.24" x2="-236.22" y2="-20.32" width="0.1524" layer="91"/>
-<junction x="-236.22" y="-20.32"/>
+<wire x1="-236.22" y1="-25.4" x2="-220.98" y2="-25.4" width="0.1524" layer="91"/>
+<wire x1="-236.22" y1="-17.78" x2="-236.22" y2="-25.4" width="0.1524" layer="91"/>
+<junction x="-236.22" y="-25.4"/>
+<pinref part="J1" gate="G$1" pin="3"/>
 </segment>
 </net>
 <net name="C_TCK" class="0">
@@ -11735,14 +11519,14 @@ https://www.mouser.com/ProductDetail/Harwin/M80-4115042?qs=sGAEpiMZZMs%252BGHln7
 <pinref part="IC3" gate="G$1" pin="TCK"/>
 </segment>
 <segment>
-<wire x1="-254" y1="-15.24" x2="-251.46" y2="-17.78" width="0.1524" layer="91"/>
-<label x="-248.92" y="-17.78" size="1.778" layer="95"/>
-<wire x1="-251.46" y1="-17.78" x2="-238.76" y2="-17.78" width="0.1524" layer="91"/>
-<pinref part="U$3" gate="G$1" pin="PIN1"/>
+<wire x1="-254" y1="-20.32" x2="-251.46" y2="-22.86" width="0.1524" layer="91"/>
+<label x="-248.92" y="-22.86" size="1.778" layer="95"/>
+<wire x1="-251.46" y1="-22.86" x2="-238.76" y2="-22.86" width="0.1524" layer="91"/>
 <pinref part="R9" gate="G$1" pin="2"/>
-<wire x1="-238.76" y1="-17.78" x2="-220.98" y2="-17.78" width="0.1524" layer="91"/>
-<wire x1="-238.76" y1="-30.48" x2="-238.76" y2="-17.78" width="0.1524" layer="91"/>
-<junction x="-238.76" y="-17.78"/>
+<wire x1="-238.76" y1="-22.86" x2="-220.98" y2="-22.86" width="0.1524" layer="91"/>
+<wire x1="-238.76" y1="-34.29" x2="-238.76" y2="-22.86" width="0.1524" layer="91"/>
+<junction x="-238.76" y="-22.86"/>
+<pinref part="J1" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="C_TDI" class="0">
@@ -11753,14 +11537,14 @@ https://www.mouser.com/ProductDetail/Harwin/M80-4115042?qs=sGAEpiMZZMs%252BGHln7
 <pinref part="IC3" gate="G$1" pin="TDI"/>
 </segment>
 <segment>
-<wire x1="-254" y1="-25.4" x2="-251.46" y2="-27.94" width="0.1524" layer="91"/>
-<wire x1="-251.46" y1="-27.94" x2="-226.06" y2="-27.94" width="0.1524" layer="91"/>
-<label x="-248.92" y="-27.94" size="1.778" layer="95"/>
-<pinref part="U$3" gate="G$1" pin="PIN5"/>
+<wire x1="-254" y1="-27.94" x2="-251.46" y2="-30.48" width="0.1524" layer="91"/>
+<wire x1="-251.46" y1="-30.48" x2="-226.06" y2="-30.48" width="0.1524" layer="91"/>
+<label x="-248.92" y="-30.48" size="1.778" layer="95"/>
 <pinref part="R8" gate="G$1" pin="1"/>
-<wire x1="-226.06" y1="-27.94" x2="-220.98" y2="-27.94" width="0.1524" layer="91"/>
-<wire x1="-226.06" y1="-15.24" x2="-226.06" y2="-27.94" width="0.1524" layer="91"/>
-<junction x="-226.06" y="-27.94"/>
+<wire x1="-226.06" y1="-30.48" x2="-220.98" y2="-30.48" width="0.1524" layer="91"/>
+<wire x1="-226.06" y1="-17.78" x2="-226.06" y2="-30.48" width="0.1524" layer="91"/>
+<junction x="-226.06" y="-30.48"/>
+<pinref part="J1" gate="G$1" pin="5"/>
 </segment>
 </net>
 <net name="C_TMS" class="0">
@@ -11771,14 +11555,14 @@ https://www.mouser.com/ProductDetail/Harwin/M80-4115042?qs=sGAEpiMZZMs%252BGHln7
 <pinref part="IC3" gate="G$1" pin="TMS"/>
 </segment>
 <segment>
-<wire x1="-254" y1="-20.32" x2="-251.46" y2="-22.86" width="0.1524" layer="91"/>
-<wire x1="-251.46" y1="-22.86" x2="-231.14" y2="-22.86" width="0.1524" layer="91"/>
-<label x="-248.92" y="-22.86" size="1.778" layer="95"/>
-<pinref part="U$3" gate="G$1" pin="PIN3"/>
+<wire x1="-254" y1="-25.4" x2="-251.46" y2="-27.94" width="0.1524" layer="91"/>
+<wire x1="-251.46" y1="-27.94" x2="-231.14" y2="-27.94" width="0.1524" layer="91"/>
+<label x="-248.92" y="-27.94" size="1.778" layer="95"/>
 <pinref part="R7" gate="G$1" pin="1"/>
-<wire x1="-231.14" y1="-22.86" x2="-220.98" y2="-22.86" width="0.1524" layer="91"/>
-<wire x1="-231.14" y1="-15.24" x2="-231.14" y2="-22.86" width="0.1524" layer="91"/>
-<junction x="-231.14" y="-22.86"/>
+<wire x1="-231.14" y1="-27.94" x2="-220.98" y2="-27.94" width="0.1524" layer="91"/>
+<wire x1="-231.14" y1="-17.78" x2="-231.14" y2="-27.94" width="0.1524" layer="91"/>
+<junction x="-231.14" y="-27.94"/>
+<pinref part="J1" gate="G$1" pin="4"/>
 </segment>
 </net>
 <net name="CPLD_VCC_IO2" class="0">
@@ -11831,25 +11615,25 @@ https://www.mouser.com/ProductDetail/Harwin/M80-4115042?qs=sGAEpiMZZMs%252BGHln7
 <net name="CPLD_IO_VCC" class="0">
 <segment>
 <pinref part="R6" gate="G$1" pin="2"/>
-<wire x1="-236.22" y1="-5.08" x2="-236.22" y2="-2.54" width="0.1524" layer="91"/>
-<wire x1="-236.22" y1="-2.54" x2="-231.14" y2="-2.54" width="0.1524" layer="91"/>
-<wire x1="-231.14" y1="-2.54" x2="-226.06" y2="-2.54" width="0.1524" layer="91"/>
+<wire x1="-236.22" y1="-7.62" x2="-236.22" y2="-5.08" width="0.1524" layer="91"/>
+<wire x1="-236.22" y1="-5.08" x2="-231.14" y2="-5.08" width="0.1524" layer="91"/>
+<wire x1="-231.14" y1="-5.08" x2="-226.06" y2="-5.08" width="0.1524" layer="91"/>
 <pinref part="R7" gate="G$1" pin="2"/>
-<wire x1="-231.14" y1="-5.08" x2="-231.14" y2="-2.54" width="0.1524" layer="91"/>
-<junction x="-231.14" y="-2.54"/>
+<wire x1="-231.14" y1="-7.62" x2="-231.14" y2="-5.08" width="0.1524" layer="91"/>
+<junction x="-231.14" y="-5.08"/>
 <pinref part="R8" gate="G$1" pin="2"/>
-<wire x1="-226.06" y1="-5.08" x2="-226.06" y2="-2.54" width="0.1524" layer="91"/>
-<pinref part="U$3" gate="G$1" pin="PIN7"/>
-<wire x1="-193.04" y1="-20.32" x2="-185.42" y2="-20.32" width="0.1524" layer="91"/>
-<pinref part="U$3" gate="G$1" pin="PIN8"/>
-<wire x1="-185.42" y1="-20.32" x2="-185.42" y2="-22.86" width="0.1524" layer="91"/>
-<wire x1="-185.42" y1="-22.86" x2="-193.04" y2="-22.86" width="0.1524" layer="91"/>
-<wire x1="-226.06" y1="-2.54" x2="-185.42" y2="-2.54" width="0.1524" layer="91"/>
-<wire x1="-185.42" y1="-2.54" x2="-185.42" y2="-20.32" width="0.1524" layer="91"/>
-<junction x="-226.06" y="-2.54"/>
-<junction x="-185.42" y="-20.32"/>
-<wire x1="-180.34" y1="-20.32" x2="-185.42" y2="-20.32" width="0.1524" layer="91"/>
-<label x="-180.34" y="-20.32" size="1.778" layer="95" xref="yes"/>
+<wire x1="-226.06" y1="-7.62" x2="-226.06" y2="-5.08" width="0.1524" layer="91"/>
+<wire x1="-220.98" y1="-20.32" x2="-243.84" y2="-20.32" width="0.1524" layer="91"/>
+<wire x1="-243.84" y1="-20.32" x2="-248.92" y2="-20.32" width="0.1524" layer="91"/>
+<wire x1="-248.92" y1="-20.32" x2="-254" y2="-15.24" width="0.1524" layer="91"/>
+<wire x1="-254" y1="-15.24" x2="-256.54" y2="-15.24" width="0.1524" layer="91"/>
+<wire x1="-243.84" y1="-20.32" x2="-243.84" y2="-7.62" width="0.1524" layer="91"/>
+<junction x="-243.84" y="-20.32"/>
+<wire x1="-243.84" y1="-7.62" x2="-243.84" y2="-5.08" width="0.1524" layer="91"/>
+<wire x1="-243.84" y1="-5.08" x2="-236.22" y2="-5.08" width="0.1524" layer="91"/>
+<junction x="-236.22" y="-5.08"/>
+<label x="-256.54" y="-15.24" size="1.778" layer="95" rot="R180" xref="yes"/>
+<pinref part="J1" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="LAN_CLK_N0" class="0">
@@ -12051,6 +11835,12 @@ https://www.mouser.com/ProductDetail/Harwin/M80-4115042?qs=sGAEpiMZZMs%252BGHln7
 <label x="-71.12" y="-48.26" size="1.778" layer="95"/>
 <pinref part="U$5" gate="G$1" pin="PIN34"/>
 </segment>
+<segment>
+<wire x1="-15.24" y1="15.24" x2="-12.7" y2="17.78" width="0.1524" layer="91"/>
+<wire x1="7.62" y1="17.78" x2="-12.7" y2="17.78" width="0.1524" layer="91"/>
+<label x="2.54" y="17.78" size="1.778" layer="95" rot="R180"/>
+<pinref part="IC3" gate="G$1" pin="IO29"/>
+</segment>
 </net>
 <net name="LAN_CLK_P3" class="0">
 <segment>
@@ -12058,6 +11848,12 @@ https://www.mouser.com/ProductDetail/Harwin/M80-4115042?qs=sGAEpiMZZMs%252BGHln7
 <wire x1="-78.74" y1="-50.8" x2="-53.34" y2="-50.8" width="0.1524" layer="91"/>
 <label x="-71.12" y="-50.8" size="1.778" layer="95"/>
 <pinref part="U$5" gate="G$1" pin="PIN35"/>
+</segment>
+<segment>
+<wire x1="-15.24" y1="17.78" x2="-12.7" y2="20.32" width="0.1524" layer="91"/>
+<wire x1="7.62" y1="20.32" x2="-12.7" y2="20.32" width="0.1524" layer="91"/>
+<label x="2.54" y="20.32" size="1.778" layer="95" rot="R180"/>
+<pinref part="IC3" gate="G$1" pin="IO28"/>
 </segment>
 </net>
 <net name="LAN_N3" class="0">
@@ -12067,6 +11863,12 @@ https://www.mouser.com/ProductDetail/Harwin/M80-4115042?qs=sGAEpiMZZMs%252BGHln7
 <label x="-71.12" y="-53.34" size="1.778" layer="95"/>
 <pinref part="U$5" gate="G$1" pin="PIN36"/>
 </segment>
+<segment>
+<wire x1="-15.24" y1="20.32" x2="-12.7" y2="22.86" width="0.1524" layer="91"/>
+<wire x1="7.62" y1="22.86" x2="-12.7" y2="22.86" width="0.1524" layer="91"/>
+<label x="2.54" y="22.86" size="1.778" layer="95" rot="R180"/>
+<pinref part="IC3" gate="G$1" pin="IO27"/>
+</segment>
 </net>
 <net name="LAN_P3" class="0">
 <segment>
@@ -12074,6 +11876,12 @@ https://www.mouser.com/ProductDetail/Harwin/M80-4115042?qs=sGAEpiMZZMs%252BGHln7
 <wire x1="-78.74" y1="-55.88" x2="-53.34" y2="-55.88" width="0.1524" layer="91"/>
 <label x="-71.12" y="-55.88" size="1.778" layer="95"/>
 <pinref part="U$5" gate="G$1" pin="PIN37"/>
+</segment>
+<segment>
+<wire x1="-15.24" y1="22.86" x2="-12.7" y2="25.4" width="0.1524" layer="91"/>
+<wire x1="7.62" y1="25.4" x2="-12.7" y2="25.4" width="0.1524" layer="91"/>
+<label x="2.54" y="25.4" size="1.778" layer="95" rot="R180"/>
+<pinref part="IC3" gate="G$1" pin="IO26"/>
 </segment>
 </net>
 <net name="NOTE3" class="0">
@@ -12091,6 +11899,12 @@ https://www.mouser.com/ProductDetail/Harwin/M80-4115042?qs=sGAEpiMZZMs%252BGHln7
 <label x="-71.12" y="-63.5" size="1.778" layer="95"/>
 <pinref part="U$5" gate="G$1" pin="PIN40"/>
 </segment>
+<segment>
+<wire x1="-17.78" y1="30.48" x2="-15.24" y2="33.02" width="0.1524" layer="91"/>
+<wire x1="7.62" y1="33.02" x2="-15.24" y2="33.02" width="0.1524" layer="91"/>
+<label x="2.54" y="33.02" size="1.778" layer="95" rot="R180"/>
+<pinref part="IC3" gate="G$1" pin="IO19"/>
+</segment>
 </net>
 <net name="LAN_CLK_P4" class="0">
 <segment>
@@ -12098,6 +11912,12 @@ https://www.mouser.com/ProductDetail/Harwin/M80-4115042?qs=sGAEpiMZZMs%252BGHln7
 <wire x1="-78.74" y1="-66.04" x2="-53.34" y2="-66.04" width="0.1524" layer="91"/>
 <label x="-71.12" y="-66.04" size="1.778" layer="95"/>
 <pinref part="U$5" gate="G$1" pin="PIN41"/>
+</segment>
+<segment>
+<wire x1="-17.78" y1="33.02" x2="-15.24" y2="35.56" width="0.1524" layer="91"/>
+<wire x1="7.62" y1="35.56" x2="-15.24" y2="35.56" width="0.1524" layer="91"/>
+<label x="2.54" y="35.56" size="1.778" layer="95" rot="R180"/>
+<pinref part="IC3" gate="G$1" pin="IO18"/>
 </segment>
 </net>
 <net name="LAN_N4" class="0">
@@ -12107,6 +11927,12 @@ https://www.mouser.com/ProductDetail/Harwin/M80-4115042?qs=sGAEpiMZZMs%252BGHln7
 <label x="-71.12" y="-68.58" size="1.778" layer="95"/>
 <pinref part="U$5" gate="G$1" pin="PIN42"/>
 </segment>
+<segment>
+<wire x1="-17.78" y1="35.56" x2="-15.24" y2="38.1" width="0.1524" layer="91"/>
+<wire x1="7.62" y1="38.1" x2="-15.24" y2="38.1" width="0.1524" layer="91"/>
+<label x="2.54" y="38.1" size="1.778" layer="95" rot="R180"/>
+<pinref part="IC3" gate="G$1" pin="IO17"/>
+</segment>
 </net>
 <net name="LAN_P4" class="0">
 <segment>
@@ -12114,6 +11940,12 @@ https://www.mouser.com/ProductDetail/Harwin/M80-4115042?qs=sGAEpiMZZMs%252BGHln7
 <wire x1="-78.74" y1="-71.12" x2="-53.34" y2="-71.12" width="0.1524" layer="91"/>
 <label x="-71.12" y="-71.12" size="1.778" layer="95"/>
 <pinref part="U$5" gate="G$1" pin="PIN43"/>
+</segment>
+<segment>
+<wire x1="-17.78" y1="38.1" x2="-15.24" y2="40.64" width="0.1524" layer="91"/>
+<wire x1="7.62" y1="40.64" x2="-15.24" y2="40.64" width="0.1524" layer="91"/>
+<label x="2.54" y="40.64" size="1.778" layer="95" rot="R180"/>
+<pinref part="IC3" gate="G$1" pin="IO16"/>
 </segment>
 </net>
 <net name="NOTE4" class="0">
@@ -12131,6 +11963,12 @@ https://www.mouser.com/ProductDetail/Harwin/M80-4115042?qs=sGAEpiMZZMs%252BGHln7
 <label x="-71.12" y="-78.74" size="1.778" layer="95"/>
 <pinref part="U$5" gate="G$1" pin="PIN46"/>
 </segment>
+<segment>
+<wire x1="-17.78" y1="55.88" x2="-15.24" y2="58.42" width="0.1524" layer="91"/>
+<wire x1="7.62" y1="58.42" x2="-15.24" y2="58.42" width="0.1524" layer="91"/>
+<label x="2.54" y="58.42" size="1.778" layer="95" rot="R180"/>
+<pinref part="IC3" gate="G$1" pin="IO5"/>
+</segment>
 </net>
 <net name="LAN_CLK_P5" class="0">
 <segment>
@@ -12138,6 +11976,12 @@ https://www.mouser.com/ProductDetail/Harwin/M80-4115042?qs=sGAEpiMZZMs%252BGHln7
 <wire x1="-78.74" y1="-81.28" x2="-53.34" y2="-81.28" width="0.1524" layer="91"/>
 <label x="-71.12" y="-81.28" size="1.778" layer="95"/>
 <pinref part="U$5" gate="G$1" pin="PIN47"/>
+</segment>
+<segment>
+<wire x1="-17.78" y1="58.42" x2="-15.24" y2="60.96" width="0.1524" layer="91"/>
+<wire x1="7.62" y1="60.96" x2="-15.24" y2="60.96" width="0.1524" layer="91"/>
+<label x="2.54" y="60.96" size="1.778" layer="95" rot="R180"/>
+<pinref part="IC3" gate="G$1" pin="IO4"/>
 </segment>
 </net>
 <net name="LAN_N5" class="0">
@@ -12147,6 +11991,12 @@ https://www.mouser.com/ProductDetail/Harwin/M80-4115042?qs=sGAEpiMZZMs%252BGHln7
 <label x="-71.12" y="-83.82" size="1.778" layer="95"/>
 <pinref part="U$5" gate="G$1" pin="PIN48"/>
 </segment>
+<segment>
+<wire x1="-17.78" y1="60.96" x2="-15.24" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="7.62" y1="63.5" x2="-15.24" y2="63.5" width="0.1524" layer="91"/>
+<label x="2.54" y="63.5" size="1.778" layer="95" rot="R180"/>
+<pinref part="IC3" gate="G$1" pin="IO3"/>
+</segment>
 </net>
 <net name="LAN_P5" class="0">
 <segment>
@@ -12154,6 +12004,12 @@ https://www.mouser.com/ProductDetail/Harwin/M80-4115042?qs=sGAEpiMZZMs%252BGHln7
 <wire x1="-78.74" y1="-86.36" x2="-53.34" y2="-86.36" width="0.1524" layer="91"/>
 <label x="-71.12" y="-86.36" size="1.778" layer="95"/>
 <pinref part="U$5" gate="G$1" pin="PIN49"/>
+</segment>
+<segment>
+<wire x1="-17.78" y1="63.5" x2="-15.24" y2="66.04" width="0.1524" layer="91"/>
+<wire x1="7.62" y1="66.04" x2="-15.24" y2="66.04" width="0.1524" layer="91"/>
+<label x="2.54" y="66.04" size="1.778" layer="95" rot="R180"/>
+<pinref part="IC3" gate="G$1" pin="IO2"/>
 </segment>
 </net>
 <net name="NOTE5" class="0">
@@ -12183,68 +12039,79 @@ https://www.mouser.com/ProductDetail/Harwin/M80-4115042?qs=sGAEpiMZZMs%252BGHln7
 <wire x1="-144.78" y1="-30.48" x2="-147.32" y2="-30.48" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$5" class="0">
+<net name="CAN_H_S" class="0">
 <segment>
 <pinref part="U$5" gate="G$1" pin="PIN29"/>
 <wire x1="-78.74" y1="-35.56" x2="-55.88" y2="-35.56" width="0.1524" layer="91"/>
 <wire x1="-55.88" y1="-35.56" x2="-53.34" y2="-33.02" width="0.1524" layer="91"/>
+<label x="-48.26" y="-30.48" size="1.778" layer="95" xref="yes"/>
+<wire x1="-53.34" y1="-33.02" x2="-50.8" y2="-30.48" width="0.1524" layer="91"/>
+<wire x1="-50.8" y1="-30.48" x2="-48.26" y2="-30.48" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$6" class="0">
+<net name="CAN_L_S" class="0">
 <segment>
 <pinref part="U$5" gate="G$1" pin="PIN30"/>
 <wire x1="-78.74" y1="-38.1" x2="-53.34" y2="-38.1" width="0.1524" layer="91"/>
 <wire x1="-53.34" y1="-38.1" x2="-50.8" y2="-35.56" width="0.1524" layer="91"/>
+<label x="-48.26" y="-35.56" size="1.778" layer="95" xref="yes"/>
+<wire x1="-50.8" y1="-35.56" x2="-48.26" y2="-35.56" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$7" class="0">
+<net name="+12V" class="0">
 <segment>
 <pinref part="U$5" gate="G$1" pin="PIN1"/>
 <wire x1="-116.84" y1="-27.94" x2="-121.92" y2="-27.94" width="0.1524" layer="91"/>
 <wire x1="-121.92" y1="-27.94" x2="-124.46" y2="-25.4" width="0.1524" layer="91"/>
 <wire x1="-124.46" y1="-25.4" x2="-124.46" y2="-20.32" width="0.1524" layer="91"/>
+<label x="-124.46" y="-20.32" size="1.778" layer="95" rot="R90" xref="yes"/>
 </segment>
 </net>
-<net name="N$8" class="0">
+<net name="5V_GND" class="0">
 <segment>
 <pinref part="U$5" gate="G$1" pin="PIN2"/>
 <wire x1="-116.84" y1="-30.48" x2="-124.46" y2="-30.48" width="0.1524" layer="91"/>
 <wire x1="-124.46" y1="-30.48" x2="-127" y2="-30.48" width="0.1524" layer="91"/>
 <wire x1="-127" y1="-30.48" x2="-129.54" y2="-27.94" width="0.1524" layer="91"/>
 <wire x1="-129.54" y1="-27.94" x2="-129.54" y2="-20.32" width="0.1524" layer="91"/>
+<label x="-129.54" y="-20.32" size="1.778" layer="95" rot="R90" xref="yes"/>
 </segment>
 </net>
-<net name="N$9" class="0">
+<net name="+3V" class="0">
 <segment>
 <pinref part="U$5" gate="G$1" pin="PIN3"/>
 <wire x1="-116.84" y1="-33.02" x2="-132.08" y2="-33.02" width="0.1524" layer="91"/>
 <wire x1="-132.08" y1="-33.02" x2="-134.62" y2="-30.48" width="0.1524" layer="91"/>
 <wire x1="-134.62" y1="-30.48" x2="-134.62" y2="-20.32" width="0.1524" layer="91"/>
+<label x="-134.62" y="-20.32" size="1.778" layer="95" rot="R90" xref="yes"/>
 </segment>
 </net>
-<net name="N$10" class="0">
+<net name="12V_GND" class="0">
 <segment>
 <wire x1="-78.74" y1="-27.94" x2="-73.66" y2="-27.94" width="0.1524" layer="91"/>
 <wire x1="-73.66" y1="-27.94" x2="-71.12" y2="-25.4" width="0.1524" layer="91"/>
 <wire x1="-71.12" y1="-25.4" x2="-71.12" y2="-20.32" width="0.1524" layer="91"/>
 <pinref part="U$5" gate="G$1" pin="PIN26"/>
+<label x="-71.12" y="-20.32" size="1.778" layer="95" rot="R90" xref="yes"/>
 </segment>
 </net>
-<net name="N$11" class="0">
+<net name="+5V" class="0">
 <segment>
 <wire x1="-78.74" y1="-30.48" x2="-71.12" y2="-30.48" width="0.1524" layer="91"/>
 <wire x1="-71.12" y1="-30.48" x2="-68.58" y2="-30.48" width="0.1524" layer="91"/>
 <wire x1="-68.58" y1="-30.48" x2="-66.04" y2="-27.94" width="0.1524" layer="91"/>
 <wire x1="-66.04" y1="-27.94" x2="-66.04" y2="-20.32" width="0.1524" layer="91"/>
 <pinref part="U$5" gate="G$1" pin="PIN27"/>
+<label x="-66.04" y="-20.32" size="1.778" layer="95" rot="R90" xref="yes"/>
 </segment>
 </net>
-<net name="N$12" class="0">
+<net name="3V_GND" class="0">
 <segment>
 <wire x1="-78.74" y1="-33.02" x2="-63.5" y2="-33.02" width="0.1524" layer="91"/>
 <wire x1="-63.5" y1="-33.02" x2="-60.96" y2="-30.48" width="0.1524" layer="91"/>
 <wire x1="-60.96" y1="-30.48" x2="-60.96" y2="-20.32" width="0.1524" layer="91"/>
 <pinref part="U$5" gate="G$1" pin="PIN28"/>
+<label x="-60.96" y="-20.32" size="1.778" layer="95" rot="R90" xref="yes"/>
 </segment>
 </net>
 <net name="SIGNAL_GND" class="0">
@@ -12296,10 +12163,6 @@ https://www.mouser.com/ProductDetail/Harwin/M80-4115042?qs=sGAEpiMZZMs%252BGHln7
 </schematic>
 </drawing>
 <compatibility>
-<note version="6.3" minversion="6.2.2" severity="warning">
-Since Version 6.2.2 text objects can contain more than one line,
-which will not be processed correctly with this version.
-</note>
 <note version="8.2" severity="warning">
 Since Version 8.2, EAGLE supports online libraries. The ids
 of those online libraries will not be understood (or retained)

@@ -1042,7 +1042,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <attribute name="NAME" x="73.025" y="12.065" size="0.4064" layer="25" rot="R180"/>
 <attribute name="VALUE" x="71.755" y="13.2715" size="0.4064" layer="27" rot="R90"/>
 </element>
-<element name="C35" library="SparkFun-Capacitors" package="0805" value="680n" x="74.4982" y="8.6614" smashed="yes" rot="R90">
+<element name="C35" library="SparkFun-Capacitors" package="0805" value="820n" x="74.4982" y="8.6614" smashed="yes" rot="R90">
 <attribute name="NAME" x="73.9902" y="10.1219" size="0.4064" layer="25"/>
 <attribute name="VALUE" x="73.9267" y="6.8199" size="0.4064" layer="27"/>
 </element>

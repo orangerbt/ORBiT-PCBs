@@ -3149,19 +3149,19 @@ design rules under a new name.</description>
 <signal name="CAN_H_P">
 <contactref element="U$5" pad="PIN4"/>
 </signal>
-<signal name="N$5">
+<signal name="CAN_H_S">
 <contactref element="U$5" pad="PIN29"/>
 </signal>
-<signal name="N$6">
+<signal name="CAN_L_S">
 <contactref element="U$5" pad="PIN30"/>
 </signal>
-<signal name="N$7">
+<signal name="+12V">
 <contactref element="U$5" pad="PIN1"/>
 </signal>
-<signal name="N$8">
+<signal name="5V_GND">
 <contactref element="U$5" pad="PIN2"/>
 </signal>
-<signal name="N$9">
+<signal name="+3V">
 <contactref element="U$5" pad="PIN3"/>
 </signal>
 <signal name="LAN_CLK_N0">
@@ -3293,45 +3293,69 @@ design rules under a new name.</description>
 </signal>
 <signal name="LAN_CLK_N3">
 <contactref element="U$5" pad="PIN34"/>
+<contactref element="IC3" pad="5"/>
+<wire x1="44" y1="7" x2="83" y2="28" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="LAN_CLK_P3">
 <contactref element="U$5" pad="PIN35"/>
+<contactref element="IC3" pad="4"/>
+<wire x1="46" y1="7" x2="83" y2="27.5" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="LAN_N3">
 <contactref element="U$5" pad="PIN36"/>
+<contactref element="IC3" pad="3"/>
+<wire x1="48" y1="7" x2="83" y2="27" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="LAN_P3">
 <contactref element="U$5" pad="PIN37"/>
+<contactref element="IC3" pad="2"/>
+<wire x1="50" y1="7" x2="83" y2="26.5" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="NOTE3">
 <contactref element="U$5" pad="PIN38"/>
 </signal>
 <signal name="LAN_CLK_N4">
 <contactref element="U$5" pad="PIN40"/>
+<contactref element="IC3" pad="29"/>
+<wire x1="56" y1="7" x2="79.5" y2="40" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="LAN_CLK_P4">
 <contactref element="U$5" pad="PIN41"/>
+<contactref element="IC3" pad="28"/>
+<wire x1="58" y1="7" x2="80" y2="40" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="LAN_N4">
 <contactref element="U$5" pad="PIN42"/>
+<contactref element="IC3" pad="27"/>
+<wire x1="60" y1="7" x2="80.5" y2="40" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="LAN_P4">
 <contactref element="U$5" pad="PIN43"/>
+<contactref element="IC3" pad="26"/>
+<wire x1="62" y1="7" x2="81" y2="40" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="NOTE4">
 <contactref element="U$5" pad="PIN44"/>
 </signal>
 <signal name="LAN_CLK_N5">
 <contactref element="U$5" pad="PIN46"/>
+<contactref element="IC3" pad="19"/>
+<wire x1="68" y1="7" x2="83" y2="35" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="LAN_CLK_P5">
 <contactref element="U$5" pad="PIN47"/>
+<contactref element="IC3" pad="18"/>
+<wire x1="70" y1="7" x2="83" y2="34.5" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="LAN_N5">
 <contactref element="U$5" pad="PIN48"/>
+<contactref element="IC3" pad="17"/>
+<wire x1="72" y1="7" x2="83" y2="34" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="LAN_P5">
 <contactref element="U$5" pad="PIN49"/>
+<contactref element="IC3" pad="16"/>
+<wire x1="74" y1="7" x2="83" y2="33.5" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="NOTE5">
 <contactref element="U$5" pad="PIN50"/>
@@ -3349,13 +3373,13 @@ design rules under a new name.</description>
 <wire x1="42" y1="7" x2="54" y2="7" width="0" layer="19" extent="1-1"/>
 <wire x1="42" y1="5" x2="42" y2="7" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="N$10">
+<signal name="12V_GND">
 <contactref element="U$5" pad="PIN26"/>
 </signal>
-<signal name="N$11">
+<signal name="+5V">
 <contactref element="U$5" pad="PIN27"/>
 </signal>
-<signal name="N$12">
+<signal name="3V_GND">
 <contactref element="U$5" pad="PIN28"/>
 </signal>
 </signals>

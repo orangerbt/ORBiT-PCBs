@@ -1,16 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.3.0">
+<eagle version="8.2.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
-<setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.005" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
-<layer number="2" name="Route2" color="16" fill="4" visible="yes" active="yes"/>
+<layer number="2" name="Route2" color="16" fill="4" visible="no" active="yes"/>
 <layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
 <layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
 <layer number="5" name="Route5" color="4" fill="4" visible="no" active="no"/>
@@ -23,7 +22,7 @@
 <layer number="12" name="Route12" color="1" fill="5" visible="no" active="no"/>
 <layer number="13" name="Route13" color="4" fill="5" visible="no" active="no"/>
 <layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
-<layer number="15" name="Route15" color="3" fill="5" visible="yes" active="yes"/>
+<layer number="15" name="Route15" color="3" fill="5" visible="no" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
@@ -830,14 +829,10 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <param name="slThermalsForVias" value="0"/>
 <param name="dpMaxLengthDifference" value="10mm"/>
 <param name="dpGapFactor" value="2.5"/>
+<param name="checkGrid" value="0"/>
 <param name="checkAngle" value="0"/>
 <param name="checkFont" value="1"/>
 <param name="checkRestrict" value="0"/>
-<param name="checkStop" value="0"/>
-<param name="checkValues" value="0"/>
-<param name="checkNames" value="1"/>
-<param name="checkWireStubs" value="1"/>
-<param name="checkPolygonWidth" value="0"/>
 <param name="useDiameter" value="13"/>
 <param name="maxErrors" value="50"/>
 </designrules>
@@ -970,10 +965,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <attribute name="NAME" x="43.815" y="32.8295" size="0.4064" layer="25" rot="R270"/>
 <attribute name="VALUE" x="43.815" y="36.449" size="0.4064" layer="27" rot="R270"/>
 </element>
-<element name="C17" library="SparkFun-Capacitors" package="0805" value="1u" x="36.195" y="26.543" smashed="yes" rot="MR270">
-<attribute name="NAME" x="35.3695" y="27.305" size="0.4064" layer="26" rot="MR270"/>
-<attribute name="VALUE" x="37.592" y="27.559" size="0.4064" layer="28" rot="MR270"/>
-</element>
+<element name="C17" library="SparkFun-Capacitors" package="0805" value="1u" x="36.195" y="26.543" rot="MR270"/>
 <element name="C18" library="SparkFun-Capacitors" package="0805" value="0.1u" x="58.547" y="25.4" smashed="yes" rot="R270">
 <attribute name="NAME" x="56.769" y="24.257" size="0.4064" layer="25" rot="R90"/>
 <attribute name="VALUE" x="55.8165" y="27.559" size="0.4064" layer="27" rot="R90"/>
@@ -1050,7 +1042,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <attribute name="NAME" x="73.025" y="12.065" size="0.4064" layer="25" rot="R180"/>
 <attribute name="VALUE" x="71.755" y="13.2715" size="0.4064" layer="27" rot="R90"/>
 </element>
-<element name="C35" library="SparkFun-Capacitors" package="0805" value="820n" x="74.4982" y="8.6614" smashed="yes" rot="R90">
+<element name="C35" library="SparkFun-Capacitors" package="0805" value="680n" x="74.4982" y="8.6614" smashed="yes" rot="R90">
 <attribute name="NAME" x="73.9902" y="10.1219" size="0.4064" layer="25"/>
 <attribute name="VALUE" x="73.9267" y="6.8199" size="0.4064" layer="27"/>
 </element>
@@ -1135,11 +1127,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <attribute name="PROD_ID" value="DIO-12442" x="41.021" y="9.779" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="41.021" y="10.6045" size="0.4064" layer="27"/>
 </element>
-<element name="F1" library="components" package="LITTELFUSE_501" value="10A" x="65.913" y="34.163" smashed="yes" rot="R180">
-<attribute name="NAME" x="65.913" y="32.963" size="0.8" layer="21" font="vector" ratio="10" rot="R180" align="bottom-center"/>
-<attribute name="VALUE" x="65.913" y="35.363" size="0.8" layer="21" font="vector" ratio="10" rot="R180" align="top-center"/>
-</element>
-<element name="J3" library="headers(2mm)" package="2X4" value="2X4" x="2.54" y="12.7" smashed="yes" rot="R270"/>
+<element name="F1" library="components" package="LITTELFUSE_501" value="10A" x="65.913" y="34.163" rot="R180"/>
+<element name="J3" library="headers(2mm)" package="2X4" value="2X4" x="2.54" y="12.7" rot="R270"/>
 <element name="L1" library="components" package="BOURNS_SRP7028A" value="3.3u" x="46.99" y="26.67" smashed="yes" rot="R270">
 <attribute name="NAME" x="46.99" y="22.162" size="1.25" layer="21" font="vector" ratio="10" rot="R180" align="bottom-center"/>
 <attribute name="VALUE" x="43.498" y="27.2415" size="1.25" layer="21" font="vector" ratio="10" rot="R270" align="top-center"/>
@@ -1148,61 +1137,45 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <attribute name="NAME" x="76.835" y="19.6845" size="1.25" layer="21" font="vector" ratio="10" align="bottom-center"/>
 <attribute name="VALUE" x="79.0702" y="10.5415" size="1.25" layer="21" font="vector" ratio="10" align="top-center"/>
 </element>
-<element name="PCB1" library="e14_BeagleBoneBlack_RevB" package="BEAGLEBONE_BLACK_BLANK" value="BEAGLEBONE_BLACK_BLANK" x="0" y="0" smashed="yes"/>
+<element name="PCB1" library="e14_BeagleBoneBlack_RevB" package="BEAGLEBONE_BLACK_BLANK" value="BEAGLEBONE_BLACK_BLANK" x="0" y="0"/>
 <element name="Q12" library="components" package="MO240" value="FDMC2512SDC" x="53.34" y="27.94" smashed="yes" rot="R180">
 <attribute name="NAME" x="51.848" y="27.432" size="0.8" layer="25" font="vector" ratio="10" rot="R90" align="bottom-center"/>
 </element>
 <element name="Q13" library="components" package="MO240" value="FDMC2512SDC" x="53.34" y="24.13" smashed="yes">
 <attribute name="NAME" x="51.848" y="24.765" size="0.8" layer="25" font="vector" ratio="10" rot="R90" align="bottom-center"/>
 </element>
-<element name="Q14" library="components" package="MO240" value="FDMC2512SDC" x="71.501" y="20.066" smashed="yes" rot="R90">
-<attribute name="NAME" x="69.501" y="20.066" size="0.8" layer="25" font="vector" ratio="10" rot="R90" align="bottom-center"/>
-</element>
+<element name="Q14" library="components" package="MO240" value="FDMC2512SDC" x="71.501" y="20.066" rot="R90"/>
 <element name="Q15" library="components" package="MO240" value="FDMC2512SDC" x="71.501" y="16.51" smashed="yes" rot="R270">
 <attribute name="NAME" x="68.104" y="17.653" size="0.8" layer="25" font="vector" ratio="10" rot="R90" align="bottom-center"/>
 </element>
-<element name="Q2" library="SparkFun-DiscreteSemi" package="SOT23-3" value="200mA/50V" x="16.637" y="16.129" smashed="yes" rot="R90">
-<attribute name="NAME" x="14.859" y="15.3035" size="0.4064" layer="25" rot="R90"/>
+<element name="Q2" library="SparkFun-DiscreteSemi" package="SOT23-3" value="200mA/50V" x="16.637" y="16.129" rot="R90">
 <attribute name="PROD_ID" value="TRANS-00830" x="16.637" y="16.129" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="VALUE" x="16.8275" y="15.113" size="0.4064" layer="27" rot="R90"/>
 </element>
-<element name="Q3" library="SparkFun-DiscreteSemi" package="SOT23-3" value="200mA/50V" x="12.954" y="13.716" smashed="yes" rot="R90">
-<attribute name="NAME" x="11.176" y="12.8905" size="0.4064" layer="25" rot="R90"/>
+<element name="Q3" library="SparkFun-DiscreteSemi" package="SOT23-3" value="200mA/50V" x="12.954" y="13.716" rot="R90">
 <attribute name="PROD_ID" value="TRANS-00830" x="12.954" y="13.716" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="VALUE" x="13.1445" y="12.7" size="0.4064" layer="27" rot="R90"/>
 </element>
-<element name="Q4" library="SparkFun-DiscreteSemi" package="SOT23-3" value="200mA/50V" x="16.637" y="11.176" smashed="yes" rot="R90">
-<attribute name="NAME" x="14.859" y="10.3505" size="0.4064" layer="25" rot="R90"/>
+<element name="Q4" library="SparkFun-DiscreteSemi" package="SOT23-3" value="200mA/50V" x="16.637" y="11.176" rot="R90">
 <attribute name="PROD_ID" value="TRANS-00830" x="16.637" y="11.176" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="VALUE" x="16.8275" y="10.16" size="0.4064" layer="27" rot="R90"/>
 </element>
-<element name="Q5" library="SparkFun-DiscreteSemi" package="SOT23-3" value="200mA/50V" x="12.954" y="8.509" smashed="yes" rot="R90">
-<attribute name="NAME" x="11.176" y="7.6835" size="0.4064" layer="25" rot="R90"/>
+<element name="Q5" library="SparkFun-DiscreteSemi" package="SOT23-3" value="200mA/50V" x="12.954" y="8.509" rot="R90">
 <attribute name="PROD_ID" value="TRANS-00830" x="12.954" y="8.509" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="VALUE" x="13.1445" y="7.493" size="0.4064" layer="27" rot="R90"/>
 </element>
 <element name="Q6" library="SparkFun-DiscreteSemi" package="SOT323" value="2N7002PW" x="46.99" y="42.672" smashed="yes" rot="R180">
 <attribute name="NAME" x="48.36" y="42.9085" size="0.4064" layer="25" rot="R270"/>
 <attribute name="PROD_ID" value="TRANS-11151" x="46.99" y="42.672" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="Q7" library="components" package="MO240" value="FDMC2512SDC" x="36.576" y="36.3855" smashed="yes" rot="R270">
-<attribute name="NAME" x="38.576" y="36.3855" size="0.8" layer="25" font="vector" ratio="10" rot="R270" align="bottom-center"/>
-</element>
-<element name="Q8" library="components" package="MO240" value="FDMC2512SDC" x="37.846" y="32.893" smashed="yes" rot="R90">
-<attribute name="NAME" x="35.846" y="32.893" size="0.8" layer="25" font="vector" ratio="10" rot="R90" align="bottom-center"/>
-</element>
-<element name="Q9" library="components" package="MO240" value="FDMC2512SDC" x="39.37" y="29.21" smashed="yes" rot="R270">
-<attribute name="NAME" x="41.37" y="29.21" size="0.8" layer="25" font="vector" ratio="10" rot="R270" align="bottom-center"/>
-</element>
+<element name="Q7" library="components" package="MO240" value="FDMC2512SDC" x="36.576" y="36.3855" rot="R270"/>
+<element name="Q8" library="components" package="MO240" value="FDMC2512SDC" x="37.846" y="32.893" rot="R90"/>
+<element name="Q9" library="components" package="MO240" value="FDMC2512SDC" x="39.37" y="29.21" rot="R270"/>
 <element name="R1" library="SparkFun-Resistors" package="0805" value="100" x="50.419" y="41.021" smashed="yes" rot="MR90">
 <attribute name="NAME" x="49.276" y="41.7195" size="0.4064" layer="26" rot="MR90"/>
 <attribute name="VALUE" x="49.276" y="39.6875" size="0.4064" layer="28" rot="MR90"/>
 </element>
-<element name="R10" library="SparkFun-Resistors" package="0805" value="402" x="25.4" y="10.16" smashed="yes">
+<element name="R10" library="SparkFun-Resistors" package="0805" value="330" x="25.4" y="10.16" smashed="yes">
 <attribute name="NAME" x="24.13" y="10.9855" size="0.4064" layer="25"/>
 <attribute name="VALUE" x="25.781" y="10.922" size="0.4064" layer="27"/>
 </element>
-<element name="R11" library="SparkFun-Resistors" package="0805" value="402" x="25.4" y="7.62" smashed="yes">
+<element name="R11" library="SparkFun-Resistors" package="0805" value="330" x="25.4" y="7.62" smashed="yes">
 <attribute name="NAME" x="24.13" y="8.4455" size="0.4064" layer="25"/>
 <attribute name="VALUE" x="25.781" y="8.382" size="0.4064" layer="27"/>
 </element>
@@ -1234,10 +1207,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <attribute name="NAME" x="10.16" y="33.8455" size="0.4064" layer="25"/>
 <attribute name="VALUE" x="11.684" y="33.782" size="0.4064" layer="27"/>
 </element>
-<element name="R19" library="SparkFun-Resistors" package="0805" value="5.1k" x="30.988" y="33.274" smashed="yes">
-<attribute name="NAME" x="30.226" y="34.0995" size="0.4064" layer="25"/>
-<attribute name="VALUE" x="29.972" y="31.877" size="0.4064" layer="27"/>
-</element>
+<element name="R19" library="SparkFun-Resistors" package="0805" value="5.1k" x="30.988" y="33.274"/>
 <element name="R2" library="SparkFun-Resistors" package="0805" value="100" x="53.34" y="43.434" smashed="yes" rot="MR0">
 <attribute name="NAME" x="51.943" y="43.6245" size="0.4064" layer="26" rot="MR0"/>
 <attribute name="VALUE" x="51.943" y="43.1165" size="0.4064" layer="28" rot="MR0"/>
@@ -1246,18 +1216,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <attribute name="NAME" x="43.6245" y="41.402" size="0.4064" layer="25" rot="R90"/>
 <attribute name="VALUE" x="43.561" y="42.926" size="0.4064" layer="27" rot="R90"/>
 </element>
-<element name="R23" library="SparkFun-Resistors" package="0805" value="10" x="33.274" y="27.432" smashed="yes" rot="MR0">
-<attribute name="NAME" x="34.036" y="28.2575" size="0.4064" layer="26" rot="MR0"/>
-<attribute name="VALUE" x="34.29" y="26.035" size="0.4064" layer="28" rot="MR0"/>
-</element>
-<element name="R27" library="SparkFun-Resistors" package="0805" value="5.1k" x="53.721" y="30.988" smashed="yes" rot="MR0">
-<attribute name="NAME" x="54.483" y="31.8135" size="0.4064" layer="26" rot="MR0"/>
-<attribute name="VALUE" x="54.737" y="29.591" size="0.4064" layer="28" rot="MR0"/>
-</element>
-<element name="R28" library="SparkFun-Resistors" package="0805" value="5.1k" x="55.499" y="21.082" smashed="yes" rot="MR180">
-<attribute name="NAME" x="54.737" y="20.2565" size="0.4064" layer="26" rot="MR180"/>
-<attribute name="VALUE" x="54.483" y="22.479" size="0.4064" layer="28" rot="MR180"/>
-</element>
+<element name="R23" library="SparkFun-Resistors" package="0805" value="10" x="33.274" y="27.432" rot="MR0"/>
+<element name="R27" library="SparkFun-Resistors" package="0805" value="5.1k" x="53.721" y="30.988" rot="MR0"/>
+<element name="R28" library="SparkFun-Resistors" package="0805" value="5.1k" x="55.499" y="21.082" rot="MR180"/>
 <element name="R29" library="SparkFun-Resistors" package="0805" value="10M" x="56.515" y="27.305" smashed="yes" rot="R90">
 <attribute name="NAME" x="55.8165" y="25.9715" size="0.4064" layer="25" rot="R90"/>
 <attribute name="VALUE" x="57.8485" y="25.7175" size="0.4064" layer="27" rot="R90"/>
@@ -1270,10 +1231,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <attribute name="NAME" x="55.6895" y="20.701" size="0.4064" layer="25" rot="R90"/>
 <attribute name="VALUE" x="55.626" y="22.4155" size="0.4064" layer="27" rot="R90"/>
 </element>
-<element name="R31" library="components" package="1206_4T" value="0.01" x="41.402" y="22.225" smashed="yes" rot="R180">
-<attribute name="NAME" x="41.402" y="20.225" size="0.8" layer="21" font="vector" ratio="10" rot="R180" align="bottom-center"/>
-<attribute name="VALUE" x="41.402" y="24.225" size="0.8" layer="21" font="vector" ratio="10" rot="R180" align="top-center"/>
-</element>
+<element name="R31" library="components" package="1206_4T" value="0.01" x="41.402" y="22.225" rot="R180"/>
 <element name="R32" library="components" package="0612_4T" value="0.005" x="66.294" y="45.212" smashed="yes" rot="R180">
 <attribute name="NAME" x="65.913" y="46.99" size="0.762" layer="21" font="vector" align="bottom-center"/>
 <attribute name="VALUE" x="63.754" y="45.339" size="0.762" layer="21" font="vector" rot="R270" align="top-center"/>
@@ -1318,7 +1276,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <attribute name="NAME" x="71.7423" y="6.985" size="0.4064" layer="25" rot="R180"/>
 <attribute name="VALUE" x="73.4568" y="6.985" size="0.4064" layer="27" rot="R180"/>
 </element>
-<element name="R44" library="SparkFun-Resistors" package="0805" value="5.36k" x="71.501" y="13.97" smashed="yes" rot="MR270">
+<element name="R44" library="SparkFun-Resistors" package="0805" value="5.36u" x="71.501" y="13.97" smashed="yes" rot="MR270">
 <attribute name="NAME" x="72.7075" y="13.589" size="0.4064" layer="26" rot="MR270"/>
 <attribute name="VALUE" x="72.771" y="15.367" size="0.4064" layer="28" rot="MR270"/>
 </element>
@@ -1330,15 +1288,12 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <attribute name="NAME" x="67.3735" y="25.908" size="0.4064" layer="25" rot="R180"/>
 <attribute name="VALUE" x="65.786" y="25.908" size="0.4064" layer="27" rot="R180"/>
 </element>
-<element name="R6" library="SparkFun-Resistors" package="1206" value="10" x="50.038" y="35.56" smashed="yes" rot="R90">
-<attribute name="NAME" x="48.895" y="34.29" size="0.4064" layer="25" rot="R90"/>
-<attribute name="VALUE" x="51.562" y="34.163" size="0.4064" layer="27" rot="R90"/>
-</element>
-<element name="R8" library="SparkFun-Resistors" package="0805" value="402" x="25.4" y="15.24" smashed="yes">
+<element name="R6" library="SparkFun-Resistors" package="1206" value="10" x="50.038" y="35.56" rot="R90"/>
+<element name="R8" library="SparkFun-Resistors" package="0805" value="330" x="25.4" y="15.24" smashed="yes">
 <attribute name="NAME" x="24.13" y="16.0655" size="0.4064" layer="25"/>
 <attribute name="VALUE" x="25.781" y="16.002" size="0.4064" layer="27"/>
 </element>
-<element name="R9" library="SparkFun-Resistors" package="0805" value="402" x="25.4" y="12.7" smashed="yes">
+<element name="R9" library="SparkFun-Resistors" package="0805" value="330" x="25.4" y="12.7" smashed="yes">
 <attribute name="NAME" x="24.13" y="13.5255" size="0.4064" layer="25"/>
 <attribute name="VALUE" x="25.781" y="13.462" size="0.4064" layer="27"/>
 </element>
@@ -1357,10 +1312,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <attribute name="PACKAGE" value="TPS40305" x="68.453" y="12.7" size="1.778" layer="27" display="off"/>
 <attribute name="VENDOR" value="Texas Instruments" x="68.453" y="12.7" size="1.778" layer="27" display="off"/>
 </element>
-<element name="U$1" library="components" package="SU_LOGO_SS" value="SU_LOGO-DUMMY2" x="11.43" y="22.86" smashed="yes"/>
-<element name="J2" library="molex_nanofit" package="105314-X204" value="105314-X204" x="10.3505" y="43.3705" smashed="yes" rot="R270">
-<attribute name="NAME" x="4.3505" y="46.8705" size="1.25" layer="51" font="vector" align="bottom-center"/>
-</element>
+<element name="U$1" library="components" package="SU_LOGO_SS" value="SU_LOGO-DUMMY2" x="11.43" y="22.86"/>
+<element name="J2" library="molex_nanofit" package="105314-X204" value="105314-X204" x="10.3505" y="43.3705" rot="R270"/>
 <element name="J1" library="molex_nanofit" package="105314-X208" value="105314-X208" x="76.0095" y="35.56" smashed="yes" rot="R90">
 <attribute name="NAME" x="76.677" y="40.671" size="1.25" layer="51" font="vector" align="bottom-center"/>
 </element>
@@ -1379,7 +1332,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <attribute name="NAME" x="33.147" y="9.2075" size="0.4064" layer="26" rot="MR0"/>
 <attribute name="VALUE" x="31.496" y="9.2075" size="0.4064" layer="28" rot="MR0"/>
 </element>
-<element name="J4" library="headers(2mm)" package="2X5" value="2X5" x="2.54" y="25.654" smashed="yes" rot="R90"/>
+<element name="J4" library="headers(2mm)" package="2X5" value="2X5" x="2.54" y="25.654" rot="R90"/>
 </elements>
 <signals>
 <signal name="GND">
@@ -3094,13 +3047,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="22.225" y1="4.445" x2="22.225" y2="9.5885" width="0.6096" layer="16"/>
 </signal>
 </signals>
-<mfgpreviewcolors>
-<mfgpreviewcolor name="soldermaskcolor" color="0xC8008000"/>
-<mfgpreviewcolor name="silkscreencolor" color="0xFFFEFEFE"/>
-<mfgpreviewcolor name="backgroundcolor" color="0xFF282828"/>
-<mfgpreviewcolor name="coppercolor" color="0xFFFFBF00"/>
-<mfgpreviewcolor name="substratecolor" color="0xFF786E46"/>
-</mfgpreviewcolors>
 <errors>
 <approved hash="7,40,50c66134c95580ba"/>
 <approved hash="7,40,6dfc200420fa6d02"/>

@@ -2358,9 +2358,9 @@ design rules under a new name.</description>
 <attribute name="SPICEPREFIX" value="C" x="18.21" y="14.24" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="16.94" y="32.02" size="1.27" layer="27"/>
 </element>
-<element name="U$2" library="ORBiT-IC-CAN-DRIVER" package="SOP8" value="ISO1050" x="25.13" y="11.86" smashed="yes" rot="R270">
-<attribute name="NAME" x="21.955" y="15.035" size="1.27" layer="25"/>
-<attribute name="VALUE" x="21.955" y="7.415" size="1.27" layer="27"/>
+<element name="U$2" library="ORBiT-IC-CAN-DRIVER" package="SOP8" value="ISO1050" x="25.13" y="13.13" smashed="yes" rot="R270">
+<attribute name="NAME" x="21.955" y="16.305" size="1.27" layer="25"/>
+<attribute name="VALUE" x="21.955" y="8.685" size="1.27" layer="27"/>
 </element>
 <element name="IC3" library="ORBiT-IC-CPLD-Intel-MAX_V" package="TQFP100" value="5M240ZT100" x="73.73" y="24.38" smashed="yes" rot="R180">
 <attribute name="VALUE" x="73.73" y="34.54" size="0.6096" layer="27" font="vector" ratio="20" rot="R180" align="bottom-center"/>
@@ -2392,25 +2392,25 @@ design rules under a new name.</description>
 <attribute name="SPICEPREFIX" value="R" x="28.3" y="46.14" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="30.84" y="45.505" size="1.27" layer="27" rot="R90"/>
 </element>
-<element name="R6" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R2012" package3d_urn="urn:adsk.eagle:package:23543/2" value="" x="93.86" y="37.41" smashed="yes">
-<attribute name="NAME" x="93.225" y="38.68" size="1.27" layer="25"/>
-<attribute name="SPICEPREFIX" value="R" x="93.86" y="37.41" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="93.225" y="34.87" size="1.27" layer="27"/>
+<element name="R6" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R2012" package3d_urn="urn:adsk.eagle:package:23543/2" value="" x="95.13" y="43.76" smashed="yes">
+<attribute name="NAME" x="94.495" y="45.03" size="1.27" layer="25"/>
+<attribute name="SPICEPREFIX" value="R" x="95.13" y="43.76" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="94.495" y="41.22" size="1.27" layer="27"/>
 </element>
-<element name="R7" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R2012" package3d_urn="urn:adsk.eagle:package:23543/2" value="" x="93.86" y="32.41" smashed="yes">
-<attribute name="NAME" x="93.225" y="33.68" size="1.27" layer="25"/>
-<attribute name="SPICEPREFIX" value="R" x="93.86" y="32.41" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="93.225" y="29.87" size="1.27" layer="27"/>
+<element name="R7" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R2012" package3d_urn="urn:adsk.eagle:package:23543/2" value="" x="95.13" y="38.76" smashed="yes">
+<attribute name="NAME" x="94.495" y="40.03" size="1.27" layer="25"/>
+<attribute name="SPICEPREFIX" value="R" x="95.13" y="38.76" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="94.495" y="36.22" size="1.27" layer="27"/>
 </element>
-<element name="R8" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R2012" package3d_urn="urn:adsk.eagle:package:23543/2" value="" x="93.86" y="27.41" smashed="yes">
-<attribute name="NAME" x="93.225" y="28.68" size="1.27" layer="25"/>
-<attribute name="SPICEPREFIX" value="R" x="93.86" y="27.41" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="93.225" y="24.87" size="1.27" layer="27"/>
+<element name="R8" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R2012" package3d_urn="urn:adsk.eagle:package:23543/2" value="" x="95.13" y="33.76" smashed="yes">
+<attribute name="NAME" x="94.495" y="35.03" size="1.27" layer="25"/>
+<attribute name="SPICEPREFIX" value="R" x="95.13" y="33.76" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="94.495" y="31.22" size="1.27" layer="27"/>
 </element>
-<element name="R9" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R2012" package3d_urn="urn:adsk.eagle:package:23543/2" value="" x="93.86" y="22.41" smashed="yes">
-<attribute name="NAME" x="93.225" y="23.68" size="1.27" layer="25"/>
-<attribute name="SPICEPREFIX" value="R" x="93.86" y="22.41" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="93.225" y="19.87" size="1.27" layer="27"/>
+<element name="R9" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R2012" package3d_urn="urn:adsk.eagle:package:23543/2" value="" x="95.13" y="28.76" smashed="yes">
+<attribute name="NAME" x="94.495" y="30.03" size="1.27" layer="25"/>
+<attribute name="SPICEPREFIX" value="R" x="95.13" y="28.76" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="94.495" y="26.22" size="1.27" layer="27"/>
 </element>
 <element name="TP1" library="ORBiT-special" package="TP_063" value="TP063" x="46.82" y="52.99" smashed="yes" rot="R90">
 <attribute name="NAME" x="46.55" y="47.974" size="1.27" layer="25" ratio="10" rot="R90"/>
@@ -2630,7 +2630,7 @@ design rules under a new name.</description>
 <wire x1="81.73" y1="18.38" x2="90.6" y2="18.71" width="0" layer="19" extent="1-1"/>
 <wire x1="81.73" y1="22.88" x2="81.73" y2="18.38" width="0" layer="19" extent="1-1"/>
 <wire x1="81.73" y1="23.38" x2="81.73" y2="22.88" width="0" layer="19" extent="1-1"/>
-<wire x1="93.01" y1="22.41" x2="64.168659375" y2="13.36230625" width="0" layer="19" extent="1-1"/>
+<wire x1="94.28" y1="28.76" x2="64.168659375" y2="13.36230625" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="CPLD_VCC">
 <contactref element="C4" pad="1"/>
@@ -2946,7 +2946,7 @@ design rules under a new name.</description>
 <wire x1="19.06" y1="34.56" x2="19.06" y2="30.75" width="0" layer="19" extent="1-1"/>
 <wire x1="19.06" y1="23.13" x2="19.06" y2="26.94" width="0" layer="19" extent="1-1"/>
 <wire x1="19.06" y1="19.32" x2="19.06" y2="23.13" width="0" layer="19" extent="1-1"/>
-<wire x1="22.53" y1="9.955" x2="19.06" y2="19.32" width="0" layer="19" extent="1-1"/>
+<wire x1="22.53" y1="11.225" x2="19.06" y2="19.32" width="0" layer="19" extent="1-1"/>
 <wire x1="33.01" y1="17.31" x2="25.36" y2="19.96" width="0" layer="19" extent="1-1"/>
 <wire x1="38.01" y1="17.31" x2="33.01" y2="17.31" width="0" layer="19" extent="1-1"/>
 <wire x1="37.26" y1="12.55" x2="38.01" y2="17.31" width="0" layer="19" extent="1-1"/>
@@ -2994,8 +2994,8 @@ design rules under a new name.</description>
 <wire x1="25.36" y1="31.46" x2="27.46" y2="39.11" width="0" layer="19" extent="1-1"/>
 <wire x1="25.36" y1="25.96" x2="25.36" y2="31.46" width="0" layer="19" extent="1-1"/>
 <wire x1="25.36" y1="19.41" x2="25.36" y2="25.96" width="0" layer="19" extent="1-1"/>
-<wire x1="22.53" y1="13.765" x2="25.36" y2="19.41" width="0" layer="19" extent="1-1"/>
-<wire x1="17.36" y1="19.32" x2="22.53" y2="13.765" width="0" layer="19" extent="1-1"/>
+<wire x1="22.53" y1="15.035" x2="25.36" y2="19.41" width="0" layer="19" extent="1-1"/>
+<wire x1="17.36" y1="19.32" x2="22.53" y2="15.035" width="0" layer="19" extent="1-1"/>
 <wire x1="17.36" y1="23.13" x2="17.36" y2="19.32" width="0" layer="19" extent="1-1"/>
 <wire x1="17.36" y1="26.94" x2="17.36" y2="23.13" width="0" layer="19" extent="1-1"/>
 <wire x1="17.36" y1="30.75" x2="17.36" y2="26.94" width="0" layer="19" extent="1-1"/>
@@ -3012,15 +3012,15 @@ design rules under a new name.</description>
 <contactref element="IC2" pad="103"/>
 <contactref element="U$2" pad="2"/>
 <contactref element="TP7" pad="TP"/>
-<wire x1="22.53" y1="12.495" x2="49.82" y2="56.99" width="0" layer="19" extent="1-1"/>
-<wire x1="25.36" y1="21.96" x2="22.53" y2="12.495" width="0" layer="19" extent="1-1"/>
+<wire x1="22.53" y1="13.765" x2="49.82" y2="56.99" width="0" layer="19" extent="1-1"/>
+<wire x1="25.36" y1="21.96" x2="22.53" y2="13.765" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="STM32_CAN_TX">
 <contactref element="IC2" pad="104"/>
 <contactref element="U$2" pad="3"/>
 <contactref element="TP8" pad="TP"/>
-<wire x1="22.53" y1="11.225" x2="46.82" y2="56.99" width="0" layer="19" extent="1-1"/>
-<wire x1="25.36" y1="21.46" x2="22.53" y2="11.225" width="0" layer="19" extent="1-1"/>
+<wire x1="22.53" y1="12.495" x2="46.82" y2="56.99" width="0" layer="19" extent="1-1"/>
+<wire x1="25.36" y1="21.46" x2="22.53" y2="12.495" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="STM32_UART1_TX">
 <contactref element="IC2" pad="101"/>
@@ -3077,28 +3077,28 @@ design rules under a new name.</description>
 <contactref element="U$3" pad="PIN2"/>
 <contactref element="R6" pad="1"/>
 <wire x1="81.73" y1="30.38" x2="85.356590625" y2="50.572315625" width="0" layer="19" extent="1-1"/>
-<wire x1="93.01" y1="37.41" x2="85.356590625" y2="50.572315625" width="0" layer="19" extent="1-1"/>
+<wire x1="94.28" y1="43.76" x2="85.356590625" y2="50.572315625" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="C_TCK">
 <contactref element="IC3" pad="24"/>
 <contactref element="U$3" pad="PIN1"/>
 <contactref element="R9" pad="2"/>
 <wire x1="82.816590625" y1="50.572315625" x2="81.73" y2="29.88" width="0" layer="19" extent="1-1"/>
-<wire x1="94.71" y1="22.41" x2="81.73" y2="29.88" width="0" layer="19" extent="1-1"/>
+<wire x1="95.98" y1="28.76" x2="81.73" y2="29.88" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="C_TDI">
 <contactref element="IC3" pad="23"/>
 <contactref element="U$3" pad="PIN5"/>
 <contactref element="R8" pad="1"/>
 <wire x1="81.73" y1="29.38" x2="92.976590625" y2="50.572315625" width="0" layer="19" extent="1-1"/>
-<wire x1="93.01" y1="27.41" x2="81.73" y2="29.38" width="0" layer="19" extent="1-1"/>
+<wire x1="94.28" y1="33.76" x2="81.73" y2="29.38" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="C_TMS">
 <contactref element="IC3" pad="22"/>
 <contactref element="U$3" pad="PIN3"/>
 <contactref element="R7" pad="1"/>
 <wire x1="81.73" y1="28.88" x2="87.896590625" y2="50.572315625" width="0" layer="19" extent="1-1"/>
-<wire x1="93.01" y1="32.41" x2="81.73" y2="28.88" width="0" layer="19" extent="1-1"/>
+<wire x1="94.28" y1="38.76" x2="81.73" y2="28.88" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="CPLD_VCC_IO2">
 <contactref element="IC3" pad="94"/>
@@ -3126,19 +3126,19 @@ design rules under a new name.</description>
 <contactref element="U$3" pad="PIN7"/>
 <contactref element="U$3" pad="PIN8"/>
 <wire x1="85.356590625" y1="53.112315625" x2="87.896590625" y2="53.112315625" width="0" layer="19" extent="1-1"/>
-<wire x1="94.71" y1="37.41" x2="85.356590625" y2="53.112315625" width="0" layer="19" extent="1-1"/>
-<wire x1="94.71" y1="32.41" x2="94.71" y2="37.41" width="0" layer="19" extent="1-1"/>
-<wire x1="94.71" y1="27.41" x2="94.71" y2="32.41" width="0" layer="19" extent="1-1"/>
+<wire x1="95.98" y1="43.76" x2="85.356590625" y2="53.112315625" width="0" layer="19" extent="1-1"/>
+<wire x1="95.98" y1="38.76" x2="95.98" y2="43.76" width="0" layer="19" extent="1-1"/>
+<wire x1="95.98" y1="33.76" x2="95.98" y2="38.76" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="CAN_L_P">
 <contactref element="U$5" pad="PIN5"/>
 <contactref element="U$2" pad="6"/>
-<wire x1="27.73" y1="11.225" x2="36" y2="5" width="0" layer="19" extent="1-1"/>
+<wire x1="27.73" y1="12.495" x2="36" y2="5" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="CAN_H_P">
 <contactref element="U$5" pad="PIN4"/>
 <contactref element="U$2" pad="7"/>
-<wire x1="27.73" y1="12.495" x2="34" y2="5" width="0" layer="19" extent="1-1"/>
+<wire x1="27.73" y1="13.765" x2="34" y2="5" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="CAN_H_S">
 <contactref element="U$5" pad="PIN29"/>
@@ -3306,7 +3306,7 @@ design rules under a new name.</description>
 <wire x1="54" y1="5" x2="54" y2="7" width="0" layer="19" extent="1-1"/>
 <wire x1="42" y1="7" x2="54" y2="7" width="0" layer="19" extent="1-1"/>
 <wire x1="42" y1="5" x2="42" y2="7" width="0" layer="19" extent="1-1"/>
-<wire x1="27.73" y1="9.955" x2="42" y2="7" width="0" layer="19" extent="1-1"/>
+<wire x1="27.73" y1="11.225" x2="42" y2="7" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="12V_GND">
 <contactref element="U$5" pad="PIN26"/>

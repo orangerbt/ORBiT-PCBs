@@ -2412,50 +2412,50 @@ design rules under a new name.</description>
 <attribute name="SPICEPREFIX" value="R" x="93.86" y="22.41" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="93.225" y="19.87" size="1.27" layer="27"/>
 </element>
-<element name="TP1" library="ORBiT-special" package="TP_063" value="TP063" x="36.66" y="52.99" smashed="yes" rot="R90">
-<attribute name="NAME" x="36.39" y="47.974" size="1.27" layer="25" ratio="10" rot="R90"/>
-<attribute name="VALUE" x="38.66" y="52.99" size="0.0254" layer="27" rot="R90"/>
+<element name="TP1" library="ORBiT-special" package="TP_063" value="TP063" x="46.82" y="52.99" smashed="yes" rot="R90">
+<attribute name="NAME" x="46.55" y="47.974" size="1.27" layer="25" ratio="10" rot="R90"/>
+<attribute name="VALUE" x="48.82" y="52.99" size="0.0254" layer="27" rot="R90"/>
 </element>
-<element name="TP2" library="ORBiT-special" package="TP_063" value="TP063" x="39.66" y="52.99" smashed="yes" rot="R90">
-<attribute name="NAME" x="39.39" y="47.974" size="1.27" layer="25" ratio="10" rot="R90"/>
-<attribute name="VALUE" x="35.66" y="52.99" size="0.0254" layer="27" rot="R90"/>
+<element name="TP2" library="ORBiT-special" package="TP_063" value="TP063" x="49.82" y="52.99" smashed="yes" rot="R90">
+<attribute name="NAME" x="49.55" y="47.974" size="1.27" layer="25" ratio="10" rot="R90"/>
+<attribute name="VALUE" x="45.82" y="52.99" size="0.0254" layer="27" rot="R90"/>
 </element>
-<element name="TP3" library="ORBiT-special" package="TP_063" value="TP063" x="43.93" y="52.99" smashed="yes" rot="R90">
-<attribute name="NAME" x="43.66" y="47.974" size="1.27" layer="25" ratio="10" rot="R90"/>
-<attribute name="VALUE" x="43.93" y="52.99" size="0.0254" layer="27" rot="R90"/>
+<element name="TP3" library="ORBiT-special" package="TP_063" value="TP063" x="54.09" y="52.99" smashed="yes" rot="R90">
+<attribute name="NAME" x="53.82" y="47.974" size="1.27" layer="25" ratio="10" rot="R90"/>
+<attribute name="VALUE" x="54.09" y="52.99" size="0.0254" layer="27" rot="R90"/>
 </element>
-<element name="TP4" library="ORBiT-special" package="TP_063" value="TP063" x="46.93" y="52.99" smashed="yes" rot="R90">
-<attribute name="NAME" x="46.66" y="47.974" size="1.27" layer="25" ratio="10" rot="R90"/>
-<attribute name="VALUE" x="44.93" y="52.99" size="0.0254" layer="27" rot="R90"/>
+<element name="TP4" library="ORBiT-special" package="TP_063" value="TP063" x="57.09" y="52.99" smashed="yes" rot="R90">
+<attribute name="NAME" x="56.82" y="47.974" size="1.27" layer="25" ratio="10" rot="R90"/>
+<attribute name="VALUE" x="55.09" y="52.99" size="0.0254" layer="27" rot="R90"/>
 </element>
-<element name="TP5" library="ORBiT-special" package="TP_063" value="TP063" x="53.96" y="56.85" smashed="yes" rot="R270">
-<attribute name="NAME" x="54.23" y="62.866" size="1.27" layer="25" ratio="10" rot="R270"/>
-<attribute name="VALUE" x="55.96" y="57.85" size="0.0254" layer="27" rot="R270"/>
+<element name="TP5" library="ORBiT-special" package="TP_063" value="TP063" x="64.12" y="56.85" smashed="yes" rot="R270">
+<attribute name="NAME" x="64.39" y="62.866" size="1.27" layer="25" ratio="10" rot="R270"/>
+<attribute name="VALUE" x="66.12" y="57.85" size="0.0254" layer="27" rot="R270"/>
 </element>
-<element name="TP6" library="ORBiT-special" package="TP_063" value="TP063" x="50.96" y="56.85" smashed="yes" rot="R270">
-<attribute name="NAME" x="51.23" y="62.866" size="1.27" layer="25" ratio="10" rot="R270"/>
+<element name="TP6" library="ORBiT-special" package="TP_063" value="TP063" x="61.12" y="56.85" smashed="yes" rot="R270">
+<attribute name="NAME" x="61.39" y="62.866" size="1.27" layer="25" ratio="10" rot="R270"/>
 </element>
-<element name="TP7" library="ORBiT-special" package="TP_063" value="TP063" x="39.66" y="56.99" smashed="yes" rot="R270">
-<attribute name="NAME" x="37.93" y="62.006" size="1.27" layer="25" ratio="10" rot="R270"/>
+<element name="TP7" library="ORBiT-special" package="TP_063" value="TP063" x="49.82" y="56.99" smashed="yes" rot="R270">
+<attribute name="NAME" x="48.09" y="62.006" size="1.27" layer="25" ratio="10" rot="R270"/>
 </element>
-<element name="TP8" library="ORBiT-special" package="TP_063" value="TP063" x="36.66" y="56.99" smashed="yes" rot="R270">
-<attribute name="NAME" x="34.93" y="62.006" size="1.27" layer="25" ratio="10" rot="R270"/>
+<element name="TP8" library="ORBiT-special" package="TP_063" value="TP063" x="46.82" y="56.99" smashed="yes" rot="R270">
+<attribute name="NAME" x="45.09" y="62.006" size="1.27" layer="25" ratio="10" rot="R270"/>
 </element>
-<element name="TP9" library="ORBiT-special" package="TP_063" value="TP063" x="46.93" y="56.99" smashed="yes" rot="R270">
-<attribute name="NAME" x="46.2" y="62.006" size="1.27" layer="25" ratio="10" rot="R270"/>
-<attribute name="VALUE" x="45.93" y="56.99" size="0.0254" layer="27" rot="R270"/>
+<element name="TP9" library="ORBiT-special" package="TP_063" value="TP063" x="57.09" y="56.99" smashed="yes" rot="R270">
+<attribute name="NAME" x="56.36" y="62.006" size="1.27" layer="25" ratio="10" rot="R270"/>
+<attribute name="VALUE" x="56.09" y="56.99" size="0.0254" layer="27" rot="R270"/>
 </element>
-<element name="TP10" library="ORBiT-special" package="TP_063" value="TP063" x="43.93" y="56.99" smashed="yes" rot="R270">
-<attribute name="NAME" x="43.66" y="57.974" size="1.27" layer="25" ratio="10" rot="R90"/>
-<attribute name="VALUE" x="43.93" y="56.99" size="0.0254" layer="27" rot="R270"/>
+<element name="TP10" library="ORBiT-special" package="TP_063" value="TP063" x="54.09" y="56.99" smashed="yes" rot="R270">
+<attribute name="NAME" x="52.86" y="62.676" size="1.27" layer="25" ratio="10" rot="R270"/>
+<attribute name="VALUE" x="54.09" y="56.99" size="0.0254" layer="27" rot="R270"/>
 </element>
-<element name="TP11" library="ORBiT-special" package="TP_063" value="TP063" x="50.96" y="53.39" smashed="yes" rot="R90">
-<attribute name="NAME" x="50.69" y="47.374" size="1.27" layer="25" ratio="10" rot="R90"/>
-<attribute name="VALUE" x="48.96" y="55.39" size="0.0254" layer="27" rot="R90"/>
+<element name="TP11" library="ORBiT-special" package="TP_063" value="TP063" x="61.12" y="53.39" smashed="yes" rot="R90">
+<attribute name="NAME" x="60.85" y="47.374" size="1.27" layer="25" ratio="10" rot="R90"/>
+<attribute name="VALUE" x="59.12" y="55.39" size="0.0254" layer="27" rot="R90"/>
 </element>
-<element name="TP12" library="ORBiT-special" package="TP_063" value="TP063" x="53.96" y="53.39" smashed="yes" rot="R90">
-<attribute name="NAME" x="53.69" y="47.374" size="1.27" layer="25" ratio="10" rot="R90"/>
-<attribute name="VALUE" x="52.96" y="51.39" size="0.0254" layer="27" rot="R90"/>
+<element name="TP12" library="ORBiT-special" package="TP_063" value="TP063" x="64.12" y="53.39" smashed="yes" rot="R90">
+<attribute name="NAME" x="63.85" y="47.374" size="1.27" layer="25" ratio="10" rot="R90"/>
+<attribute name="VALUE" x="63.12" y="51.39" size="0.0254" layer="27" rot="R90"/>
 </element>
 <element name="U$5" library="ORBIT-CON-HARWIN-101LOK" package="M80-5305042" value="CARD_EDGE_50PINM80-5305042" x="28" y="6" smashed="yes"/>
 </elements>
@@ -3012,65 +3012,65 @@ design rules under a new name.</description>
 <contactref element="IC2" pad="103"/>
 <contactref element="U$2" pad="2"/>
 <contactref element="TP7" pad="TP"/>
-<wire x1="22.53" y1="12.495" x2="39.66" y2="56.99" width="0" layer="19" extent="1-1"/>
+<wire x1="22.53" y1="12.495" x2="49.82" y2="56.99" width="0" layer="19" extent="1-1"/>
 <wire x1="25.36" y1="21.96" x2="22.53" y2="12.495" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="STM32_CAN_TX">
 <contactref element="IC2" pad="104"/>
 <contactref element="U$2" pad="3"/>
 <contactref element="TP8" pad="TP"/>
-<wire x1="22.53" y1="11.225" x2="36.66" y2="56.99" width="0" layer="19" extent="1-1"/>
+<wire x1="22.53" y1="11.225" x2="46.82" y2="56.99" width="0" layer="19" extent="1-1"/>
 <wire x1="25.36" y1="21.46" x2="22.53" y2="11.225" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="STM32_UART1_TX">
 <contactref element="IC2" pad="101"/>
 <contactref element="TP5" pad="TP"/>
-<wire x1="53.96" y1="56.85" x2="25.36" y2="22.96" width="0" layer="19" extent="1-1"/>
+<wire x1="64.12" y1="56.85" x2="25.36" y2="22.96" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="STM32_UART1_RX">
 <contactref element="IC2" pad="102"/>
 <contactref element="TP6" pad="TP"/>
-<wire x1="50.96" y1="56.85" x2="25.36" y2="22.46" width="0" layer="19" extent="1-1"/>
+<wire x1="61.12" y1="56.85" x2="25.36" y2="22.46" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="STM32_UART2_TX">
 <contactref element="IC2" pad="35"/>
 <contactref element="TP11" pad="TP"/>
-<wire x1="47.16" y1="36.46" x2="50.96" y2="53.39" width="0" layer="19" extent="1-1"/>
+<wire x1="47.16" y1="36.46" x2="61.12" y2="53.39" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="STM32_UART2_RX">
 <contactref element="IC2" pad="36"/>
 <contactref element="TP12" pad="TP"/>
-<wire x1="47.16" y1="37.01" x2="53.96" y2="53.39" width="0" layer="19" extent="1-1"/>
+<wire x1="47.16" y1="37.01" x2="64.12" y2="53.39" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="STM32_SPI1_SCK">
 <contactref element="IC2" pad="41"/>
 <contactref element="TP2" pad="TP"/>
-<wire x1="39.66" y1="52.99" x2="43.01" y2="39.11" width="0" layer="19" extent="1-1"/>
+<wire x1="49.82" y1="52.99" x2="43.01" y2="39.11" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="STM32_SPI1_MISO">
 <contactref element="IC2" pad="42"/>
 <contactref element="TP3" pad="TP"/>
-<wire x1="43.93" y1="52.99" x2="42.51" y2="39.11" width="0" layer="19" extent="1-1"/>
+<wire x1="54.09" y1="52.99" x2="42.51" y2="39.11" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="STM32_SPI1_MOSI">
 <contactref element="IC2" pad="43"/>
 <contactref element="TP4" pad="TP"/>
-<wire x1="46.93" y1="52.99" x2="42.01" y2="39.11" width="0" layer="19" extent="1-1"/>
+<wire x1="57.09" y1="52.99" x2="42.01" y2="39.11" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="STM32_SPI1_CS">
 <contactref element="IC2" pad="40"/>
 <contactref element="TP1" pad="TP"/>
-<wire x1="36.66" y1="52.99" x2="43.51" y2="39.11" width="0" layer="19" extent="1-1"/>
+<wire x1="46.82" y1="52.99" x2="43.51" y2="39.11" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="STM32_I2C1_SCL">
 <contactref element="IC2" pad="136"/>
 <contactref element="TP9" pad="TP"/>
-<wire x1="41.01" y1="17.31" x2="46.93" y2="56.99" width="0" layer="19" extent="1-1"/>
+<wire x1="41.01" y1="17.31" x2="57.09" y2="56.99" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="STM32_I2C1_SDA">
 <contactref element="IC2" pad="137"/>
 <contactref element="TP10" pad="TP"/>
-<wire x1="41.51" y1="17.31" x2="43.93" y2="56.99" width="0" layer="19" extent="1-1"/>
+<wire x1="41.51" y1="17.31" x2="54.09" y2="56.99" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="C_TDO">
 <contactref element="IC3" pad="25"/>

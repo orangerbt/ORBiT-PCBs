@@ -8,7 +8,7 @@
 </settings>
 <grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="no" altdistance="25" altunitdist="mil" altunit="mil"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="1" name="Top" color="4" fill="1" visible="no" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="no"/>
 <layer number="3" name="Route3" color="17" fill="1" visible="no" active="no"/>
 <layer number="4" name="Route4" color="18" fill="1" visible="no" active="no"/>
@@ -23,18 +23,18 @@
 <layer number="13" name="Route13" color="21" fill="1" visible="no" active="no"/>
 <layer number="14" name="Route14" color="22" fill="1" visible="no" active="no"/>
 <layer number="15" name="Route15" color="23" fill="1" visible="no" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="no" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="yes"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="yes"/>
 <layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
@@ -53,7 +53,7 @@
 <layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
 <layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
@@ -373,6 +373,11 @@
 <hole x="27.305" y="43.18" drill="0.35"/>
 <hole x="27.94" y="43.18" drill="0.35"/>
 <hole x="28.575" y="43.18" drill="0.35"/>
+<wire x1="77.47" y1="78.74" x2="77.47" y2="77.47" width="0.0762" layer="46"/>
+<wire x1="77.47" y1="77.47" x2="86.36" y2="77.47" width="0.0762" layer="46"/>
+<wire x1="86.36" y1="77.47" x2="86.36" y2="76.2" width="0.0762" layer="46" curve="-180"/>
+<wire x1="86.36" y1="76.2" x2="77.47" y2="76.2" width="0.0762" layer="46"/>
+<wire x1="77.47" y1="76.2" x2="77.47" y2="66.04" width="0.0762" layer="46"/>
 <hole x="10.795" y="44.45" drill="0.35"/>
 <hole x="11.43" y="44.45" drill="0.35"/>
 <hole x="12.065" y="44.45" drill="0.35"/>
@@ -380,102 +385,97 @@
 <hole x="10.795" y="43.18" drill="0.35"/>
 <hole x="11.43" y="43.18" drill="0.35"/>
 <hole x="12.065" y="43.18" drill="0.35"/>
-<hole x="11.43" y="22.86" drill="0.2"/>
-<hole x="10.795" y="22.86" drill="0.2"/>
-<hole x="12.065" y="22.86" drill="0.2"/>
-<hole x="11.43" y="22.225" drill="0.2"/>
-<hole x="10.795" y="21.59" drill="0.2"/>
-<hole x="11.43" y="21.59" drill="0.2"/>
-<hole x="12.065" y="21.59" drill="0.2"/>
-<hole x="27.305" y="22.86" drill="0.2"/>
-<hole x="28.575" y="22.86" drill="0.2"/>
-<hole x="27.94" y="22.86" drill="0.2"/>
-<hole x="27.94" y="22.225" drill="0.2"/>
-<hole x="27.305" y="21.59" drill="0.2"/>
-<hole x="27.94" y="21.59" drill="0.2"/>
-<hole x="28.575" y="21.59" drill="0.2"/>
-<hole x="48.895" y="22.86" drill="0.2"/>
-<hole x="49.53" y="22.86" drill="0.2"/>
-<hole x="50.165" y="22.86" drill="0.2"/>
-<hole x="49.53" y="22.225" drill="0.2"/>
-<hole x="49.53" y="21.59" drill="0.2"/>
-<hole x="48.895" y="21.59" drill="0.2"/>
-<hole x="50.165" y="21.59" drill="0.2"/>
-<hole x="38.735" y="11.43" drill="0.2"/>
-<hole x="38.1" y="12.065" drill="0.2"/>
-<hole x="38.1" y="11.43" drill="0.2"/>
-<hole x="38.1" y="10.795" drill="0.2"/>
-<hole x="39.37" y="12.065" drill="0.2"/>
-<hole x="39.37" y="11.43" drill="0.2"/>
-<hole x="39.37" y="10.795" drill="0.2"/>
-<hole x="65.405" y="22.86" drill="0.2"/>
-<hole x="66.04" y="22.86" drill="0.2"/>
-<hole x="66.04" y="22.225" drill="0.2"/>
-<hole x="66.675" y="22.86" drill="0.2"/>
-<hole x="66.675" y="21.59" drill="0.2"/>
-<hole x="65.405" y="21.59" drill="0.2"/>
-<hole x="66.04" y="21.59" drill="0.2"/>
-<hole x="76.2" y="12.065" drill="0.2"/>
-<hole x="76.2" y="11.43" drill="0.2"/>
-<hole x="76.2" y="10.795" drill="0.2"/>
-<hole x="76.835" y="11.43" drill="0.2"/>
-<hole x="77.47" y="12.065" drill="0.2"/>
-<hole x="77.47" y="11.43" drill="0.2"/>
-<hole x="77.47" y="10.795" drill="0.2"/>
-<hole x="76.835" y="33.02" drill="0.2"/>
-<hole x="76.2" y="33.02" drill="0.2"/>
-<hole x="76.2" y="33.655" drill="0.2"/>
-<hole x="76.2" y="32.385" drill="0.2"/>
-<hole x="77.47" y="33.655" drill="0.2"/>
-<hole x="77.47" y="33.02" drill="0.2"/>
-<hole x="77.47" y="32.385" drill="0.2"/>
-<hole x="87.63" y="38.735" drill="0.2"/>
-<hole x="87.63" y="39.37" drill="0.2"/>
-<hole x="86.995" y="39.37" drill="0.2"/>
-<hole x="88.265" y="39.37" drill="0.2"/>
-<hole x="88.265" y="38.1" drill="0.2"/>
-<hole x="86.995" y="38.1" drill="0.2"/>
-<hole x="87.63" y="38.1" drill="0.2"/>
-<hole x="49.53" y="44.45" drill="0.2"/>
-<hole x="48.895" y="44.45" drill="0.2"/>
-<hole x="50.165" y="44.45" drill="0.2"/>
-<hole x="49.53" y="43.815" drill="0.2"/>
-<hole x="49.53" y="43.18" drill="0.2"/>
-<hole x="50.165" y="43.18" drill="0.2"/>
-<hole x="48.895" y="43.18" drill="0.2"/>
-<hole x="65.405" y="44.45" drill="0.2"/>
-<hole x="66.04" y="44.45" drill="0.2"/>
-<hole x="66.675" y="44.45" drill="0.2"/>
-<hole x="66.04" y="43.815" drill="0.2"/>
-<hole x="66.04" y="43.18" drill="0.2"/>
-<hole x="65.405" y="43.18" drill="0.2"/>
-<hole x="66.675" y="43.18" drill="0.2"/>
-<hole x="76.835" y="54.61" drill="0.2"/>
-<hole x="76.2" y="55.245" drill="0.2"/>
-<hole x="76.2" y="54.61" drill="0.2"/>
-<hole x="76.2" y="53.975" drill="0.2"/>
-<hole x="77.47" y="55.245" drill="0.2"/>
-<hole x="77.47" y="54.61" drill="0.2"/>
-<hole x="77.47" y="53.975" drill="0.2"/>
-<wire x1="77.47" y1="78.74" x2="77.47" y2="77.47" width="0.0762" layer="46"/>
-<wire x1="77.47" y1="77.47" x2="86.36" y2="77.47" width="0.0762" layer="46"/>
-<wire x1="86.36" y1="77.47" x2="86.36" y2="76.2" width="0.0762" layer="46" curve="-180"/>
-<wire x1="86.36" y1="76.2" x2="77.47" y2="76.2" width="0.0762" layer="46"/>
-<wire x1="77.47" y1="76.2" x2="77.47" y2="66.04" width="0.0762" layer="46"/>
-<hole x="77.47" y="80.01" drill="0.2"/>
-<hole x="76.2" y="80.01" drill="0.2"/>
-<hole x="76.835" y="80.01" drill="0.2"/>
-<hole x="76.2" y="80.645" drill="0.2"/>
-<hole x="76.2" y="79.375" drill="0.2"/>
-<hole x="77.47" y="80.645" drill="0.2"/>
-<hole x="77.47" y="79.375" drill="0.2"/>
-<hole x="86.995" y="77.47" drill="0.2"/>
-<hole x="87.63" y="77.47" drill="0.2"/>
-<hole x="88.265" y="77.47" drill="0.2"/>
-<hole x="87.63" y="76.835" drill="0.2"/>
-<hole x="87.63" y="76.2" drill="0.2"/>
-<hole x="86.995" y="76.2" drill="0.2"/>
-<hole x="88.265" y="76.2" drill="0.2"/>
+<hole x="10.795" y="22.86" drill="0.35"/>
+<hole x="11.43" y="22.86" drill="0.35"/>
+<hole x="12.065" y="22.86" drill="0.35"/>
+<hole x="11.43" y="22.225" drill="0.35"/>
+<hole x="10.795" y="21.59" drill="0.35"/>
+<hole x="11.43" y="21.59" drill="0.35"/>
+<hole x="12.065" y="21.59" drill="0.35"/>
+<hole x="27.305" y="22.86" drill="0.35"/>
+<hole x="27.94" y="22.86" drill="0.35"/>
+<hole x="28.575" y="22.86" drill="0.35"/>
+<hole x="27.94" y="22.225" drill="0.35"/>
+<hole x="27.305" y="21.59" drill="0.35"/>
+<hole x="27.94" y="21.59" drill="0.35"/>
+<hole x="28.575" y="21.59" drill="0.35"/>
+<hole x="38.1" y="10.795" drill="0.35"/>
+<hole x="38.1" y="11.43" drill="0.35"/>
+<hole x="38.1" y="12.065" drill="0.35"/>
+<hole x="38.735" y="11.43" drill="0.35"/>
+<hole x="39.37" y="10.795" drill="0.35"/>
+<hole x="39.37" y="11.43" drill="0.35"/>
+<hole x="39.37" y="12.065" drill="0.35"/>
+<hole x="48.895" y="22.86" drill="0.35"/>
+<hole x="49.53" y="22.86" drill="0.35"/>
+<hole x="50.165" y="22.86" drill="0.35"/>
+<hole x="49.53" y="22.225" drill="0.35"/>
+<hole x="48.895" y="21.59" drill="0.35"/>
+<hole x="49.53" y="21.59" drill="0.35"/>
+<hole x="50.165" y="21.59" drill="0.35"/>
+<hole x="65.405" y="22.86" drill="0.35"/>
+<hole x="66.04" y="22.86" drill="0.35"/>
+<hole x="66.675" y="22.86" drill="0.35"/>
+<hole x="66.04" y="22.225" drill="0.35"/>
+<hole x="65.405" y="21.59" drill="0.35"/>
+<hole x="66.04" y="21.59" drill="0.35"/>
+<hole x="66.675" y="21.59" drill="0.35"/>
+<hole x="76.2" y="10.795" drill="0.35"/>
+<hole x="76.2" y="11.43" drill="0.35"/>
+<hole x="76.2" y="12.065" drill="0.35"/>
+<hole x="76.835" y="11.43" drill="0.35"/>
+<hole x="77.47" y="10.795" drill="0.35"/>
+<hole x="77.47" y="11.43" drill="0.35"/>
+<hole x="77.47" y="12.065" drill="0.35"/>
+<hole x="48.895" y="44.45" drill="0.35"/>
+<hole x="49.53" y="44.45" drill="0.35"/>
+<hole x="50.165" y="44.45" drill="0.35"/>
+<hole x="49.53" y="43.815" drill="0.35"/>
+<hole x="48.895" y="43.18" drill="0.35"/>
+<hole x="49.53" y="43.18" drill="0.35"/>
+<hole x="50.165" y="43.18" drill="0.35"/>
+<hole x="65.405" y="44.45" drill="0.35"/>
+<hole x="66.04" y="44.45" drill="0.35"/>
+<hole x="66.675" y="44.45" drill="0.35"/>
+<hole x="66.04" y="43.815" drill="0.35"/>
+<hole x="65.405" y="43.18" drill="0.35"/>
+<hole x="66.04" y="43.18" drill="0.35"/>
+<hole x="66.675" y="43.18" drill="0.35"/>
+<hole x="76.2" y="32.385" drill="0.35"/>
+<hole x="76.2" y="33.02" drill="0.35"/>
+<hole x="76.2" y="33.655" drill="0.35"/>
+<hole x="76.835" y="33.02" drill="0.35"/>
+<hole x="77.47" y="32.385" drill="0.35"/>
+<hole x="77.47" y="33.02" drill="0.35"/>
+<hole x="77.47" y="33.655" drill="0.35"/>
+<hole x="86.995" y="39.37" drill="0.35"/>
+<hole x="87.63" y="39.37" drill="0.35"/>
+<hole x="88.265" y="39.37" drill="0.35"/>
+<hole x="87.63" y="38.735" drill="0.35"/>
+<hole x="86.995" y="38.1" drill="0.35"/>
+<hole x="87.63" y="38.1" drill="0.35"/>
+<hole x="88.265" y="38.1" drill="0.35"/>
+<hole x="76.2" y="53.975" drill="0.35"/>
+<hole x="76.2" y="54.61" drill="0.35"/>
+<hole x="76.2" y="55.245" drill="0.35"/>
+<hole x="76.835" y="54.61" drill="0.35"/>
+<hole x="77.47" y="53.975" drill="0.35"/>
+<hole x="77.47" y="54.61" drill="0.35"/>
+<hole x="77.47" y="55.245" drill="0.35"/>
+<hole x="76.2" y="79.375" drill="0.35"/>
+<hole x="76.2" y="80.01" drill="0.35"/>
+<hole x="76.2" y="80.645" drill="0.35"/>
+<hole x="76.835" y="80.01" drill="0.35"/>
+<hole x="77.47" y="79.375" drill="0.35"/>
+<hole x="77.47" y="80.01" drill="0.35"/>
+<hole x="77.47" y="80.645" drill="0.35"/>
+<hole x="86.995" y="77.47" drill="0.35"/>
+<hole x="87.63" y="77.47" drill="0.35"/>
+<hole x="88.265" y="77.47" drill="0.35"/>
+<hole x="87.63" y="76.835" drill="0.35"/>
+<hole x="86.995" y="76.2" drill="0.35"/>
+<hole x="87.63" y="76.2" drill="0.35"/>
+<hole x="88.265" y="76.2" drill="0.35"/>
 </plain>
 <libraries>
 <library name="rcl" urn="urn:adsk.eagle:library:334">

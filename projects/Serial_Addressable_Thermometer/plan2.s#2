@@ -4917,8 +4917,8 @@ Source: AVX .. aphvc.pdf</description>
 </classes>
 <parts>
 <part name="U$1" library="ORBiT-IC-PIC" deviceset="PIC16F18424" device="" package3d_urn="urn:adsk.eagle:package:10014419/1"/>
-<part name="J1" library="Wurth_Elektronik_Electromechanic_FPC_Connectors_&amp;_Flat_Flexible_Cable_rev18c" library_urn="urn:adsk.eagle:library:488576" deviceset="68611014422" device="" package3d_urn="urn:adsk.eagle:package:3360715/1"/>
-<part name="C1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C1808" package3d_urn="urn:adsk.eagle:package:23689/2"/>
+<part name="J1" library="Wurth_Elektronik_Electromechanic_FPC_Connectors_&amp;_Flat_Flexible_Cable_rev18c" library_urn="urn:adsk.eagle:library:488576" deviceset="68611014422" device="" package3d_urn="urn:adsk.eagle:package:3360715/1" value="analog"/>
+<part name="C1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C1808" package3d_urn="urn:adsk.eagle:package:23689/2" value="47u"/>
 <part name="GND1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
@@ -5129,12 +5129,6 @@ Source: AVX .. aphvc.pdf</description>
 <junction x="86.36" y="43.18"/>
 </segment>
 <segment>
-<pinref part="C1" gate="G$1" pin="2"/>
-<wire x1="20.32" y1="81.28" x2="20.32" y2="76.2" width="0.1524" layer="91"/>
-<pinref part="GND3" gate="1" pin="GND"/>
-<wire x1="20.32" y1="76.2" x2="20.32" y2="78.74" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <wire x1="63.5" y1="104.14" x2="53.34" y2="104.14" width="0.1524" layer="91"/>
 <wire x1="53.34" y1="104.14" x2="53.34" y2="99.06" width="0.1524" layer="91"/>
 <wire x1="63.5" y1="86.36" x2="53.34" y2="86.36" width="0.1524" layer="91"/>
@@ -5152,6 +5146,11 @@ Source: AVX .. aphvc.pdf</description>
 <pinref part="GND4" gate="1" pin="GND"/>
 <wire x1="58.42" y1="73.66" x2="58.42" y2="71.12" width="0.1524" layer="91"/>
 <junction x="58.42" y="73.66"/>
+</segment>
+<segment>
+<pinref part="GND3" gate="1" pin="GND"/>
+<pinref part="C1" gate="G$1" pin="2"/>
+<wire x1="20.32" y1="78.74" x2="20.32" y2="81.28" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$7" class="0">
@@ -5171,12 +5170,6 @@ Source: AVX .. aphvc.pdf</description>
 </segment>
 </net>
 <net name="+5V" class="0">
-<segment>
-<pinref part="C1" gate="G$1" pin="1"/>
-<wire x1="20.32" y1="88.9" x2="20.32" y2="93.98" width="0.1524" layer="91"/>
-<pinref part="P+4" gate="1" pin="+5V"/>
-<wire x1="20.32" y1="91.44" x2="20.32" y2="93.98" width="0.1524" layer="91"/>
-</segment>
 <segment>
 <pinref part="U$1" gate="G$1" pin="VDD"/>
 <wire x1="35.56" y1="40.64" x2="30.48" y2="40.64" width="0.1524" layer="91"/>
@@ -5206,6 +5199,11 @@ Source: AVX .. aphvc.pdf</description>
 <junction x="50.8" y="111.76"/>
 <pinref part="U$2" gate="G$1" pin="PIN0"/>
 <pinref part="U$3" gate="G$1" pin="PIN3"/>
+</segment>
+<segment>
+<pinref part="P+4" gate="1" pin="+5V"/>
+<pinref part="C1" gate="G$1" pin="1"/>
+<wire x1="20.32" y1="91.44" x2="20.32" y2="88.9" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>

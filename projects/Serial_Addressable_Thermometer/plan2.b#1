@@ -1648,34 +1648,34 @@ design rules under a new name.</description>
 </autorouter>
 <elements>
 <element name="J1" library="Wurth_Elektronik_Electromechanic_FPC_Connectors_&amp;_Flat_Flexible_Cable_rev18c" library_urn="urn:adsk.eagle:library:488576" package="68611014422" package3d_urn="urn:adsk.eagle:package:3360715/1" value="analog" x="12.7" y="5.08" smashed="yes">
-<attribute name="NAME" x="0.7484" y="3.6185" size="1.27" layer="25"/>
+<attribute name="NAME" x="24.3215" y="3.2884" size="1.27" layer="25" rot="R90"/>
 <attribute name="VALUE" x="2.3734" y="2.0184" size="1.27" layer="27" rot="R90"/>
 </element>
-<element name="U$1" library="ORBiT-IC-PIC" package="14-TSSOP" package3d_urn="urn:adsk.eagle:package:10014419/1" value="PIC16F18424" x="12.7" y="13.97" smashed="yes" rot="R180">
-<attribute name="NAME" x="21.59" y="9.1576" size="1.27" layer="25" rot="R180" align="bottom-center"/>
+<element name="MAINCON" library="ORBiT-IC-PIC" package="14-TSSOP" package3d_urn="urn:adsk.eagle:package:10014419/1" value="PIC16F18424" x="12.7" y="13.97" smashed="yes" rot="R180">
+<attribute name="NAME" x="12.7" y="10.6816" size="1.27" layer="25" rot="R180" align="bottom-center"/>
 <attribute name="VALUE" x="12.7" y="17.155" size="1.27" layer="27" rot="R180" align="top-center"/>
 </element>
 <element name="C1" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C1808" package3d_urn="urn:adsk.eagle:package:23689/2" value="47u" x="12.954" y="20.32" smashed="yes" rot="R180">
-<attribute name="NAME" x="18.997" y="21.033" size="1.27" layer="25" rot="R180"/>
+<attribute name="NAME" x="17.854" y="20.652" size="1.27" layer="25" rot="R180"/>
 <attribute name="SPICEPREFIX" value="C" x="12.954" y="20.32" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VALUE" x="15.187" y="23.162" size="1.27" layer="27" rot="R180"/>
+<attribute name="VALUE" x="9.98" y="20.622" size="1.27" layer="27" rot="R180"/>
 </element>
-<element name="U$2" library="ORBiT-con-JST" package="JST_ZH_4PIN" value="JST_ZH_4PIN" x="6.35" y="13.97" smashed="yes" rot="R270">
-<attribute name="NAME" x="4.191" y="15.367" size="0.6096" layer="25" font="vector" ratio="20" rot="R270"/>
-<attribute name="VALUE" x="3.048" y="15.621" size="0.6096" layer="27" font="vector" ratio="20" rot="R270"/>
+<element name="U$2" library="ORBiT-con-JST" package="JST_ZH_4PIN" value="IIC1" x="6.35" y="13.97" smashed="yes" rot="R270">
+<attribute name="NAME" x="1.397" y="9.652" size="0.6096" layer="25" font="vector" ratio="20"/>
+<attribute name="VALUE" x="1.143" y="17.526" size="0.6096" layer="27" font="vector" ratio="20"/>
 </element>
-<element name="U$3" library="ORBiT-con-JST" package="JST_ZH_4PIN" value="JST_ZH_4PIN" x="19.05" y="13.97" smashed="yes" rot="R90">
-<attribute name="NAME" x="21.209" y="12.573" size="0.6096" layer="25" font="vector" ratio="20" rot="R90"/>
-<attribute name="VALUE" x="22.352" y="12.319" size="0.6096" layer="27" font="vector" ratio="20" rot="R90"/>
+<element name="U$3" library="ORBiT-con-JST" package="JST_ZH_4PIN" value="IIC2" x="19.05" y="13.97" smashed="yes" rot="R90">
+<attribute name="NAME" x="24.13" y="10.541" size="0.6096" layer="25" font="vector" ratio="20" rot="R180"/>
+<attribute name="VALUE" x="24.003" y="18.288" size="0.6096" layer="27" font="vector" ratio="20" rot="R180"/>
 </element>
-<element name="U$4" library="ORBiT-con-JST" package="JST_ZH_6PIN" value="JST_ZH_6PIN" x="12.7" y="24.13" smashed="yes" rot="R180">
+<element name="U$4" library="ORBiT-con-JST" package="JST_ZH_6PIN" value="programming" x="12.7" y="24.13" smashed="yes" rot="R180">
 <attribute name="NAME" x="16.089" y="23.95" size="0.6096" layer="25" font="vector" ratio="20" rot="R270" align="bottom-center"/>
 <attribute name="VALUE" x="7.961" y="23.95" size="0.6096" layer="27" font="vector" ratio="20" rot="R270" align="top-center"/>
 </element>
 </elements>
 <signals>
 <signal name="AD3">
-<contactref element="U$1" pad="8"/>
+<contactref element="MAINCON" pad="8"/>
 <contactref element="J1" pad="4"/>
 <wire x1="11.2" y1="7.48" x2="11.2" y2="9.041" width="0.254" layer="1"/>
 <wire x1="12.319" y1="10.16" x2="11.2" y2="9.041" width="0.254" layer="1"/>
@@ -1684,7 +1684,7 @@ design rules under a new name.</description>
 <wire x1="12.319" y1="14.859" x2="11.258" y2="15.92" width="0.254" layer="1"/>
 </signal>
 <signal name="AD4">
-<contactref element="U$1" pad="7"/>
+<contactref element="MAINCON" pad="7"/>
 <contactref element="J1" pad="5"/>
 <wire x1="12.2" y1="7.48" x2="12.2396" y2="7.5196" width="0.254" layer="1"/>
 <wire x1="12.2396" y1="7.5196" x2="12.2396" y2="9.33073125" width="0.254" layer="1"/>
@@ -1694,7 +1694,7 @@ design rules under a new name.</description>
 <wire x1="14.015" y1="15.92" x2="15.5713" y2="15.92" width="0.254" layer="1"/>
 </signal>
 <signal name="AD5">
-<contactref element="U$1" pad="6"/>
+<contactref element="MAINCON" pad="6"/>
 <contactref element="J1" pad="6"/>
 <wire x1="15.5713" y1="15.27" x2="15.5413" y2="15.24" width="0.254" layer="1"/>
 <wire x1="15.5413" y1="15.24" x2="13.97" y2="15.24" width="0.254" layer="1"/>
@@ -1704,7 +1704,7 @@ design rules under a new name.</description>
 <wire x1="13.2" y1="9.20839375" x2="13.2" y2="7.48" width="0.254" layer="1"/>
 </signal>
 <signal name="AD6">
-<contactref element="U$1" pad="5"/>
+<contactref element="MAINCON" pad="5"/>
 <contactref element="J1" pad="7"/>
 <wire x1="14.2" y1="7.48" x2="14.1604" y2="7.5196" width="0.254" layer="1"/>
 <wire x1="14.1604" y1="7.5196" x2="14.1604" y2="9.20373125" width="0.254" layer="1"/>
@@ -1715,7 +1715,7 @@ design rules under a new name.</description>
 </signal>
 <signal name="AD7">
 <contactref element="J1" pad="8"/>
-<contactref element="U$1" pad="3"/>
+<contactref element="MAINCON" pad="3"/>
 <wire x1="15.2" y1="8.91013125" x2="14.0462" y2="10.06393125" width="0.254" layer="1"/>
 <wire x1="15.2" y1="7.48" x2="15.2" y2="8.91013125" width="0.254" layer="1"/>
 <wire x1="14.88816875" y1="13.32" x2="15.5713" y2="13.32" width="0.254" layer="1"/>
@@ -1724,7 +1724,7 @@ design rules under a new name.</description>
 </signal>
 <signal name="AD8">
 <contactref element="J1" pad="9"/>
-<contactref element="U$1" pad="2"/>
+<contactref element="MAINCON" pad="2"/>
 <wire x1="15.5713" y1="12.67" x2="14.88816875" y2="12.67" width="0.254" layer="1"/>
 <wire x1="14.88816875" y1="12.67" x2="14.4526" y2="12.23443125" width="0.254" layer="1"/>
 <wire x1="14.4526" y1="12.23443125" x2="14.4526" y2="11.176" width="0.254" layer="1"/>
@@ -1738,7 +1738,7 @@ design rules under a new name.</description>
 <wire x1="10.8427" y1="12.33913125" x2="10.8427" y2="10.9094375" width="0.254" layer="1"/>
 <wire x1="9.2396" y1="9.3063375" x2="10.8427" y2="10.9094375" width="0.254" layer="1"/>
 <wire x1="9.2396" y1="9.3063375" x2="9.2396" y2="7.5196" width="0.254" layer="1"/>
-<contactref element="U$1" pad="13"/>
+<contactref element="MAINCON" pad="13"/>
 <contactref element="U$4" pad="2"/>
 <wire x1="10.8427" y1="12.33913125" x2="10.51183125" y2="12.67" width="0.254" layer="1"/>
 <wire x1="9.8287" y1="12.67" x2="10.51183125" y2="12.67" width="0.254" layer="1"/>
@@ -1768,7 +1768,7 @@ design rules under a new name.</description>
 <wire x1="11.811" y1="10.287" x2="10.16" y2="8.636" width="0.254" layer="1"/>
 <wire x1="10.16" y1="8.636" x2="10.16" y2="7.52" width="0.254" layer="1"/>
 <wire x1="10.16" y1="7.52" x2="10.2" y2="7.48" width="0.254" layer="1"/>
-<contactref element="U$1" pad="12"/>
+<contactref element="MAINCON" pad="12"/>
 <contactref element="U$4" pad="3"/>
 <wire x1="9.8287" y1="13.32" x2="10.16" y2="13.32" width="0.254" layer="1"/>
 <wire x1="10.16" y1="13.32" x2="10.81" y2="13.32" width="0.254" layer="1"/>
@@ -1783,7 +1783,7 @@ design rules under a new name.</description>
 <wire x1="12.8576" y1="22.3376" x2="13.2" y2="22.68" width="0.254" layer="1"/>
 </signal>
 <signal name="SCL">
-<contactref element="U$1" pad="10"/>
+<contactref element="MAINCON" pad="10"/>
 <contactref element="U$2" pad="2"/>
 <contactref element="U$3" pad="3"/>
 <wire x1="6.35" y1="14.47" x2="9.6787" y2="14.47" width="0.254" layer="1"/>
@@ -1800,7 +1800,7 @@ design rules under a new name.</description>
 <wire x1="17.661" y1="14.47" x2="19.05" y2="14.47" width="0.254" layer="1"/>
 </signal>
 <signal name="SDA">
-<contactref element="U$1" pad="9"/>
+<contactref element="MAINCON" pad="9"/>
 <contactref element="U$2" pad="3"/>
 <contactref element="U$3" pad="2"/>
 <wire x1="6.35" y1="13.47" x2="6.6924" y2="13.8124" width="0.254" layer="1"/>
@@ -1825,7 +1825,7 @@ design rules under a new name.</description>
 </signal>
 <signal name="GND">
 <contactref element="J1" pad="10"/>
-<contactref element="U$1" pad="14"/>
+<contactref element="MAINCON" pad="14"/>
 <contactref element="U$2" pad="4"/>
 <contactref element="U$3" pad="1"/>
 <contactref element="U$2" pad="NC1"/>
@@ -1898,7 +1898,7 @@ design rules under a new name.</description>
 <via x="13.843" y="16.891" extent="1-16" drill="0.35"/>
 </signal>
 <signal name="N$7">
-<contactref element="U$1" pad="11"/>
+<contactref element="MAINCON" pad="11"/>
 <contactref element="U$4" pad="4"/>
 <via x="11.21900625" y="15.02900625" extent="1-16" drill="0.35"/>
 <wire x1="9.8287" y1="13.97" x2="9.8689" y2="14.0102" width="0.254" layer="1"/>
@@ -1913,7 +1913,7 @@ design rules under a new name.</description>
 <wire x1="12.2" y1="17.3476" x2="12.2" y2="22.68" width="0.254" layer="1"/>
 </signal>
 <signal name="N$8">
-<contactref element="U$1" pad="4"/>
+<contactref element="MAINCON" pad="4"/>
 <contactref element="U$4" pad="5"/>
 <via x="14.6276" y="17.78" extent="1-16" drill="0.35"/>
 <wire x1="16.16763125" y1="13.8832" x2="16.5853" y2="14.30086875" width="0.254" layer="1"/>
@@ -1933,7 +1933,7 @@ design rules under a new name.</description>
 <wire x1="11.43" y1="22.91" x2="11.2" y2="22.68" width="0.254" layer="1"/>
 </signal>
 <signal name="+5V">
-<contactref element="U$1" pad="1"/>
+<contactref element="MAINCON" pad="1"/>
 <contactref element="J1" pad="1"/>
 <contactref element="U$2" pad="1"/>
 <contactref element="U$3" pad="4"/>

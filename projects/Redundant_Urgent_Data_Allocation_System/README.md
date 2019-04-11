@@ -1,4 +1,5 @@
 # Chip Selection
+## Plan A
 1.  Low-end board Chip
     1.  STM32F103VGT6
         1.  https://www.digikey.com/product-detail/en/stmicroelectronics/STM32F103VGT6/497-11120-ND/2529309
@@ -32,3 +33,6 @@
 2. FPC
    1. Wurth Electronics Inc. WR-FPC
       1. https://www.digikey.com/products/en/connectors-interconnects/ffc-fpc-flat-flexible-connectors/399?k=&pkeyword=&sv=0&sf=0&FV=ffe0018f%2Cfffc02dc&quantity=1&ColumnSort=0&page=1&stock=1&datasheet=1&photo=1&pageSize=25
+3. Main connector
+   1. https://www.mouser.com/ProductDetail/Harwin/M80-5305042?qs=sGAEpiMZZMs%252BGHln7q6pmzlZUuX%2F53qjb2qIM22rDyA%3D
+   2. https://www.mouser.com/ProductDetail/Harwin/M80-4115042?qs=sGAEpiMZZMs%252BGHln7q6pmzlZUuX%2F53qjVusOkRqubuw%3D

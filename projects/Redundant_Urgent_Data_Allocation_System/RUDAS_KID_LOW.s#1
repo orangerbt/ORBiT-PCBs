@@ -10180,7 +10180,7 @@ https://www.mouser.com/ProductDetail/Harwin/M80-4115042?qs=sGAEpiMZZMs%252BGHln7
 <attribute name="NAME" x="-56.896" y="142.621" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-56.896" y="137.541" size="1.778" layer="96"/>
 </instance>
-<instance part="U$2" gate="G$1" x="-419.1" y="-7.62" smashed="yes"/>
+<instance part="U$2" gate="G$1" x="-421.64" y="-55.88" smashed="yes"/>
 <instance part="IC3" gate="G$1" x="60.96" y="35.56" smashed="yes">
 <attribute name="NAME" x="58.42" y="36.83" size="1.778" layer="95"/>
 <attribute name="VALUE" x="58.42" y="33.02" size="1.778" layer="96"/>
@@ -11433,9 +11433,9 @@ https://www.mouser.com/ProductDetail/Harwin/M80-4115042?qs=sGAEpiMZZMs%252BGHln7
 </segment>
 <segment>
 <pinref part="U$2" gate="G$1" pin="GND1"/>
-<wire x1="-424.18" y1="-29.972" x2="-424.18" y2="-35.56" width="0.1524" layer="91"/>
-<wire x1="-424.18" y1="-35.56" x2="-429.26" y2="-35.56" width="0.1524" layer="91"/>
-<label x="-429.26" y="-35.56" size="1.778" layer="95" rot="R180" xref="yes"/>
+<wire x1="-426.72" y1="-78.232" x2="-426.72" y2="-83.82" width="0.1524" layer="91"/>
+<wire x1="-426.72" y1="-83.82" x2="-431.8" y2="-83.82" width="0.1524" layer="91"/>
+<label x="-431.8" y="-83.82" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="S_VCC" class="0">
@@ -11550,9 +11550,9 @@ https://www.mouser.com/ProductDetail/Harwin/M80-4115042?qs=sGAEpiMZZMs%252BGHln7
 </segment>
 <segment>
 <pinref part="U$2" gate="G$1" pin="VCC1"/>
-<wire x1="-424.18" y1="10.668" x2="-424.18" y2="17.78" width="0.1524" layer="91"/>
-<wire x1="-424.18" y1="17.78" x2="-429.26" y2="17.78" width="0.1524" layer="91"/>
-<label x="-429.26" y="17.78" size="1.778" layer="95" rot="R180" xref="yes"/>
+<wire x1="-426.72" y1="-37.592" x2="-426.72" y2="-30.48" width="0.1524" layer="91"/>
+<wire x1="-426.72" y1="-30.48" x2="-431.8" y2="-30.48" width="0.1524" layer="91"/>
+<label x="-431.8" y="-30.48" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="STM32_CAN_RX" class="0">
@@ -11562,11 +11562,11 @@ https://www.mouser.com/ProductDetail/Harwin/M80-4115042?qs=sGAEpiMZZMs%252BGHln7
 <label x="-406.4" y="68.58" size="1.778" layer="95"/>
 </segment>
 <segment>
-<wire x1="-436.88" y1="-10.16" x2="-457.2" y2="-10.16" width="0.1524" layer="91"/>
-<label x="-457.2" y="-7.62" size="1.778" layer="95" rot="MR180"/>
+<wire x1="-439.42" y1="-58.42" x2="-459.74" y2="-58.42" width="0.1524" layer="91"/>
+<label x="-459.74" y="-55.88" size="1.778" layer="95" rot="MR180"/>
 <pinref part="U$2" gate="G$1" pin="RX"/>
-<wire x1="-434.34" y1="-12.192" x2="-436.88" y2="-12.192" width="0.1524" layer="91"/>
-<wire x1="-436.88" y1="-12.192" x2="-436.88" y2="-10.16" width="0.1524" layer="91"/>
+<wire x1="-436.88" y1="-60.452" x2="-439.42" y2="-60.452" width="0.1524" layer="91"/>
+<wire x1="-439.42" y1="-60.452" x2="-439.42" y2="-58.42" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <wire x1="-322.58" y1="-63.5" x2="-350.52" y2="-63.5" width="0.1524" layer="91"/>
@@ -11581,12 +11581,12 @@ https://www.mouser.com/ProductDetail/Harwin/M80-4115042?qs=sGAEpiMZZMs%252BGHln7
 <label x="-406.4" y="66.04" size="1.778" layer="95"/>
 </segment>
 <segment>
-<wire x1="-449.58" y1="-5.08" x2="-457.2" y2="-5.08" width="0.1524" layer="91"/>
-<label x="-457.2" y="-2.54" size="1.778" layer="95" rot="MR180"/>
+<wire x1="-452.12" y1="-53.34" x2="-459.74" y2="-53.34" width="0.1524" layer="91"/>
+<label x="-459.74" y="-50.8" size="1.778" layer="95" rot="MR180"/>
 <pinref part="U$2" gate="G$1" pin="TX"/>
-<wire x1="-434.34" y1="-7.112" x2="-436.88" y2="-7.112" width="0.1524" layer="91"/>
-<wire x1="-436.88" y1="-7.112" x2="-436.88" y2="-5.08" width="0.1524" layer="91"/>
-<wire x1="-436.88" y1="-5.08" x2="-449.58" y2="-5.08" width="0.1524" layer="91"/>
+<wire x1="-436.88" y1="-55.372" x2="-439.42" y2="-55.372" width="0.1524" layer="91"/>
+<wire x1="-439.42" y1="-55.372" x2="-439.42" y2="-53.34" width="0.1524" layer="91"/>
+<wire x1="-439.42" y1="-53.34" x2="-452.12" y2="-53.34" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <wire x1="-322.58" y1="-66.04" x2="-350.52" y2="-66.04" width="0.1524" layer="91"/>
@@ -12254,9 +12254,9 @@ https://www.mouser.com/ProductDetail/Harwin/M80-4115042?qs=sGAEpiMZZMs%252BGHln7
 <wire x1="157.48" y1="172.72" x2="154.94" y2="172.72" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<wire x1="-401.32" y1="-12.192" x2="-396.24" y2="-12.192" width="0.1524" layer="91"/>
+<wire x1="-403.86" y1="-60.452" x2="-398.78" y2="-60.452" width="0.1524" layer="91"/>
 <pinref part="U$2" gate="G$1" pin="CAN_L"/>
-<label x="-396.24" y="-12.7" size="1.778" layer="95"/>
+<label x="-398.78" y="-60.96" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="CAN_H_P" class="0">
@@ -12270,8 +12270,8 @@ https://www.mouser.com/ProductDetail/Harwin/M80-4115042?qs=sGAEpiMZZMs%252BGHln7
 </segment>
 <segment>
 <pinref part="U$2" gate="G$1" pin="CAN_H"/>
-<wire x1="-401.32" y1="-7.112" x2="-396.24" y2="-7.112" width="0.1524" layer="91"/>
-<label x="-396.24" y="-7.62" size="1.778" layer="95"/>
+<wire x1="-403.86" y1="-55.372" x2="-398.78" y2="-55.372" width="0.1524" layer="91"/>
+<label x="-398.78" y="-55.88" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="CAN_H_S" class="0">
@@ -12383,17 +12383,17 @@ https://www.mouser.com/ProductDetail/Harwin/M80-4115042?qs=sGAEpiMZZMs%252BGHln7
 </segment>
 <segment>
 <pinref part="U$2" gate="G$1" pin="GND2"/>
-<wire x1="-408.94" y1="-29.972" x2="-408.94" y2="-35.56" width="0.1524" layer="91"/>
-<wire x1="-408.94" y1="-35.56" x2="-406.4" y2="-35.56" width="0.1524" layer="91"/>
-<label x="-406.4" y="-35.56" size="1.778" layer="95" xref="yes"/>
+<wire x1="-411.48" y1="-78.232" x2="-411.48" y2="-83.82" width="0.1524" layer="91"/>
+<wire x1="-411.48" y1="-83.82" x2="-408.94" y2="-83.82" width="0.1524" layer="91"/>
+<label x="-408.94" y="-83.82" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="SIGNAL_VCC" class="0">
 <segment>
 <pinref part="U$2" gate="G$1" pin="VCC2"/>
-<wire x1="-408.94" y1="10.668" x2="-408.94" y2="17.78" width="0.1524" layer="91"/>
-<wire x1="-408.94" y1="17.78" x2="-406.4" y2="17.78" width="0.1524" layer="91"/>
-<label x="-406.4" y="17.78" size="1.778" layer="95" xref="yes"/>
+<wire x1="-411.48" y1="-37.592" x2="-411.48" y2="-30.48" width="0.1524" layer="91"/>
+<wire x1="-411.48" y1="-30.48" x2="-408.94" y2="-30.48" width="0.1524" layer="91"/>
+<label x="-408.94" y="-30.48" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 </nets>

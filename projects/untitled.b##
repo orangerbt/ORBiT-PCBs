@@ -79,6 +79,59 @@
 <wire x1="0" y1="100" x2="0" y2="0" width="0" layer="20"/>
 </plain>
 <libraries>
+<library name="41xx">
+<description>&lt;b&gt;41xx Series Devices&lt;/b&gt;&lt;p&gt;
+&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
+<packages>
+<package name="SO16">
+<description>&lt;b&gt;Small Outline Package&lt;/b&gt;</description>
+<wire x1="4.699" y1="1.9558" x2="-4.699" y2="1.9558" width="0.1524" layer="21"/>
+<wire x1="4.699" y1="-1.9558" x2="5.08" y2="-1.5748" width="0.1524" layer="21" curve="90"/>
+<wire x1="-5.08" y1="1.5748" x2="-4.699" y2="1.9558" width="0.1524" layer="21" curve="-90"/>
+<wire x1="4.699" y1="1.9558" x2="5.08" y2="1.5748" width="0.1524" layer="21" curve="-90"/>
+<wire x1="-5.08" y1="-1.5748" x2="-4.699" y2="-1.9558" width="0.1524" layer="21" curve="90"/>
+<wire x1="-4.699" y1="-1.9558" x2="4.699" y2="-1.9558" width="0.1524" layer="21"/>
+<wire x1="5.08" y1="-1.5748" x2="5.08" y2="1.5748" width="0.1524" layer="21"/>
+<wire x1="-5.08" y1="1.5748" x2="-5.08" y2="-1.5748" width="0.1524" layer="21"/>
+<wire x1="-5.08" y1="0.508" x2="-5.08" y2="-0.508" width="0.1524" layer="21" curve="-180"/>
+<wire x1="-5.08" y1="-1.6002" x2="5.08" y2="-1.6002" width="0.0508" layer="21"/>
+<smd name="1" x="-4.445" y="-3.0734" dx="0.6604" dy="2.032" layer="1"/>
+<smd name="16" x="-4.445" y="3.0734" dx="0.6604" dy="2.032" layer="1"/>
+<smd name="2" x="-3.175" y="-3.0734" dx="0.6604" dy="2.032" layer="1"/>
+<smd name="3" x="-1.905" y="-3.0734" dx="0.6604" dy="2.032" layer="1"/>
+<smd name="15" x="-3.175" y="3.0734" dx="0.6604" dy="2.032" layer="1"/>
+<smd name="14" x="-1.905" y="3.0734" dx="0.6604" dy="2.032" layer="1"/>
+<smd name="4" x="-0.635" y="-3.0734" dx="0.6604" dy="2.032" layer="1"/>
+<smd name="13" x="-0.635" y="3.0734" dx="0.6604" dy="2.032" layer="1"/>
+<smd name="5" x="0.635" y="-3.0734" dx="0.6604" dy="2.032" layer="1"/>
+<smd name="12" x="0.635" y="3.0734" dx="0.6604" dy="2.032" layer="1"/>
+<smd name="6" x="1.905" y="-3.0734" dx="0.6604" dy="2.032" layer="1"/>
+<smd name="7" x="3.175" y="-3.0734" dx="0.6604" dy="2.032" layer="1"/>
+<smd name="11" x="1.905" y="3.0734" dx="0.6604" dy="2.032" layer="1"/>
+<smd name="10" x="3.175" y="3.0734" dx="0.6604" dy="2.032" layer="1"/>
+<smd name="8" x="4.445" y="-3.0734" dx="0.6604" dy="2.032" layer="1"/>
+<smd name="9" x="4.445" y="3.0734" dx="0.6604" dy="2.032" layer="1"/>
+<text x="-4.064" y="-0.635" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
+<text x="-5.461" y="-1.778" size="1.27" layer="25" ratio="10" rot="R90">&gt;NAME</text>
+<rectangle x1="-0.889" y1="1.9558" x2="-0.381" y2="3.0988" layer="51"/>
+<rectangle x1="-4.699" y1="-3.0988" x2="-4.191" y2="-1.9558" layer="51"/>
+<rectangle x1="-3.429" y1="-3.0988" x2="-2.921" y2="-1.9558" layer="51"/>
+<rectangle x1="-2.159" y1="-3.0734" x2="-1.651" y2="-1.9304" layer="51"/>
+<rectangle x1="-0.889" y1="-3.0988" x2="-0.381" y2="-1.9558" layer="51"/>
+<rectangle x1="-2.159" y1="1.9558" x2="-1.651" y2="3.0988" layer="51"/>
+<rectangle x1="-3.429" y1="1.9558" x2="-2.921" y2="3.0988" layer="51"/>
+<rectangle x1="-4.699" y1="1.9558" x2="-4.191" y2="3.0988" layer="51"/>
+<rectangle x1="0.381" y1="-3.0988" x2="0.889" y2="-1.9558" layer="51"/>
+<rectangle x1="1.651" y1="-3.0988" x2="2.159" y2="-1.9558" layer="51"/>
+<rectangle x1="2.921" y1="-3.0988" x2="3.429" y2="-1.9558" layer="51"/>
+<rectangle x1="4.191" y1="-3.0988" x2="4.699" y2="-1.9558" layer="51"/>
+<rectangle x1="0.381" y1="1.9558" x2="0.889" y2="3.0988" layer="51"/>
+<rectangle x1="1.651" y1="1.9558" x2="2.159" y2="3.0988" layer="51"/>
+<rectangle x1="2.921" y1="1.9558" x2="3.429" y2="3.0988" layer="51"/>
+<rectangle x1="4.191" y1="1.9558" x2="4.699" y2="3.0988" layer="51"/>
+</package>
+</packages>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -86,6 +139,8 @@
 </variantdefs>
 <classes>
 <class number="0" name="default" width="0" drill="0">
+</class>
+<class number="1" name="diff" width="0" drill="0">
 </class>
 </classes>
 <designrules name="default">
@@ -272,8 +327,51 @@ design rules under a new name.</description>
 </pass>
 </autorouter>
 <elements>
+<element name="IC1" library="41xx" package="SO16" value="4160SO" x="33.02" y="33.02" smashed="yes" rot="R270">
+<attribute name="NAME" x="31.242" y="38.481" size="1.27" layer="25" ratio="10"/>
+<attribute name="VALUE" x="32.385" y="37.084" size="1.27" layer="27" ratio="10" rot="R270"/>
+</element>
+<element name="IC2" library="41xx" package="SO16" value="4160SO" x="62.23" y="33.02" smashed="yes" rot="R270">
+<attribute name="NAME" x="60.452" y="38.481" size="1.27" layer="25" ratio="10"/>
+<attribute name="VALUE" x="61.595" y="37.084" size="1.27" layer="27" ratio="10" rot="R270"/>
+</element>
 </elements>
 <signals>
+<signal name="VSS">
+<contactref element="IC1" pad="8"/>
+<contactref element="IC2" pad="8"/>
+<wire x1="29.9466" y1="28.575" x2="59.1566" y2="28.575" width="0" layer="19" extent="1-16"/>
+</signal>
+<signal name="VDD">
+<contactref element="IC1" pad="16"/>
+<contactref element="IC2" pad="16"/>
+<wire x1="65.3034" y1="37.465" x2="36.0934" y2="37.465" width="0" layer="19" extent="1-16"/>
+</signal>
+<signal name="A2_N" class="1">
+<contactref element="IC1" pad="11"/>
+<contactref element="IC2" pad="11"/>
+<wire x1="36.0934" y1="31.115" x2="65.3034" y2="31.115" width="0" layer="19" extent="1-16"/>
+</signal>
+<signal name="A2_P">
+<contactref element="IC1" pad="12"/>
+<contactref element="IC2" pad="12"/>
+<wire x1="36.0934" y1="32.385" x2="65.3034" y2="32.385" width="0" layer="19" extent="1-16"/>
+</signal>
+<signal name="A1_N">
+<contactref element="IC1" pad="13"/>
+<contactref element="IC2" pad="13"/>
+<wire x1="36.0934" y1="33.655" x2="65.3034" y2="33.655" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="A1_P" class="1">
+<contactref element="IC1" pad="14"/>
+<contactref element="IC2" pad="14"/>
+<wire x1="65.3034" y1="34.925" x2="36.0934" y2="34.925" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$5">
+<contactref element="IC1" pad="15"/>
+<contactref element="IC2" pad="15"/>
+<wire x1="65.3034" y1="36.195" x2="36.0934" y2="36.195" width="0" layer="19" extent="1-16"/>
+</signal>
 </signals>
 <mfgpreviewcolors>
 <mfgpreviewcolor name="soldermaskcolor" color="0xC8008000"/>

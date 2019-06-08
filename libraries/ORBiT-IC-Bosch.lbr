@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.2.0">
+<eagle version="9.2.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.1" altunitdist="mm" altunit="mm"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -226,7 +226,7 @@ Technical data: &lt;a href="https://www.bosch-sensortec.com/bst/products/all_pro
 </device>
 </devices>
 </deviceset>
-<deviceset name="BMX055">
+<deviceset name="BMX055" prefix="U">
 <description>&lt;b&gt;Bosch BMX055 Absolute Orientation Sensors&lt;/b&gt;&lt;br&gt;&lt;br&gt;
 The absolute orientation sensor BMX055 is a very small, 9-axis sensor, consisting of a triaxial 12 bit acceleration sensor, a triaxial 16 bit, ±2000°/s gyroscope and a triaxial geomagnetic sensor. The BMX055 allows accurate measurement of angular rate, acceleration and geomagnetic fields in 3 perpendicular axes within one device.&lt;br&gt;&lt;br&gt;
 Technical data: &lt;a href="https://www.bosch-sensortec.com/bst/products/all_products/bmx055"&gt;Bosch BMX055 Absolute Orientation Sensors&lt;/a&gt;</description>

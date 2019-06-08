@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.2.0">
+<eagle version="9.2.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="yes" active="yes"/>
@@ -581,6 +581,7 @@ See the &lt;a href="http://elinux.org/Beagleboard:BeagleBoneBlack"&gt;official B
 <text x="-70.358" y="-22.352" size="1.778" layer="94">+5V</text>
 <circle x="-71.12" y="41.91" radius="3.81" width="0.254" layer="94"/>
 <pin name="GND" x="-71.12" y="53.34" rot="R270"/>
+<text x="-86.36" y="0" size="1.778" layer="95" rot="R90" align="bottom-center">&gt;NAME</text>
 </symbol>
 <symbol name="DIGI_XTP9B">
 <description>&lt;b&gt;Digi 9Xtend 1W/900MHz OEM RF Modules&lt;/b&gt;</description>
@@ -599,8 +600,8 @@ See the &lt;a href="http://elinux.org/Beagleboard:BeagleBoneBlack"&gt;official B
 <pin name="GP01/!CTS!/RS-485TX_EN" x="20.32" y="-7.62" length="short" direction="out" rot="R180"/>
 <pin name="!RTS!/CMD" x="20.32" y="-10.16" length="short" direction="in" rot="R180"/>
 <pin name="!CONFIG!/RSSI" x="20.32" y="-12.7" length="short" rot="R180"/>
-<text x="0" y="16.51" size="1.778" layer="95" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-16.51" size="1.778" layer="96" align="top-center">&gt;VALUE</text>
+<text x="0" y="16.002" size="1.778" layer="95" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-16.002" size="1.778" layer="96" align="top-center">&gt;MPN</text>
 <pin name="MECH" x="-17.78" y="10.16" length="short"/>
 </symbol>
 </symbols>

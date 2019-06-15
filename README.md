@@ -1,4 +1,4 @@
-#ORBiT Avionics
+# ORBiT Avionics
 
 Schematics and PCBS for ORBiT Avionics system.
 
@@ -23,12 +23,10 @@ Schematics and PCBS for ORBiT Avionics system.
 - Make sure to power down HDMI framer via I2C0
 - Add CAT24C256 EEPROMs to identify modules via I2C2
 - Ensure I2C pins have pull-ups
-- Add RTC to telemetry board
-- Add backup battery holder
-- Add connector for ADIS IMU to telemetry board
 - Add power sequencing to all boards
 - Data acquisition to be based on PRUDAQ
-- Add LTC2983/4/6 to DAQ???
+- Add LTC2983/4/6 and LTC6904 to DAQ
+- Test points
 
 ## Hardware pin mapping
 

@@ -10462,7 +10462,7 @@ Solder type</description>
 </classes>
 <parts>
 <part name="R1" library="rcl" deviceset="R-EU_" device="R0805" value="10K"/>
-<part name="C1" library="rcl" deviceset="C-EU" device="C0805"/>
+<part name="C1" library="rcl" deviceset="C-EU" device="C0805" value="0.1u"/>
 <part name="U$1" library="transistor" deviceset="BC847PN" device=""/>
 <part name="D1" library="diode" deviceset="BAT54S" device=""/>
 <part name="R2" library="rcl" deviceset="R-EU_" device="R0805" value="100K"/>
@@ -10506,8 +10506,6 @@ Solder type</description>
 <part name="RN2" library="resistor-dil" deviceset="4R-N" device="EXBV8V" value="10K"/>
 <part name="RN1" library="resistor-dil" deviceset="4R-N" device="EXBV8V" value="100K"/>
 <part name="GND10" library="supply1" deviceset="GND" device=""/>
-<part name="R10" library="rcl" deviceset="R-EU_" device="R0805" value="10K"/>
-<part name="R11" library="rcl" deviceset="R-EU_" device="R0805" value="10K"/>
 <part name="LED1" library="led" deviceset="LED" device="CHIPLED_0805" value="Yellow"/>
 <part name="R12" library="rcl" deviceset="R-EU_" device="R0805" value="100K"/>
 <part name="P+10" library="supply1" deviceset="+12V" device=""/>
@@ -10532,7 +10530,6 @@ Solder type</description>
 <part name="+3V2" library="supply1" deviceset="+3V3" device=""/>
 <part name="+3V4" library="supply1" deviceset="+3V3" device=""/>
 <part name="GND24" library="supply1" deviceset="GND" device=""/>
-<part name="R17" library="rcl" deviceset="R-EU_" device="R0805" value="10K"/>
 <part name="+3V5" library="supply1" deviceset="+3V3" device=""/>
 <part name="P+8" library="supply1" deviceset="+12V" device=""/>
 <part name="U$16" library="transistor-fet" deviceset="DMP3017SFG" device=""/>
@@ -10552,7 +10549,6 @@ Solder type</description>
 <part name="U$24" library="on-semiconductor" deviceset="MMPQ3904" device=""/>
 <part name="U$8" library="on-semiconductor" deviceset="MMPQ3904" device=""/>
 <part name="+3V6" library="supply1" deviceset="+3V3" device=""/>
-<part name="R16" library="rcl" deviceset="R-EU_" device="R0805" value="10K"/>
 <part name="+3V7" library="supply1" deviceset="+3V3" device=""/>
 <part name="U$13" library="microchip" deviceset="MCP23008" device=""/>
 <part name="GND28" library="supply1" deviceset="GND" device=""/>
@@ -10607,6 +10603,7 @@ Solder type</description>
 <part name="+3V14" library="supply1" deviceset="+3V3" device=""/>
 <part name="GND38" library="supply1" deviceset="GND" device=""/>
 <part name="JMP1" library="jump-0r-smd" deviceset="0R-JUMP" device="A"/>
+<part name="RN7" library="resistor-dil" deviceset="4R-N" device="EXBV8V" value="10K"/>
 </parts>
 <sheets>
 <sheet>
@@ -10694,8 +10691,6 @@ can be in a single stack.</text>
 <instance part="RN2" gate="A" x="218.44" y="243.84" rot="R90"/>
 <instance part="RN1" gate="A" x="226.06" y="269.24" rot="R90"/>
 <instance part="GND10" gate="1" x="226.06" y="241.3"/>
-<instance part="R10" gate="G$1" x="137.16" y="241.3" rot="R90"/>
-<instance part="R11" gate="G$1" x="144.78" y="241.3" rot="R90"/>
 <instance part="LED1" gate="G$1" x="12.7" y="106.68"/>
 <instance part="R12" gate="G$1" x="40.64" y="116.84" rot="R90"/>
 <instance part="P+10" gate="1" x="40.64" y="127"/>
@@ -10726,7 +10721,6 @@ can be in a single stack.</text>
 <instance part="+3V2" gate="G$1" x="144.78" y="251.46"/>
 <instance part="+3V4" gate="G$1" x="195.58" y="243.84"/>
 <instance part="GND24" gate="1" x="195.58" y="205.74"/>
-<instance part="R17" gate="G$1" x="170.18" y="248.92" rot="R90"/>
 <instance part="+3V5" gate="G$1" x="170.18" y="259.08"/>
 <instance part="P+8" gate="1" x="345.44" y="281.94"/>
 <instance part="U$16" gate="G$1" x="342.9" y="259.08"/>
@@ -10758,7 +10752,6 @@ can be in a single stack.</text>
 <instance part="U$8" gate="G$3" x="391.16" y="251.46"/>
 <instance part="U$8" gate="G$4" x="419.1" y="251.46"/>
 <instance part="+3V6" gate="G$1" x="195.58" y="195.58"/>
-<instance part="R16" gate="G$1" x="152.4" y="241.3" rot="R90"/>
 <instance part="+3V7" gate="G$1" x="152.4" y="251.46"/>
 <instance part="U$13" gate="G$1" x="195.58" y="226.06"/>
 <instance part="GND28" gate="1" x="177.8" y="215.9"/>
@@ -10848,10 +10841,14 @@ can be in a single stack.</text>
 <instance part="U$23" gate="-23" x="444.5" y="279.4" rot="R90"/>
 <instance part="U$23" gate="-24" x="449.58" y="279.4" rot="R90"/>
 <instance part="P+19" gate="1" x="449.58" y="269.24"/>
-<instance part="+3V14" gate="G$1" x="152.4" y="226.06"/>
-<instance part="GND38" gate="1" x="152.4" y="210.82"/>
-<instance part="JMP1" gate="-0R" x="152.4" y="218.44" rot="MR180"/>
-<instance part="JMP1" gate="G$2" x="152.4" y="218.44"/>
+<instance part="+3V14" gate="G$1" x="152.4" y="223.52"/>
+<instance part="GND38" gate="1" x="152.4" y="208.28"/>
+<instance part="JMP1" gate="-0R" x="152.4" y="215.9" rot="MR180"/>
+<instance part="JMP1" gate="G$2" x="152.4" y="215.9"/>
+<instance part="RN7" gate="A" x="137.16" y="241.3" rot="R90"/>
+<instance part="RN7" gate="B" x="144.78" y="241.3" rot="R90"/>
+<instance part="RN7" gate="C" x="152.4" y="241.3" rot="R90"/>
+<instance part="RN7" gate="D" x="170.18" y="248.92" rot="R90"/>
 </instances>
 <busses>
 </busses>
@@ -11167,7 +11164,7 @@ can be in a single stack.</text>
 <segment>
 <pinref part="JMP1" gate="-0R" pin="1"/>
 <pinref part="GND38" gate="1" pin="GND"/>
-<wire x1="152.4" y1="213.36" x2="152.4" y2="215.9" width="0.1524" layer="91"/>
+<wire x1="152.4" y1="210.82" x2="152.4" y2="213.36" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="+5V" class="0">
@@ -11526,7 +11523,6 @@ can be in a single stack.</text>
 </net>
 <net name="SCL" class="0">
 <segment>
-<pinref part="R11" gate="G$1" pin="1"/>
 <wire x1="180.34" y1="233.68" x2="167.64" y2="233.68" width="0.1524" layer="91"/>
 <wire x1="167.64" y1="233.68" x2="144.78" y2="233.68" width="0.1524" layer="91"/>
 <wire x1="144.78" y1="233.68" x2="144.78" y2="236.22" width="0.1524" layer="91"/>
@@ -11542,6 +11538,7 @@ can be in a single stack.</text>
 <wire x1="167.64" y1="91.44" x2="180.34" y2="91.44" width="0.1524" layer="91"/>
 <junction x="167.64" y="185.42"/>
 <label x="114.3" y="233.68" size="1.778" layer="95"/>
+<pinref part="RN7" gate="B" pin="1"/>
 </segment>
 <segment>
 <pinref part="PCB1" gate="G$1" pin="P9.24"/>
@@ -11551,7 +11548,6 @@ can be in a single stack.</text>
 </net>
 <net name="SDA" class="0">
 <segment>
-<pinref part="R10" gate="G$1" pin="1"/>
 <wire x1="180.34" y1="231.14" x2="165.1" y2="231.14" width="0.1524" layer="91"/>
 <wire x1="165.1" y1="231.14" x2="137.16" y2="231.14" width="0.1524" layer="91"/>
 <wire x1="137.16" y1="236.22" x2="137.16" y2="231.14" width="0.1524" layer="91"/>
@@ -11567,6 +11563,7 @@ can be in a single stack.</text>
 <wire x1="165.1" y1="88.9" x2="165.1" y2="182.88" width="0.1524" layer="91"/>
 <junction x="165.1" y="182.88"/>
 <label x="114.3" y="231.14" size="1.778" layer="95"/>
+<pinref part="RN7" gate="A" pin="1"/>
 </segment>
 <segment>
 <pinref part="PCB1" gate="G$1" pin="P9.26"/>
@@ -11705,24 +11702,24 @@ can be in a single stack.</text>
 </net>
 <net name="+3V3" class="0">
 <segment>
-<pinref part="R10" gate="G$1" pin="2"/>
 <wire x1="137.16" y1="248.92" x2="137.16" y2="246.38" width="0.1524" layer="91"/>
 <pinref part="+3V1" gate="G$1" pin="+3V3"/>
+<pinref part="RN7" gate="A" pin="2"/>
 </segment>
 <segment>
-<pinref part="R11" gate="G$1" pin="2"/>
 <wire x1="144.78" y1="248.92" x2="144.78" y2="246.38" width="0.1524" layer="91"/>
 <pinref part="+3V2" gate="G$1" pin="+3V3"/>
+<pinref part="RN7" gate="B" pin="2"/>
 </segment>
 <segment>
-<pinref part="R17" gate="G$1" pin="2"/>
 <pinref part="+3V5" gate="G$1" pin="+3V3"/>
 <wire x1="170.18" y1="256.54" x2="170.18" y2="254" width="0.1524" layer="91"/>
+<pinref part="RN7" gate="D" pin="2"/>
 </segment>
 <segment>
 <pinref part="+3V7" gate="G$1" pin="+3V3"/>
-<pinref part="R16" gate="G$1" pin="2"/>
 <wire x1="152.4" y1="248.92" x2="152.4" y2="246.38" width="0.1524" layer="91"/>
+<pinref part="RN7" gate="C" pin="2"/>
 </segment>
 <segment>
 <pinref part="U$13" gate="G$1" pin="VDD"/>
@@ -11780,14 +11777,14 @@ can be in a single stack.</text>
 <segment>
 <pinref part="JMP1" gate="-0R" pin="3"/>
 <pinref part="+3V14" gate="G$1" pin="+3V3"/>
-<wire x1="152.4" y1="223.52" x2="152.4" y2="220.98" width="0.1524" layer="91"/>
+<wire x1="152.4" y1="220.98" x2="152.4" y2="218.44" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$36" class="0">
+<net name="!RESET!" class="0">
 <segment>
-<pinref part="R17" gate="G$1" pin="1"/>
 <pinref part="U$13" gate="G$1" pin="!RESET!"/>
-<wire x1="170.18" y1="220.98" x2="170.18" y2="243.84" width="0.1524" layer="91"/>
+<wire x1="170.18" y1="220.98" x2="170.18" y2="226.06" width="0.1524" layer="91"/>
+<wire x1="170.18" y1="226.06" x2="170.18" y2="243.84" width="0.1524" layer="91"/>
 <wire x1="180.34" y1="220.98" x2="170.18" y2="220.98" width="0.1524" layer="91"/>
 <pinref part="U$9" gate="G$1" pin="!RESET!"/>
 <wire x1="180.34" y1="172.72" x2="170.18" y2="172.72" width="0.1524" layer="91"/>
@@ -11797,6 +11794,15 @@ can be in a single stack.</text>
 <wire x1="170.18" y1="172.72" x2="170.18" y2="78.74" width="0.1524" layer="91"/>
 <wire x1="170.18" y1="78.74" x2="180.34" y2="78.74" width="0.1524" layer="91"/>
 <junction x="170.18" y="172.72"/>
+<pinref part="RN7" gate="D" pin="1"/>
+<wire x1="170.18" y1="226.06" x2="111.76" y2="226.06" width="0.1524" layer="91"/>
+<junction x="170.18" y="226.06"/>
+<label x="114.3" y="226.06" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="PCB1" gate="G$1" pin="P9.28"/>
+<wire x1="-152.4" y1="63.5" x2="-170.18" y2="63.5" width="0.1524" layer="91"/>
+<label x="-167.64" y="63.5" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$37" class="0">
@@ -11948,12 +11954,12 @@ can be in a single stack.</text>
 <wire x1="180.34" y1="170.18" x2="162.56" y2="170.18" width="0.1524" layer="91"/>
 <wire x1="162.56" y1="170.18" x2="162.56" y2="228.6" width="0.1524" layer="91"/>
 <wire x1="162.56" y1="228.6" x2="152.4" y2="228.6" width="0.1524" layer="91"/>
-<pinref part="R16" gate="G$1" pin="1"/>
 <wire x1="152.4" y1="228.6" x2="111.76" y2="228.6" width="0.1524" layer="91"/>
 <wire x1="152.4" y1="236.22" x2="152.4" y2="228.6" width="0.1524" layer="91"/>
 <junction x="152.4" y="228.6"/>
 <pinref part="U$9" gate="G$1" pin="INT"/>
 <label x="114.3" y="228.6" size="1.778" layer="95"/>
+<pinref part="RN7" gate="C" pin="1"/>
 </segment>
 <segment>
 <pinref part="PCB1" gate="G$1" pin="P9.25"/>
@@ -12347,17 +12353,17 @@ can be in a single stack.</text>
 <segment>
 <pinref part="U$13" gate="G$1" pin="A2"/>
 <wire x1="180.34" y1="223.52" x2="172.72" y2="223.52" width="0.1524" layer="91"/>
-<wire x1="172.72" y1="223.52" x2="172.72" y2="218.44" width="0.1524" layer="91"/>
+<wire x1="172.72" y1="223.52" x2="172.72" y2="215.9" width="0.1524" layer="91"/>
 <pinref part="U$17" gate="G$1" pin="A2"/>
-<wire x1="172.72" y1="218.44" x2="172.72" y2="175.26" width="0.1524" layer="91"/>
+<wire x1="172.72" y1="215.9" x2="172.72" y2="175.26" width="0.1524" layer="91"/>
 <wire x1="172.72" y1="175.26" x2="172.72" y2="81.28" width="0.1524" layer="91"/>
 <wire x1="172.72" y1="81.28" x2="180.34" y2="81.28" width="0.1524" layer="91"/>
 <pinref part="U$9" gate="G$1" pin="A2"/>
 <wire x1="180.34" y1="175.26" x2="172.72" y2="175.26" width="0.1524" layer="91"/>
 <junction x="172.72" y="175.26"/>
 <pinref part="JMP1" gate="-0R" pin="2"/>
-<wire x1="172.72" y1="218.44" x2="154.94" y2="218.44" width="0.1524" layer="91"/>
-<junction x="172.72" y="218.44"/>
+<wire x1="172.72" y1="215.9" x2="154.94" y2="215.9" width="0.1524" layer="91"/>
+<junction x="172.72" y="215.9"/>
 </segment>
 </net>
 </nets>
